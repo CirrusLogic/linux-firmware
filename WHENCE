@@ -7143,6 +7143,7 @@ Driver: cs35l56 - CS35L56 ALSA audio driver
 
 File: cirrus/cs35l56/CS35L56_Rev3.11.11.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.16.wmfw
+File: cirrus/cs35l56/CS35L56_Rev3.11.18.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp2.bin
@@ -7173,6 +7174,18 @@ File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid1-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid1-amp3.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c6b-spkid1-amp4.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid0-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid0-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid1-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280d12-spkid1-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid0-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid0-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid1-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10280d13-spkid1-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8c52.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp2.bin
