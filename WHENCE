@@ -8188,7 +8188,9 @@ File: cirrus/cs35l56/CS35L56_Rev3.11.26.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28B.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.13.3R.wmfw
+File: cirrus/cs35l56/CS35L56_Rev4.5.3.wmfw
 File: cirrus/cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l56/CS35L56_Rev4.7.0.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp2.bin
@@ -8505,6 +8507,22 @@ File: cirrus/cs35l56-b0-dsp1-misc-17aa2348-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa2349.wmfw -> cs35l56/CS35L56_Rev3.13.3R.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa2349-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa2349-amp2.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid0.wmfw -> cs35l56/CS35L56_Rev4.5.3.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid0-l1u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid0-l1u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid0-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid0-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid1.wmfw -> cs35l56/CS35L56_Rev4.5.3.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid1-l1u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid1-l1u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid1-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid1-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-17aa235c-spkid0.wmfw -> cs35l56/CS35L56_Rev4.7.0.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-17aa235c-spkid0-l2u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa235c-spkid0-l2u4.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-17aa235d-spkid0.wmfw -> cs35l56/CS35L56_Rev4.7.0.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-17aa235d-spkid0-l2u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa235d-spkid0-l2u4.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.20.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid0-ampl.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid0-ampr.bin
@@ -8566,6 +8584,18 @@ Link: cirrus/cs35l56-b0-dsp1-misc-17aa3932-amp1.bin -> cs35l56-b0-dsp1-misc-17aa
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa3932-amp2.bin -> cs35l56-b0-dsp1-misc-17aa392e-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa3932-amp3.bin -> cs35l56-b0-dsp1-misc-17aa392e-amp3.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa3932-amp4.bin -> cs35l56-b0-dsp1-misc-17aa392e-amp4.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-17aa5158-spkid0.wmfw -> cs35l56/CS35L56_Rev4.7.0.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-17aa5158-spkid0-l2u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa5158-spkid0-l2u4.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-17aa5158-spkid1.wmfw -> cs35l56/CS35L56_Rev4.7.0.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-17aa5158-spkid1-l2u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa5158-spkid1-l2u4.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-17aa5159-spkid0.wmfw -> cs35l56/CS35L56_Rev4.7.0.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-17aa5159-spkid0-l2u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa5159-spkid0-l2u4.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-17aa5159-spkid1.wmfw -> cs35l56/CS35L56_Rev4.7.0.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-17aa5159-spkid1-l2u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa5159-spkid1-l2u4.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
@@ -8573,6 +8603,26 @@ Use of Cirrus Logic drivers, firmware and other materials is permitted
 only in connection with Cirrus Logic hardware products.
 
 Copyright © 2024 Cirrus Logic, Inc. and Cirrus Logic International
+Semiconductor Ltd. All Rights Reserved.
+
+---------------------------------------------------------------------------
+
+Driver: cs35l63 - CS35L63 ALSA audio driver
+
+File: cirrus/cs35l63/CS35L63_Rev2.5.4.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-17aa2352.wmfw -> cs35l63/CS35L63_Rev2.5.4.wmfw
+File: cirrus/cs35l63-a1-dsp1-misc-17aa2352-l2u0.bin
+File: cirrus/cs35l63-a1-dsp1-misc-17aa2352-l2u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-17aa2353.wmfw -> cs35l63/CS35L63_Rev2.5.4.wmfw
+File: cirrus/cs35l63-a1-dsp1-misc-17aa2353-l2u0.bin
+File: cirrus/cs35l63-a1-dsp1-misc-17aa2353-l2u1.bin
+
+License: Redistributable. See LICENSE.cirrus for details.
+
+Use of Cirrus Logic drivers, firmware and other materials is permitted
+only in connection with Cirrus Logic hardware products.
+
+Copyright © 2025 Cirrus Logic, Inc. and Cirrus Logic International
 Semiconductor Ltd. All Rights Reserved.
 
 ---------------------------------------------------------------------------
