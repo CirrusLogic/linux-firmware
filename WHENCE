@@ -14,6 +14,7 @@ File: brcm/BCM-0bb4-0306.hcd
 Link: brcm/BCM-0a5c-6410.hcd -> BCM-0bb4-0306.hcd
 
 Licence: Redistributable. See LICENCE.cypress for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.cypress
 
 --------------------------------------------------------------------------
 
@@ -25,6 +26,7 @@ File: advansys/38C0800.bin
 File: advansys/38C1600.bin
 
 Licence: Redistributable. See LICENCE.advansys for details
+SPDX-License-Identifier: LicenseRef-LICENCE.advansys
 
 Found in hex form in kernel source.
 
@@ -73,6 +75,7 @@ File: keyspan/usa49wlc.fw
 Converted from Intel HEX files, used in our binary representation of ihex.
 
 Licence: Redistributable. See LICENCE.keyspan for details
+SPDX-License-Identifier: LicenseRef-LICENCE.keyspan
 
 --------------------------------------------------------------------------
 
@@ -108,6 +111,7 @@ File: emi26/loader.fw
 Converted from Intel HEX files, used in our binary representation of ihex.
 
 Licence: Redistributable. See LICENCE.emi26 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.emi26
 
 --------------------------------------------------------------------------
 
@@ -134,6 +138,7 @@ File: mts_gsm.fw
 File: mts_edge.fw
 
 Licence: Redistributable. See LICENCE.multitech for details
+SPDX-License-Identifier: LicenseRef-LICENCE.multitech
 
 Copyright (C) 2005 Multi-Tech Systems, Inc.
 
@@ -182,6 +187,7 @@ File: dabusb/firmware.fw
 File: dabusb/bitstream.bin
 
 Licence: Redistributable. See LICENCE.dabusb for details
+SPDX-License-Identifier: LicenseRef-LICENCE.dabusb
 
 --------------------------------------------------------------------------
 
@@ -273,6 +279,7 @@ File: ql2900_fw.bin
 Version: 10.34.03
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
+SPDX-License-Identifier: LicenseRef-LICENCE.qla2xxx
 
 Available from http://ldriver.qlogic.com/firmware/
 
@@ -286,6 +293,7 @@ File: agere_ap_fw.bin
 Version: 9.48 Hermes I
 
 Licence: Redistributable. See LICENCE.agere for details
+SPDX-License-Identifier: LicenseRef-LICENCE.agere
 
 --------------------------------------------------------------------------
 
@@ -295,6 +303,7 @@ File: ar9170-1.fw
 File: ar9170-2.fw
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 --------------------------------------------------------------------------
 
@@ -309,6 +318,7 @@ File: htc_7010.fw
 Version: 1.3.1
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 File: ath9k_htc/htc_7010-1.4.0.fw
 Version: 1.4.0
@@ -316,6 +326,7 @@ File: ath9k_htc/htc_9271-1.4.0.fw
 Version: 1.4.0
 
 Licence: Free software. See LICENCE.open-ath9k-htc-firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.open-ath9k-htc-firmware
 
 --------------------------------------------------------------------------
 
@@ -328,6 +339,7 @@ File: slicoss/oasisdownload.sys
 File: slicoss/oasisrcvucode.sys
 
 Licence: Redistributable. See LICENCE.alacritech for details
+SPDX-License-Identifier: LicenseRef-LICENCE.alacritech
 
 Found in hex form in kernel source.
 
@@ -339,6 +351,7 @@ File: sxg/saharadownloadB.sys
 File: sxg/saharadbgdownloadB.sys
 
 Licence: Redistributable. See LICENCE.alacritech for details
+SPDX-License-Identifier: LicenseRef-LICENCE.alacritech
 
 Found in hex form in kernel source.
 
@@ -366,6 +379,7 @@ File: cxgb3/ael2005_twx_edc.bin
 File: cxgb3/ael2020_twx_edc.bin
 
 Licence: Redistributable. See LICENCE.cxgb3 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.cxgb3
 
 Found in hex form in kernel source.
 
@@ -395,6 +409,7 @@ Link: cxgb4/t5-config.txt -> configs/t5-config-default.txt
 Link: cxgb4/t6-config.txt -> configs/t6-config-default.txt
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.chelsio_firmware
 
 --------------------------------------------------------------------------
 
@@ -417,6 +432,7 @@ File: tigon/tg3_tso5.bin
 File: tigon/tg357766.bin
 
 Licence: Redistributable. See LICENCE.tigon for details
+SPDX-License-Identifier: LicenseRef-LICENCE.tigon
 
 Found in hex form in kernel source.
 
@@ -471,6 +487,7 @@ File: mrvl/sd8688_helper.bin
 Link: libertas/sd8688_helper.bin -> ../mrvl/sd8688_helper.bin
 
 Licence: Redistributable. See LICENCE.Marvell for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.Marvell
 
 Info:
 Extracted from Linux driver tarballs downloaded from Marvell's
@@ -490,6 +507,7 @@ File: libertas/usb8388_olpc.bin
 Version: 5.110.22.p23
 
 Licence: Redistributable. See LICENCE.OLPC for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.OLPC
 
 Available from http://dev.laptop.org/pub/firmware/libertas/
 
@@ -510,6 +528,7 @@ File: mwl8k/fmimage_8764_ap-1.fw
 Version: 7.4.0.9
 
 Licence: Redistributable. See LICENCE.Marvell for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.Marvell
 
 Info:
 8687 images downloaded from Marvell's "Extranet" with permission.
@@ -571,6 +590,8 @@ File: mrvl/sdiouartiw416_combo_v0.bin
 Version: W16.92.21.p151.4
 
 Licence: Redistributable. See LICENCE.NXP for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.NXP
+
 Originates from https://github.com/NXP/mwifiex-firmware.git
 
 --------------------------------------------------------------------------
@@ -1382,6 +1403,7 @@ Link: iwlwifi-bz-b0-wh-b0-c108.ucode -> intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c108.u
 Version: 108.45105872.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.iwlwifi_firmware
 
 Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
 
@@ -1396,6 +1418,7 @@ File: intel/ipu/shisp_2401a0_v21.bin
 Version: irci_stable_candrpv_0415_20150521_0458
 
 License: Redistributable. See LICENSE.ivsc for details
+SPDX-License-Identifier: LicenseRef-LICENSE.ivsc
 
 --------------------------------------------------------------------------
 
@@ -1408,6 +1431,7 @@ Link: intel/ipu3-fw.bin -> ipu/irci_irci_ecr-master_20161208_0213_20170112_1500.
 Link: intel/irci_irci_ecr-master_20161208_0213_20170112_1500.bin -> ipu/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
 
 Licence: Redistributable. See LICENSE.ipu3_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENSE.ipu3_firmware
 
 --------------------------------------------------------------------------
 
@@ -1423,6 +1447,7 @@ File: intel/ipu/ipu6se_fw.bin
 Version: scci_master_20210502_1459
 
 Licence: Redistributable. See LICENSE.ivsc for details
+SPDX-License-Identifier: LicenseRef-LICENSE.ivsc
 
 --------------------------------------------------------------------------
 
@@ -1435,6 +1460,7 @@ File: intel/ipu/ipu7ptl_fw.bin
 Version: 1.2.1.20251215_224531
 
 Licence: Redistributable. See LICENSE.intel for details
+SPDX-License-Identifier: LicenseRef-LICENSE.intel
 
 --------------------------------------------------------------------------
 Driver: mei-vsc-hw - Intel Visual Sensing Controller
@@ -1470,6 +1496,7 @@ File: intel/vsc/ivsc_skucfg_ovti9734_0_1.bin
 File: intel/vsc/ivsc_skucfg_ovti9738_0_1.bin
 
 Licence: Redistributable. See LICENSE.ivsc for details
+SPDX-License-Identifier: LicenseRef-LICENSE.ivsc
 
 --------------------------------------------------------------------------
 
@@ -1480,6 +1507,7 @@ File: ixp4xx/NPE-B
 File: ixp4xx/NPE-C
 Version: date = February 26, 2007
 License: Redistributable. See LICENSE.ixp4xx for details
+SPDX-License-Identifier: LicenseRef-LICENSE.ixp4xx
 
 --------------------------------------------------------------------------
 
@@ -1488,6 +1516,7 @@ Driver: tehuti - Tehuti Networks 10G Ethernet
 File: tehuti/bdx.bin
 
 Licence: Redistributable. See LICENSE.tehuti for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.tehuti
 
 Found in hex form in kernel source.
 
@@ -1498,6 +1527,7 @@ Driver: typhoon - 3cr990 series Typhoon
 File: 3com/typhoon.bin
 
 Licence: Redistributable. See LICENCE.typhoon for details
+SPDX-License-Identifier: LicenseRef-LICENCE.typhoon
 
 Found in hex form in kernel source.
 
@@ -1612,6 +1642,7 @@ Driver: cx23840 - Conexant sideport Broadcast A/V decoder
 File: v4l-cx25840.fw
 
 Licence: Redistributable. See LICENSE.conexant for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.conexant
 
 --------------------------------------------------------------------------
 
@@ -1631,6 +1662,7 @@ File: bnx2x/bnx2x-e2-7.13.15.0.fw
 File: bnx2x/bnx2x-e2-7.13.21.0.fw
 
 License: Redistributable. See LICENCE.bnx2x for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.bnx2x
 
 Found in hex form in kernel source.
 
@@ -1645,6 +1677,7 @@ File: bnx2/bnx2-rv2p-09-6.0.17.fw
 File: bnx2/bnx2-rv2p-09ax-6.0.17.fw
 
 License: Redistributable. See LICENCE.bnx2 for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.bnx2
 
 Found in hex form in kernel source.
 
@@ -1656,6 +1689,7 @@ File: phanfw.bin
 Version: 4.0.590
 
 Licence: Redistributable. See LICENCE.phanfw for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.phanfw
 
 Available from http://ldriver.qlogic.com/firmware/netxen_nic/new/
 
@@ -1693,6 +1727,7 @@ File: rt2561s.bin
 File: rt2661.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ralink-firmware.txt
 
 Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
@@ -1703,6 +1738,7 @@ Driver: rt73usb - Ralink RT2571W, RT2671 wireless MACs
 File: rt73.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ralink-firmware.txt
 
 Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
@@ -1715,6 +1751,7 @@ Version: 34
 Link: mt7601u.bin -> mediatek/mt7601u.bin
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ralink_a_mediatek_company_firmware
 
 Downloaded from http://www.mediatek.com/en/downloads/
 
@@ -1729,6 +1766,7 @@ File: rt3290.bin
 Version: 37
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ralink-firmware.txt
 
 Binary file supplied originally by Shiang Tu <shiang_tu@ralinktech.com>, latest
 from http://www.mediatek.com/en/downloads1/downloads/
@@ -1740,6 +1778,7 @@ Driver: rt2860sta - Ralink RT3090 wireless MACs
 Link: rt3090.bin -> rt2860.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ralink-firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -1749,6 +1788,7 @@ File: rt2870.bin
 Version: 36
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ralink-firmware.txt
 
 Binary file supplied originally by Shiang Tu <shiang_tu@ralinktech.com>, latest
 from http://www.mediatek.com/en/downloads1/downloads/
@@ -1761,6 +1801,7 @@ Link: rt3070.bin -> rt2870.bin
 File: rt3071.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ralink-firmware.txt
 
 Info: rt3071.bin is a copy of bytes 4096-8191 of rt2870.bin for compatibility.
 
@@ -1786,6 +1827,7 @@ File: dvb-fe-xc4000-1.4.1.fw
 Version: 1.4.1
 
 Licence: Redistributable. See LICENCE.xc4000 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.xc4000
 
 --------------------------------------------------------------------------
 Driver: xc5000 - Xceive 5000 Tuner driver
@@ -1797,6 +1839,7 @@ File: dvb-fe-xc5000c-4.1.30.7.fw
 Version: 4.1.30.7
 
 Licence: Redistributable. See LICENCE.xc5000 and LICENCE.xc5000c for details
+SPDX-License-Identifier: LicenseRef-LICENCE.xc5000
 
 --------------------------------------------------------------------------
 
@@ -1818,6 +1861,7 @@ Version: 1.0
 Fix EEPROM radio table issue and change PID to 3005
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 --------------------------------------------------------------------------
 
@@ -2109,6 +2153,7 @@ File: radeon/banks_k_2_smc.bin
 File: radeon/si58_mc.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.radeon
 
 --------------------------------------------------------------------------
 
@@ -2117,6 +2162,7 @@ Driver: as21xxx - Aeonsemi AS21x1x 1G/2.5G/5G/10G Ethernet Phy
 File: aeonsemi/as21x1x_fw.bin
 
 Licence: Redistributable. See LICENSE.aeonsemi for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.aeonsemi
 
 --------------------------------------------------------------------------
 
@@ -2126,6 +2172,7 @@ File: airoha/EthMD32.dm.bin
 File: airoha/EthMD32.DSP.bin
 
 Licence: Redistributable. See LICENSE.airoha for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.airoha
 
 --------------------------------------------------------------------------
 
@@ -2136,6 +2183,7 @@ File: airoha/an8811hb/EthMD32_CRC.DSP.bin
 Version: 26071602
 
 Licence: Redistributable. See LICENSE.airoha for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.airoha
 
 --------------------------------------------------------------------------
 
@@ -2145,6 +2193,7 @@ File: airoha/en7581_npu_data.bin
 File: airoha/en7581_npu_rv32.bin
 
 Licence: Redistributable. See LICENSE.airoha for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.airoha
 
 --------------------------------------------------------------------------
 
@@ -2155,6 +2204,7 @@ File: airoha/en7581_MT7996_npu_data.bin
 File: airoha/en7581_MT7996_npu_rv32.bin
 
 Licence: Redistributable. See LICENSE.airoha for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.airoha
 
 --------------------------------------------------------------------------
 
@@ -2166,6 +2216,7 @@ File: airoha/an7583_npu_rv32.bin
 Version: 0.5
 
 Licence: Redistributable. See LICENSE.airoha for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.airoha
 
 --------------------------------------------------------------------------
 
@@ -2871,6 +2922,7 @@ File: amdgpu/vpe_6_1_1.bin
 File: amdgpu/vpe_6_1_3.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.amdgpu
 
 --------------------------------------------------------------------------
 
@@ -2890,6 +2942,7 @@ File: amdnpu/17f0_11/npu.sbin.1.1.2.65
 Link: amdnpu/17f0_11/npu_7.sbin -> npu.sbin.1.1.2.65
 
 Licence: Redistributable. See LICENSE.amdnpu for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.amdnpu
 
 --------------------------------------------------------------------------
 
@@ -2901,6 +2954,7 @@ File: amdtee/f29bb3d9-bd66-5441-afb88acc2b2b60d6.bin
 Link: amdtee/amd_pmf_v3_1.bin -> f29bb3d9-bd66-5441-afb88acc2b2b60d6.bin
 
 Licence: Redistributable. See LICENSE.amd_pmf for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.amd_pmf
 
 --------------------------------------------------------------------------
 
@@ -2910,6 +2964,7 @@ File: f2255usb.bin
 Version: 1.2.8
 
 Licence: Redistributable. See LICENCE.sensoray for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.sensoray
 
 --------------------------------------------------------------------------
 
@@ -2918,6 +2973,7 @@ Driver: ib_qib - QLogic Infiniband
 File: qlogic/sd7220.fw
 
 Licence: Redistributable. See LICENSE.ib_qib for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.ib_qib
 
 SPDX-License-Identifier: GPL-2.0-only OR Linux-OpenIB
 
@@ -2949,6 +3005,7 @@ File: qed/qed_init_values_zipped-8.42.2.0.bin
 File: qed/qed_init_values_zipped-8.59.1.0.bin
 
 Licence: Redistributable. See LICENSE.qed for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.qed
 
 --------------------------------------------------------------------------
 
@@ -2960,6 +3017,7 @@ File: ueagle-atm/eagleIV.fw
 Version: 1.0
 
 Licence: Redistributable. See LICENCE.ueagle-atm4-firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ueagle-atm4-firmware
 
 --------------------------------------------------------------------------
 
@@ -2970,6 +3028,7 @@ File: vxge/X3fw-pxe.ncf
 Version: 1.8.1
 
 Licence: Redistributable. See LICENSE.vxge for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.vxge
 
 --------------------------------------------------------------------------
 
@@ -2980,6 +3039,7 @@ File: brcm/bcm43xx_hdr-0.fw
 Version: 610.812
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.broadcom_bcm43xx
 
 --------------------------------------------------------------------------
 
@@ -3009,6 +3069,7 @@ File: brcm/brcmfmac4366c-pcie.bin
 File: brcm/brcmfmac4371-pcie.bin
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.broadcom_bcm43xx
 
 File: brcm/brcmfmac4373.bin
 File: cypress/cyfmac43012-sdio.bin
@@ -3056,6 +3117,7 @@ File: cypress/cyfmac54591-pcie.clm_blob
 Link: brcm/brcmfmac54591-pcie.clm_blob -> ../cypress/cyfmac54591-pcie.clm_blob
 
 Licence: Redistributable. See LICENCE.cypress for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.cypress
 
 File: "brcm/brcmfmac43241b4-sdio.Advantech-MICA-071.txt"
 File: "brcm/brcmfmac43241b4-sdio.Intel Corp.-VALLEYVIEW C0 PLATFORM.txt"
@@ -3138,6 +3200,7 @@ Driver: ti-vpe - Texas Instruments V4L2 driver for Video Processing Engine
 File: ti/vpdma-1b8.bin
 
 Licence: Redistributable. See LICENCE.ti-tspa for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-tspa
 
 --------------------------------------------------------------------------
 
@@ -3149,6 +3212,7 @@ Version: 4.0.4.3.7
 File: ti-connectivity/wl1251-nvs.bin
 
 Licence: Redistributable. See LICENCE.wl1251 for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.wl1251
 
 Info:
 The published NVS files are for testing only.  Every device needs to
@@ -3212,6 +3276,7 @@ Link: ti-connectivity/wl12xx-nvs.bin -> wl127x-nvs.bin
 Link: ti-connectivity/wl1271-nvs.bin -> wl127x-nvs.bin
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-connectivity
 
 Info:
 The NVS file includes two parts:
@@ -3247,6 +3312,7 @@ File: ti-connectivity/wl18xx-fw-4.bin
 Version: 8.9.0.0.79
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-connectivity
 
 Info:
 The driver expects to find the firmwares under a ti-connectivity
@@ -3266,6 +3332,7 @@ File: ti-connectivity/cc33xx-conf.bin
 Version: 1.7.0.120
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-connectivity
 
 The cc33xx-conf.bin is a binary containing two parts: radio calibration
 and hardware configuration. The binary can be modified using the tool
@@ -3289,6 +3356,7 @@ Version: 2.14 (TI_P6_15.93)
 File: ti-connectivity/TIInit_7.2.31.bts
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-connectivity
 
 Info:
 	TIInit_7.2.31.bts version 7.2.31
@@ -3302,6 +3370,7 @@ Driver: tlg2300 - Telgent 2300 V4L/DVB driver.
 File: tlg2300_firmware.bin
 
 Licence: Redistributable. See LICENSE.tlg2300 for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.tlg2300
 
 --------------------------------------------------------------------------
 
@@ -3312,6 +3381,7 @@ Info: From Vendor's rtl8712_8188_8191_8192SU_usb_linux_v7_0.20100831
       Reverted rtl8188C_8192C_8192D_usb_linux_v3.4.2_3727.20120404
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3323,6 +3393,7 @@ File: rtlwifi/rtl8192cfwU_B.bin
 Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3340,6 +3411,7 @@ Info: From Vendor's rtl8188C_8192C_usb_linux_v4.0.1_6911.20130308 driver
         - rtlwifi/rtl8192cufw_TMSC.bin: Rtl8192CUFwTSMCImgArray
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3349,6 +3421,7 @@ Info: updated from rtl_92ce_92se_92de_linux_mac80211_0004.0816.2011 driver versi
 File: rtlwifi/rtl8192sefw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3358,6 +3431,7 @@ Info: Updated from Realtek version rtl_92ce_92se_92de_8723ae_linux_mac80211_0007
 File: rtlwifi/rtl8192defw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3368,6 +3442,7 @@ File: rtlwifi/rtl8192dufw.bin
 Version: 39.0
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3378,6 +3453,7 @@ File: rtlwifi/rtl8723fw.bin
 File: rtlwifi/rtl8723fw_B.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3389,6 +3465,7 @@ Info: Update to version 36 - Sent by Realtek
 File: rtlwifi/rtl8723befw_36.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3398,6 +3475,7 @@ Info: Supplied by Vendor at https://github.com/pkshih/rtlwifi_rtl8723de
 File: rtlwifi/rtl8723defw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3407,6 +3485,7 @@ Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_88ee_linux_mac80211_0
 File: rtlwifi/rtl8188efw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3417,6 +3496,7 @@ File: rtlwifi/rtl8812aefw.bin
 File: rtlwifi/rtl8812aefw_wowlan.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3429,6 +3509,7 @@ Info: Update to version 29 - Sent by Realtek
 File: rtlwifi/rtl8821aefw_29.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3438,6 +3519,7 @@ Info: Sent to Larry Finger by Realtek engineer Ping-Ke Shih <pkshih@realtek.com>
 File: rtlwifi/rtl8822befw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3458,6 +3540,7 @@ File: rtw88/rtw8812a_fw.bin
 File: rtw88/rtw8814a_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 Info:
     These firmware should be put under /lib/firmware/rtw88/
@@ -3493,6 +3576,7 @@ File: rtw89/rtw8922d_fw.bin
 File: rtw89/rtw8922ds_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
    These firmware support 802.11ax chips including RTL8851B, RTL8852A,
    RTL8852B, RTL8852BT and RTL8852C and 802.11be chip including RTL8922A.
@@ -3509,6 +3593,7 @@ Info: Initial version taken from Realtek version
 Link: rtlwifi/rtl8192eefw.bin -> rtl8192eu_nic.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3522,6 +3607,7 @@ Link: rtlwifi/rtl8723bs_ap_wowlan.bin -> rtl8723bu_ap_wowlan.bin
 Link: rtlwifi/rtl8723bs_wowlan.bin -> rtl8723bu_wowlan.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3580,6 +3666,7 @@ File: rtlwifi/rtl8192fufw.bin
 Version: 7.3
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3682,6 +3769,7 @@ File: rtl_nic/rtl8261d.bin
 Version: 0.0.1
 
 Licence: Redistributable. See LICENSE.r8169 for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.r8169
 
 --------------------------------------------------------------------------
 
@@ -3696,6 +3784,7 @@ File: rtl_nic/rtl8156a-2.fw
 File: rtl_nic/rtl8156b-2.fw
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
 
@@ -3711,6 +3800,7 @@ File: realtek/rt1320/rt1321-patch-code-va.bin
 Version: 1.10.0
 
 Licence: Redistributable. See LICENSE.rt1320 for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.rt1320
 
 --------------------------------------------------------------------------
 
@@ -3744,6 +3834,7 @@ File: ar3k/AthrBT_0x31010100.dfu
 File: ar3k/ramps_0x31010100_40.dfu
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 --------------------------------------------------------------------------
 
@@ -3753,6 +3844,7 @@ File: ar3k/AthrBT_0x01020201.dfu
 File: ar3k/1020201coex/ramps_0x01020201_26_HighPriority.dfu
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ar3k for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ar3k
 
 --------------------------------------------------------------------------
 
@@ -3771,6 +3863,7 @@ File: ar3k/30000/PS_ASIC.pst
 File: ar3k/30000/RamPatch.txt
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 --------------------------------------------------------------------------
 
@@ -3807,6 +3900,7 @@ File: ath6k/AR6002/athwlan.bin.z77
 File: ath6k/AR6002/data.patch.hw2_0.bin
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 --------------------------------------------------------------------------
 
@@ -3880,6 +3974,7 @@ Version: WLAN.HL.3.3.7.c5-00093.2-QCAHLSWMTPL-1
 File: ath10k/WCN3990/hw1.0/shikra/notice.txt_wlanmdsp
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
 File: ath10k/WCN3990/hw1.0/qcm2290/wlanmdsp.mbn
 Version: WLAN.HL.3.3.7.c2-00931-QCAHLSWMTPLZ-1
@@ -3890,6 +3985,7 @@ File: ath10k/WCN3990/hw1.0/qcm2290/firmware-5.bin
 Link: ath10k/WCN3990/hw1.0/qrb4210/firmware-5.bin -> ../qcm2290/firmware-5.bin
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 --------------------------------------------------------------------------
 
@@ -3998,6 +4094,7 @@ Version: WLAN.HSP.1.1-04866.5-QCAHSPSWPL_V1_V2_SILICONZ_IOE-1
 File: ath11k/QCA6698AQ/hw2.1/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
 File: ath11k/WCN6750/hw1.0/qcm6490/wpss.mbn
 Version: WLAN.MSL.2.0.c2-00204-QCAMSLSWPLZ-1
@@ -4005,6 +4102,7 @@ Link: qcom/qcm6490/wpss.mbn -> ../../ath11k/WCN6750/hw1.0/qcm6490/wpss.mbn
 Link: qcom/qcs6490/wpss.mbn -> ../../ath11k/WCN6750/hw1.0/qcm6490/wpss.mbn
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 --------------------------------------------------------------------------
 
@@ -4036,6 +4134,7 @@ Version: WLAN.COL.1.0.c2-00277-QCACOLSWPL_V1_TO_SILICONZ-1
 File: ath12k/QCC2072/hw1.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
 --------------------------------------------------------------------------
 
@@ -4067,6 +4166,7 @@ File: ath6k/AR6003.1/hw2.1.1/endpointping.bin
 File: ath6k/AR6003.1/hw2.1.1/otp.bin
 
 License: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 --------------------------------------------------------------------------
 
@@ -4079,6 +4179,7 @@ File: ar3k/30101coex/PS_ASIC.pst
 File: ar3k/30101coex/RamPatch.txt
 
 License: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 --------------------------------------------------------------------------
 
@@ -4087,6 +4188,7 @@ Driver: drxk - Micronas DRX-K demodulator driver
 File: dvb-usb-terratec-h5-drxk.fw
 
 Licence: Redistributable. See LICENSE.drxk for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.drxk
 
 --------------------------------------------------------------------------
 
@@ -4119,6 +4221,7 @@ Driver: ar5523 - Atheros AR5523 based USB Wifi dongles
 File: ar5523.bin
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 --------------------------------------------------------------------------
 
@@ -4132,6 +4235,7 @@ File: s5p-mfc-v8.fw
 File: s5p-mfc-v12.fw
 
 Licence: Redistributable. See LICENSE.s5p-mfc for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.s5p-mfc
 
 --------------------------------------------------------------------------
 
@@ -4154,6 +4258,7 @@ File: ctefx.bin
 File: ctspeq.bin
 
 Licence: Redistributable. See LICENCE.ca0132 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ca0132
 
 Info: Found also in alsa-firmware package.
 
@@ -4337,6 +4442,7 @@ File: intel/ibt-00a0-0041-pci.sfi
 Version: BT_ScorpiusGfp_S_REL291_24.00.26134.291
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ibt_firmware
 
 File: rtl_bt/rtl8192ee_fw.bin
 File: rtl_bt/rtl8192eu_fw.bin
@@ -4387,6 +4493,7 @@ File: rtl_bt/rtl8922au_fw.bin
 File: rtl_bt/rtl8922au_config.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 Info:
 Found in vendor driver, linux_bt_usb_2.11.20140423_8723be.rar
@@ -4402,6 +4509,7 @@ File: mediatek/mt7650.bin
 Link: mt7650.bin -> mediatek/mt7650.bin
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ralink_a_mediatek_company_firmware
 
 --------------------------------------------------------------------------
 
@@ -4410,6 +4518,7 @@ Driver: rp2 - Comtrol RocketPort 2 serial driver
 File: rp2.fw
 
 Licence: Redistributable. See LICENSE.rp2 for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.rp2
 
 --------------------------------------------------------------------------
 
@@ -4421,6 +4530,7 @@ Link: s2250.fw -> go7007/s2250-2.fw
 Link: s2250_loader.fw -> go7007/s2250-1.fw
 
 Licence: Redistributable. See LICENCE.sensoray for details
+SPDX-License-Identifier: LicenseRef-LICENCE.sensoray
 
 File: go7007/go7007fw.bin
 File: go7007/go7007tv.bin
@@ -4430,6 +4540,7 @@ File: go7007/px-tv402u.fw
 File: go7007/wis-startrek.fw
 
 Licence: Redistributable. See LICENCE.go7007 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.go7007
 
 --------------------------------------------------------------------------
 
@@ -4450,6 +4561,7 @@ Version: 2025-2-20
 File: amd/README.md
 
 License: Redistributable. See LICENSE.amd-sev for details
+SPDX-License-Identifier: LicenseRef-LICENSE.amd-sev
 
 --------------------------------------------------------------------------
 
@@ -4470,6 +4582,7 @@ Version: 2026-04-16
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
+SPDX-License-Identifier: LicenseRef-LICENSE.amd-ucode
 
 --------------------------------------------------------------------------
 
@@ -4482,6 +4595,7 @@ File: moxa/moxa-1150.fw
 File: moxa/moxa-1151.fw
 
 License: Redistributable. See LICENCE.moxa for details
+SPDX-License-Identifier: LicenseRef-LICENCE.moxa
 
 --------------------------------------------------------------------------
 
@@ -4502,6 +4616,7 @@ File: moxa/moxa-up-mux50u.fw
 Version: v2.0.3
 
 License: Redistributable. See LICENCE.moxa for details
+SPDX-License-Identifier: LicenseRef-LICENCE.moxa
 
 --------------------------------------------------------------------------
 
@@ -4510,10 +4625,12 @@ Driver: cw1200 - ST-E CW1100/CW1200 WLAN driver
 File: wsm_22.bin
 Version: WSM395
 Licence: Redistributable. See LICENCE.cw1200 for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.cw1200
 
 File: sdd_sagrad_1091_1098.bin
 
 License: Redistributable. See LICENCE.cw1200-sdd for details
+SPDX-License-Identifier: LicenseRef-LICENCE.cw1200-sdd
 
 --------------------------------------------------------------------------
 
@@ -4524,6 +4641,7 @@ File: ctfw-3.2.5.1.bin
 File: ct2fw-3.2.5.1.bin
 
 Licence: Redistributable. See LICENSE.bfa for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.bfa
 
 --------------------------------------------------------------------------
 Driver: qat - Intel(R) QAT crypto accelerator
@@ -4559,6 +4677,7 @@ File: intel/qat/qat_420xx_mmp.bin
 Link: qat_420xx_mmp.bin -> intel/qat/qat_420xx_mmp.bin
 
 Licence: Redistributable. See LICENCE.qat_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.qat_firmware
 
 --------------------------------------------------------------------------
 
@@ -4582,6 +4701,7 @@ File: rsi/rs9116_wlan_bt_classic.rps
 Version: 1.0.5b
 
 Licence: Redistributable. See LICENSE.rsi for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.rsi
 
 --------------------------------------------------------------------------
 
@@ -4592,6 +4712,7 @@ File: r8a779x_usb3_v2.dlmem
 File: r8a779x_usb3_v3.dlmem
 
 Licence: Redistributable. See LICENCE.r8a779x_usb3 for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.r8a779x_usb3
 
 --------------------------------------------------------------------------
 
@@ -4600,6 +4721,7 @@ Driver: snd_soc_sst_acpi
 File: intel/fw_sst_0f28.bin-48kHz_i2s_master
 
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.fw_sst_0f28
 
 --------------------------------------------------------------------------
 
@@ -4609,6 +4731,7 @@ File: as102_data1_st.hex
 File: as102_data2_st.hex
 
 License: Redistributable. See LICENCE.Abilis for details
+SPDX-License-Identifier: LicenseRef-LICENCE.Abilis
 
 --------------------------------------------------------------------------
 
@@ -4629,6 +4752,7 @@ Version: 039b7b566e35f96de8fda81f75706b6ae8c4b8b9
 Link: intel/IntcSST2.bin -> catpt/bdw/dsp_basefw.bin
 
 License: Redistributable. See LICENCE.IntcSST2 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.IntcSST2
 
 --------------------------------------------------------------------------
 
@@ -4650,6 +4774,7 @@ File: intel/avs/lkf/dsp_basefw.bin
 Version: 10.28.00.12823
 
 License: Redistributable. See LICENCE.adsp_sst for details
+SPDX-License-Identifier: LicenseRef-LICENCE.adsp_sst
 
 File: intel/avs/da7219-tplg.bin
 File: intel/avs/dmic-tplg.bin
@@ -4680,6 +4805,7 @@ File: intel/fw_sst_0f28.bin
 File: intel/fw_sst_0f28_ssp0.bin
 
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.fw_sst_0f28
 
 --------------------------------------------------------------------------
 
@@ -4689,6 +4815,7 @@ File: intel/fw_sst_22a8.bin
 Version: 01.0B.02.02
 
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.fw_sst_0f28
 
 --------------------------------------------------------------------------
 
@@ -4700,6 +4827,7 @@ File: intel/dsp_fw_release_v3402.bin
 Version: 9.21.00.3402_161
 
 License: Redistributable. See LICENCE.adsp_sst for details
+SPDX-License-Identifier: LicenseRef-LICENCE.adsp_sst
 
 File: intel/dsp_fw_bxtn_v2219.bin
 Version: 9.22.01.2219_64
@@ -4707,6 +4835,7 @@ File: intel/dsp_fw_bxtn_v3366.bin
 Version: 9.22.01.3366_157
 
 License: Redistributable. See LICENCE.adsp_sst for details
+SPDX-License-Identifier: LicenseRef-LICENCE.adsp_sst
 
 File: intel/dsp_fw_kbl_v701.bin
 Version: 9.21.00.701
@@ -4724,6 +4853,7 @@ File: intel/dsp_fw_kbl_v3402.bin
 Version: 9.21.00.3402_161
 
 License: Redistributable. See LICENCE.adsp_sst for details
+SPDX-License-Identifier: LicenseRef-LICENCE.adsp_sst
 
 File: intel/dsp_fw_glk_v1814.bin
 Version: 9.92.01.1814
@@ -4740,6 +4870,7 @@ File: intel/dsp_fw_cnl_v1858.bin
 Version: 10.23.00.1858
 
 License: Redistributable. See LICENCE.adsp_sst for details
+SPDX-License-Identifier: LicenseRef-LICENCE.adsp_sst
 
 --------------------------------------------------------------------------
 
@@ -4760,6 +4891,7 @@ File: sms1xxx-stellar-dvbt-01.fw
 File: tdmb_nova_12mhz.inp
 
 Licence: Redistributable. See LICENCE.siano for details
+SPDX-License-Identifier: LicenseRef-LICENCE.siano
 
 --------------------------------------------------------------------------
 
@@ -4778,6 +4910,7 @@ File: nvidia/tegra194/xusb.bin
 Version: v60.06
 
 Licence: Redistributable. See LICENCE.nvidia for details
+SPDX-License-Identifier: LicenseRef-LICENCE.nvidia
 
 --------------------------------------------------------------------------
 
@@ -4795,6 +4928,7 @@ Link: nvidia/tegra186/vic.bin -> vic04_ucode.bin
 File: nvidia/tegra194/vic.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
+SPDX-License-Identifier: LicenseRef-LICENCE.nvidia
 
 --------------------------------------------------------------------------
 
@@ -4871,6 +5005,7 @@ File: qca/nvm_usb_00190200_0111.bin
 File: qca/nvm_usb_00190200_0112.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and NOTICE.qca for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
 --------------------------------------------------------------------------
 
@@ -4892,6 +5027,7 @@ File: qca/nvm_00440302_eu.bin
 File: qca/nvm_00440302_i2s_eu.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and NOTICE.qca for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
 --------------------------------------------------------------------------
 
@@ -4905,6 +5041,7 @@ File: qca/ornbcscal10.bin
 Version: BTFW.ORNE.1.0.1-00155-PATCH-1
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and NOTICE.qca for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
 --------------------------------------------------------------------------
 
@@ -4918,6 +5055,7 @@ File: qca/ornbcscal11.bin
 Version: BTFW.ORNE.1.1.0-00355-PATCH-1
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and NOTICE.qca for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
 -------------------------------------------------------------------------
 
@@ -4933,6 +5071,7 @@ File: qca/cmnv13s.bin
 File: qca/cmnv13t.bin
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qca for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 --------------------------------------------------------------------------
 
@@ -4946,6 +5085,7 @@ File: qca/apnv10.bin
 File: qca/apnv11.bin
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qca for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 --------------------------------------------------------------------------
 
@@ -4960,6 +5100,7 @@ File: qca/crnv32.bin
 File: qca/crnv32u.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and NOTICE.qca for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
 --------------------------------------------------------------------------
 
@@ -4977,6 +5118,7 @@ File: qca/msnv11.b09
 Version: BTFW.MOSELLE.1.1.3-00106-MSL_PATCHZ-1
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and NOTICE.qca for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
 --------------------------------------------------------------------------
 
@@ -5015,6 +5157,7 @@ File: qca/wcnhpnv10.bin
 File: qca/wcnhpnv10.b06
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and NOTICE.qca for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
 --------------------------------------------------------------------------
 
@@ -5057,6 +5200,7 @@ File: qca/hpnv21g.b10c
 File: qca/hpnv21g.b111
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and NOTICE.qca for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
 --------------------------------------------------------------------------
 
@@ -5067,6 +5211,7 @@ Version: BTFM.HST.2.0.0-00943-QCACHROM-1
 File: qca/htnv20.bin
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qca for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 --------------------------------------------------------------------------
 
@@ -5081,6 +5226,7 @@ File: qca/hmtnv20.b202
 File: qca/hmtnv20.bin
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qca for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 ---------------------------------------------------------------------------
 
@@ -5093,6 +5239,7 @@ File: qca/QCA6698/hpnv21.b207
 File: qca/QCA6698/hpnv21.bin
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qca for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 -------------------------------------------------------------------------
 
@@ -5111,6 +5258,7 @@ File: liquidio/lio_410nv_nic.bin
 Version: v1.7.2
 
 Licence: Redistributable. See LICENCE.cavium_liquidio for details
+SPDX-License-Identifier: LicenseRef-LICENCE.cavium_liquidio
 
 --------------------------------------------------------------------------
 
@@ -5123,6 +5271,7 @@ File: cavium/cnn55xx_se.fw
 Version: v10
 
 Licence: Redistributable. See LICENCE.cavium for details
+SPDX-License-Identifier: LicenseRef-LICENCE.cavium
 
 --------------------------------------------------------------------------
 
@@ -5507,6 +5656,7 @@ File: i915/xe3p_lpd_dmc.bin
 Version: DMC API/APB ver 2 release 37 for Xe3p_LPD
 
 License: Redistributable. See LICENSE.i915 for details
+SPDX-License-Identifier: LicenseRef-LICENSE.i915
 --------------------------------------------------------------------------
 
 Driver: xe - Intel Graphics driver
@@ -5542,6 +5692,7 @@ File: xe/nvl_guc_70.bin
 Version: GuC API/APB ver 70.72.1 for Novalake S
 
 License: Redistributable. See LICENSE.xe for details
+SPDX-License-Identifier: LicenseRef-LICENSE.xe
 --------------------------------------------------------------------------
 
 Driver: nouveau - NVIDIA GPU driver
@@ -6042,6 +6193,7 @@ Link: nvidia/gb206 -> gb202
 Link: nvidia/gb207 -> gb202
 
 Licence: Redistributable. See LICENCE.nvidia for details
+SPDX-License-Identifier: LicenseRef-LICENCE.nvidia
 
 --------------------------------------------------------------------------
 
@@ -6056,6 +6208,7 @@ File: atmel/wilc3000_wifi_firmware-1.bin
 Version: 16.1.2
 
 License: Redistributable. See LICENSE.atmel for details
+SPDX-License-Identifier: LicenseRef-LICENSE.atmel
 
 --------------------------------------------------------------------------
 
@@ -6071,6 +6224,7 @@ File: hfi1_sbus.fw
 Version: 0x10130001
 
 Licence: Redistributable. See LICENSE.hfi1_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENSE.hfi1_firmware
 
 --------------------------------------------------------------------------
 
@@ -6079,6 +6233,7 @@ Driver: knav_qmss_queue - TI Keystone 2 QMSS driver
 File: ti-keystone/ks2_qmss_pdsp_acc48_k2_le_1_0_0_9.bin
 
 Licence: Redistributable. See LICENCE.ti-keystone for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-keystone
 
 --------------------------------------------------------------------------
 
@@ -6091,6 +6246,7 @@ File: mwlwifi/88W8897.bin
 Version: 8.2.0.10
 
 Licence: Redistributable. See LICENCE.Marvell for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.Marvell
 
 --------------------------------------------------------------------------
 
@@ -6100,6 +6256,7 @@ File: mediatek/mt8173/vpu_d.bin
 File: mediatek/mt8173/vpu_p.bin
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6109,6 +6266,7 @@ File: mediatek/mt8196/vcp.img
 Version: v1.0.0
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6129,6 +6287,7 @@ File: mediatek/mt8189/scp.img
 Version: v1.0.0
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6143,6 +6302,7 @@ Version: 20180517181834
 # Version: 7663e2ccn04-2006030247
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6152,6 +6312,7 @@ File: rockchip/dptx.bin
 Version: 3.1
 
 Licence: Redistributable. See LICENCE.rockchip for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rockchip
 
 --------------------------------------------------------------------------
 
@@ -6164,6 +6325,7 @@ File: mediatek/mt7650e.bin
 Version: 1.0.07-b370
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6178,6 +6340,7 @@ Version: 0.0.2_P69
 Link: mt7662_rom_patch.bin -> mediatek/mt7662_rom_patch.bin
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ralink_a_mediatek_company_firmware
 
 --------------------------------------------------------------------------
 
@@ -6190,6 +6353,7 @@ File: mediatek/mt7662u_rom_patch.bin
 Version: 0.0.2_P48
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6203,6 +6367,7 @@ File: mediatek/mt7615_rom_patch.bin
 Version: 20190114
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6214,6 +6379,7 @@ File: mediatek/mt7622_rom_patch.bin
 Version: 20190114
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6230,6 +6396,7 @@ File: mediatek/mt7663_n9_rebb.bin
 Version: 7663mp1827-20190914043434
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6284,6 +6451,7 @@ File: mediatek/mt7981_eeprom_mt7976_dbdc.bin
 Version: 20260515
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6295,6 +6463,7 @@ File: mediatek/WIFI_RAM_CODE_MT7902_1.bin
 Version: 20251212032127
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6304,6 +6473,7 @@ File: mediatek/BT_RAM_CODE_MT7902_1_1_hdr.bin
 Version: 20250826211444
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6315,6 +6485,7 @@ File: mediatek/WIFI_RAM_CODE_MT7961_1a.bin
 Version: 20260224110939
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6324,6 +6495,7 @@ File: mediatek/BT_RAM_CODE_MT7961_1a_2_hdr.bin
 Version: 20260224111231
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6335,6 +6507,7 @@ File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
 Version: 20260224110949
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6344,6 +6517,7 @@ File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
 Version: 20260224111243
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6355,6 +6529,7 @@ File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
 Version: 20260724143402
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6364,6 +6539,7 @@ File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
 Version: 20260724143815
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6375,6 +6551,7 @@ File: mediatek/mt7925/WIFI_RAM_CODE_MT7925_1_1.bin
 Version: 20260813113118
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6384,6 +6561,7 @@ File: mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin
 Version: 20260813113236
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6395,6 +6573,7 @@ File: mediatek/mt7927/WIFI_RAM_CODE_MT6639_2_1.bin
 Version: 20260414134255
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6408,6 +6587,7 @@ File: mediatek/mt7987/i2p5ge-phy-pmb.bin
 Version: 20250822
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6483,6 +6663,7 @@ File: mediatek/mt7996/mt7990_eeprom_2i5i.bin
 Version: 20240906
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -6503,6 +6684,7 @@ File: mediatek/mt7988/mt7988_wo_1.bin
 Version: 20230218204316
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 Driver: nfp - Netronome Flow Processor
@@ -6596,6 +6778,7 @@ Version: v2.0.6.124
 
 
 Licence: Redistributable. See LICENCE.Netronome for details
+SPDX-License-Identifier: LicenseRef-LICENCE.Netronome
 
 --------------------------------------------------------------------------
 
@@ -6606,6 +6789,7 @@ File: wil6210.brd
 Version: 5.2.0.18
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
 --------------------------------------------------------------------------
 
@@ -6647,6 +6831,7 @@ Link: qcom/vpu-1.0/venus.mdt -> ../vpu/vpu20_p4.mbn
 Version: VIDEO.VPU.1.0-00119
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 Binary files supplied originally from
 https://developer.qualcomm.com/hardware/dragonboard-410c/tools
@@ -6720,6 +6905,7 @@ File: qcom/vpu/vpu50_p2_s8.mbn
 Version: VIDEO.VPU.5.0-0039
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 --------------------------------------------------------------------------
 
@@ -6731,6 +6917,7 @@ File: imx/sdma/sdma-imx7d.bin
 Version: 4.2
 
 Licence: Redistributable. See LICENSE.sdma_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENSE.sdma_firmware
 
 --------------------------------------------------------------------------
 
@@ -6873,6 +7060,7 @@ Link: qcom/gen81400_gmu.bin -> gen81100_gmu.bin
 Link: qcom/maili/gen81400_zap.mbn -> ../hawi/gen81100_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 Binary files supplied originally from
 https://developer.qualcomm.com/hardware/dragonboard-410c/tools
@@ -7077,6 +7265,7 @@ File: qcom/x1e80100/LENOVO/83ED/qcvss8380.mbn
 Version: video-firmware.3.1-e5aea20c64cb6df9a1c9be99e206053b36424939
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 Info:
 Binary files supplied originally from
@@ -7231,6 +7420,7 @@ File: qcom/shikra/cqs/qdsp6sw.mbn
 Version: MPSS.JO.4.0-00194.2-SHIKRA_LWG_PACK-1
 
 Licence: Redistributable. See LICENSE.qcom-2 and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom-2
 
 # Dell XPS13
 File: qcom/x1e80100/dell/xps13-9345/adsp_dtbs.elf
@@ -7246,6 +7436,7 @@ File: qcom/x1e80100/dell/xps13-9345/qccdsp8380.mbn
 Version: CDSP.HT.2.9.c1-00046-HAMOA-1
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.dell
 
 --------------------------------------------------------------------------
 
@@ -7259,6 +7450,7 @@ RawFile: qcom/sdm845/modemuw.jsn
 Link: qcom/sdm845/modem.mbn -> modem_nm.mbn
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 Info:
 Binary files supplied originally from
@@ -7349,6 +7541,7 @@ File: mellanox/mlxsw_spectrum3-30.2016.3900.mfa2
 File: mellanox/mlxsw_spectrum4-34.2016.3900.mfa2
 
 Licence: Redistributable. See LICENSE.mellanox for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.mellanox
 
 Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
 
@@ -7362,6 +7555,7 @@ File: cadence/mhdp8546.bin
 Version: 2.1.0
 
 Licence: Redistributable. See LICENCE.cadence for details
+SPDX-License-Identifier: LicenseRef-LICENCE.cadence
 
 --------------------------------------------------------------------------
 
@@ -7384,6 +7578,7 @@ File: dpaa2/mc/mc_10.28.1_ls2088a.itb
 File: dpaa2/mc/mc_10.28.1_lx2160a.itb
 
 Licence: Redistributable. See LICENSE.nxp_mc_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENSE.nxp_mc_firmware
 
 --------------------------------------------------------------------------
 
@@ -7393,6 +7588,7 @@ File: microchip/mscc_vsc8574_revb_int8051_29e8.bin
 File: microchip/mscc_vsc8584_revb_int8051_fb48.bin
 
 Licence: Redistributable. See LICENCE.microchip for details
+SPDX-License-Identifier: LicenseRef-LICENCE.microchip
 
 --------------------------------------------------------------------------
 
@@ -7415,6 +7611,7 @@ File: meson/vdec/sm1_hevc_mmu.bin
 File: meson/vdec/sm1_vp9_mmu.bin
 
 Licence: Redistributable. See LICENSE.amlogic_vdec for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.amlogic_vdec
 
 --------------------------------------------------------------------------
 
@@ -7425,11 +7622,13 @@ Link: intel/ice/ddp/ice.pkg -> ice-1.3.43.0.pkg
 File: intel/ice/ddp-lag/ice_lag-1.3.2.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
+SPDX-License-Identifier: LicenseRef-LICENSE.ice
 
 File: intel/ice/ddp-comms/ice_comms-1.3.55.0.pkg
 File: intel/ice/ddp-wireless_edge/ice_wireless_edge-1.3.23.0.pkg
 
 License: Redistributable. See LICENSE.ice_enhanced for details
+SPDX-License-Identifier: LicenseRef-LICENSE.ice_enhanced
 
 --------------------------------------------------------------------------
 
@@ -7439,6 +7638,7 @@ File: inside-secure/eip197_minifw/ipue.bin
 File: inside-secure/eip197_minifw/ifpp.bin
 
 Licence: Redistributable. See LICENCE.inside-secure for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.inside-secure
 
 --------------------------------------------------------------------------
 
@@ -7451,6 +7651,7 @@ File: mrvl/prestera/mvsw_prestera_fw-v4.1.img
 File: mrvl/prestera/mvsw_prestera_fw_arm64-v4.1.img
 
 Licence: Redistributable. See LICENCE.Marvell for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.Marvell
 
 --------------------------------------------------------------------------
 
@@ -7459,6 +7660,7 @@ Driver: lt7911exc - Lontium EDP to MIPI DSI bridge
 File: Lontium/lt7911exc_fw.bin
 
 License: Redistributable. See LICENSE.Lontium for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.Lontium
 
 --------------------------------------------------------------------------
 
@@ -7468,6 +7670,7 @@ File: Lontium/lt8713sx_fw.bin
 Link: lt8713sx_fw.bin -> Lontium/lt8713sx_fw.bin
 
 License: Redistributable. See LICENSE.Lontium for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.Lontium
 
 --------------------------------------------------------------------------
 
@@ -7476,6 +7679,7 @@ Driver: lt9611c - Lontium MIPI DSI to HDMI bridge
 File: Lontium/lt9611c_fw.bin
 
 License: Redistributable. See LICENSE.Lontium for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.Lontium
 
 --------------------------------------------------------------------------
 
@@ -7485,6 +7689,7 @@ File: Lontium/lt9611uxc_fw.bin
 Link: lt9611uxc_fw.bin -> Lontium/lt9611uxc_fw.bin
 
 License: Redistributable. See LICENSE.Lontium for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.Lontium
 
 --------------------------------------------------------------------------
 
@@ -7498,6 +7703,7 @@ File: wfx/brd8022a.pds
 File: wfx/brd8023a.pds
 
 Licence: Redistributable. See LICENCE.wf200 for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.wf200
 
 Info:
 The firmware itself originates from https://github.com/SiliconLabs/wfx-firmware
@@ -7514,6 +7720,7 @@ Driver: wave5 - Chips&Media, Inc. Wave5 video codec driver
 File: cnm/wave521c_k3_codec_fw.bin
 
 Licence: Redistributable. See LICENCE.cnm for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.cnm
 
 --------------------------------------------------------------------------
 
@@ -7522,6 +7729,7 @@ Driver: wave6 - Chips&Media, Inc. Wave6 video codec driver
 File: cnm/wave633c_imx9_codec_fw.bin
 
 Licence: Redistributable. See LICENCE.cnm for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.cnm
 
 --------------------------------------------------------------------------
 
@@ -7542,6 +7750,7 @@ File: mrvl/cpt04/ie.out
 Version: v1.21
 
 Licence: Redistributable. See LICENCE.Marvell for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.Marvell
 
 --------------------------------------------------------------------------
 
@@ -7553,6 +7762,7 @@ File: amphion/vpu/vpu_fw_imx8_enc.bin
 Version: 1.3.4
 
 Licence: Redistributable. See LICENSE.amphion_vpu for details
+SPDX-License-Identifier: LicenseRef-LICENSE.amphion_vpu
 
 --------------------------------------------------------------------------
 
@@ -8576,6 +8786,7 @@ File: cirrus/cs35l41-dsp1-spk-prot-10251844-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10251844-r0.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.cirrus
 
 Use of Cirrus Logic drivers, firmware and other materials is permitted
 only in connection with Cirrus Logic hardware products.
@@ -9660,6 +9871,7 @@ Link: cirrus/cs35l57-b2-dsp1-misc-17aa5159-spkid1-l2u0.bin -> cs35l57-b2-dsp1-mi
 Link: cirrus/cs35l57-b2-dsp1-misc-17aa5159-spkid1-l2u4.bin -> cs35l57-b2-dsp1-misc-17aa5158-spkid1-l2u4.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.cirrus
 
 Use of Cirrus Logic drivers, firmware and other materials is permitted
 only in connection with Cirrus Logic hardware products.
@@ -9674,6 +9886,7 @@ Driver: cs42l43 - CS42L43 ALSA audio driver
 File: cs42l43.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.cirrus
 
 Use of Cirrus Logic drivers, firmware and other materials is permitted
 only in connection with Cirrus Logic hardware products.
@@ -9960,6 +10173,7 @@ Link: sdca/1fa/144d/ca0a/4.bin -> ../../cs42l45_primer4.bin
 Link: sdca/1fa/144d/ca0a/42450005.bin -> ../cs42l45_v20260820.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.cirrus
 
 Use of Cirrus Logic drivers, firmware and other materials is permitted
 only in connection with Cirrus Logic hardware products.
@@ -9993,6 +10207,7 @@ File: mediatek/sof-tplg/sof-mt8195.tplg
 Version: v2.8
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 
@@ -10001,6 +10216,7 @@ File: nxp/sr150_fw.bin
 Version: 44.00.02
 
 Licence: Redistributable. See LICENSE.nxp for details
+SPDX-License-Identifier: LicenseRef-LICENSE.nxp
 Originates from https://github.com/NXP/uwb-NXPUWB-FW.git
 --------------------------------------------------------------------------
 
@@ -10010,6 +10226,7 @@ File: nxp/sd_w61x_v1.bin.se
 Version: 18.99.3.p26.7
 
 Licence: Redistributable. See LICENSE.nxp for details
+SPDX-License-Identifier: LicenseRef-LICENSE.nxp
 
 Originates from https://github.com/nxp-imx/imx-firmware/tree/lf-6.12.34_2.1.0
 
@@ -10032,6 +10249,7 @@ File: nxp/uartspi_n61x_v1.bin.se
 Version: 18.99.1.p154.40
 
 Licence: Redistributable. See LICENSE.nxp for details
+SPDX-License-Identifier: LicenseRef-LICENSE.nxp
 
 Originates from https://github.com/nxp-imx/imx-firmware/tree/lf-6.1.22_2.0.0/nxp
 
@@ -10051,6 +10269,7 @@ Version: 51.06
 Info: 0xe863
 
 Licence: Redistributable. See LICENSE.amlogic for details
+SPDX-License-Identifier: LicenseRef-LICENSE.amlogic
 
 --------------------------------------------------------------------------
 
@@ -10062,6 +10281,7 @@ File: powervr/rogue_36.53.104.796_v1.fw
 Version: 1.1.OS@6976702
 
 License: Redistributable. See LICENSE.powervr for details
+SPDX-License-Identifier: LicenseRef-LICENSE.powervr
 
 --------------------------------------------------------------------------
 
@@ -10144,6 +10364,7 @@ Link: tas257x-1amp-reg.bin -> ti/audio/tas257x/tas257x-1amp-reg.bin
 
 Licence: Redistributable. See LICENCE.ti-tspa for details. Marked:
 	 Copyright (C) 2023 - 2026 Texas Instruments
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-tspa
 
 --------------------------------------------------------------------------
 
@@ -10369,6 +10590,7 @@ Link: TXNW2781RCA2.bin -> ti/audio/tas2781/TIAS2781RCA2.bin
 Link: TXNW2781RCA4.bin -> ti/audio/tas2781/TIAS2781RCA4.bin
 
 Licence: Redistributable. See LICENCE.ti-tspa for details. Marked:
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-tspa
 	 Copyright (C) 2023 - 2026 Texas Instruments
 
 --------------------------------------------------------------------------
@@ -10772,6 +10994,7 @@ Link: 9029-2-0xC.bin -> ti/audio/tas2783/9029-2-0xC.bin
 Link: 9029-3-0x9.bin -> ti/audio/tas2783/9029-3-0x9.bin
 
 Licence: Redistributable. LICENCE.ti-tspa for details. Marked:
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-tspa
 	 Copyright (C) 2026 Texas Instruments
 
 --------------------------------------------------------------------------
@@ -10785,6 +11008,7 @@ Link: TAS2XXX3870.bin -> ti/audio/tas2563/TAS2XXX3870.bin
 Link: INT8866RCA2.bin -> ti/audio/tas2563/INT8866RCA2.bin
 
 Licence: Redistributable. LICENCE.ti-tspa for details. Marked:
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-tspa
 	 Copyright (C) 2023 - 2025 Texas Instruments
 
 --------------------------------------------------------------------------
@@ -10794,6 +11018,7 @@ File: tsse_firmware.bin
 Version: 1.0.2
 
 Licence: Redistributable. See LICENSE.montage for details
+SPDX-License-Identifier: LicenseRef-LICENSE.montage
 
 --------------------------------------------------------------------------
 
@@ -10812,12 +11037,14 @@ File: arm/mali/arch13.8/mali_csffw.bin
 Version: arch13.8
 
 License: Redistributable. See LICENCE.mali_csffw for details
+SPDX-License-Identifier: LicenseRef-LICENCE.mali_csffw
 
 --------------------------------------------------------------------------
 Driver: isp - Image Signal Processor (ISP) device
 File: amdgpu/isp_4_1_1.bin
 
 License: Redistributable. See LICENSE.amdisp for details
+SPDX-License-Identifier: LicenseRef-LICENSE.amdisp
 
 --------------------------------------------------------------------------
 
@@ -10833,6 +11060,7 @@ File: qcom/aic100/sbl.bin
 Version: SBL.AIC.1.20.2.1
 
 License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 --------------------------------------------------------------------------
 
@@ -10849,6 +11077,7 @@ File: intel/ish/ish_nvls.bin
 Version: 5.8.3.7819
 
 License: Redistributable. See LICENSE.intel for details
+SPDX-License-Identifier: LicenseRef-LICENSE.intel
 
 File: LENOVO/ish/ish_lnlm_lenovo_X9-14_2025_5.8.36.09092.bin
 Link: intel/ish/ish_lnlm_53c4ffad_a672a235.bin -> ../../LENOVO/ish/ish_lnlm_lenovo_X9-14_2025_5.8.36.09092.bin
@@ -10875,6 +11104,7 @@ Info: product_family - "ThinkPad X1 Carbon Gen 13"
 Version: 5.8.4.7720
 
 License: Redistributable. See LICENCE.lenovo for details
+SPDX-License-Identifier: LicenseRef-LICENCE.lenovo
 
 File: HP/ish/ish_lnlm_12128606_f9751b71.bin
 Link: intel/ish/ish_lnlm_12128606_f9751b71.bin -> ../../HP/ish/ish_lnlm_12128606_f9751b71.bin
@@ -10884,6 +11114,7 @@ File: HP/ish/ish_ptl_12128606_581.7779.0.bin
 Version: 5.8.1.7779
 
 License: Redistributable. See LICENCE.HP for details
+SPDX-License-Identifier: LicenseRef-LICENCE.HP
 
 File: dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
 Link: intel/ish/ish_lnlm_39ceeaf8.bin -> ../../dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
@@ -10893,6 +11124,7 @@ File: dell/ish/ish_ptl_39ceeaf8_581.7783.0.bin
 Link: intel/ish/ish_ptl_39ceeaf8.bin -> ../../dell/ish/ish_ptl_39ceeaf8_581.7783.0.bin
 
 License: Redistributable. See LICENSE.dell for details
+SPDX-License-Identifier: LicenseRef-LICENSE.dell
 
 --------------------------------------------------------------------------
 
@@ -10927,6 +11159,7 @@ File: qcom/qdu100/zeros_1sector.bin
 File: qcom/qdu100/qdsp6sw.mbn.xz
 
 License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 --------------------------------------------------------------------------
 
@@ -10945,6 +11178,7 @@ Version: Aug 20 2026*NPU50xx*build/ci/npu-fw-ci-ci_branch_UD202638_npu_release_2
 Link: intel/vpu/vpu_50xx_v0.0.bin -> vpu_50xx_v1.bin
 
 License: Redistributable. See LICENSE.intel_vpu for details
+SPDX-License-Identifier: LicenseRef-LICENSE.intel_vpu
 
 --------------------------------------------------------------------------
 
@@ -10969,6 +11203,7 @@ File: qcom/x1e80100/qupv3fw.elf
 File: qcom/shikra/qupv3fw.elf
 
 License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 ---------------------------------------------------------------------------
 
 Driver: sdx61 - Qualcomm SDX61 firmware image file for Foxconn vendor
@@ -10976,6 +11211,7 @@ File: qcom/sdx61/foxconn/prog_firehose_lite.elf
 Version: BOOT.MXF.1.1.1-00277-Olympic-1
 
 License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 ---------------------------------------------------------------------------
 
 Driver: sdx35 - Qualcomm SDX35 firmware image file for Foxconn vendor
@@ -10983,6 +11219,7 @@ File: qcom/sdx35/foxconn/xbl_s_devprg_ns.melf
 Version: BOOT.MXF.2.3-00430-KUNO_E-1
 
 License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 --------------------------------------------------------------------------
 
 Driver: pcie-rcar-gen4 - Renesas R-Car Gen4 PCIe controller
@@ -10990,6 +11227,7 @@ Driver: pcie-rcar-gen4 - Renesas R-Car Gen4 PCIe controller
 File: rcar_gen4_pcie.bin
 
 Licence: Redistributable. See LICENCE.r8a779g_pcie_phy for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.r8a779g_pcie_phy
 --------------------------------------------------------------------------
 
 Driver: PCM6240 - Texas Instruments PCM6240 Family Audio ADC/DAC Device
@@ -10999,6 +11237,7 @@ File: ti/pcm6240/pcm6240-i2c-1-2dev.bin
 Version: 1.0
 
 Licence: Redistributable. See LICENCE.ti-tspa for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-tspa
 
 Info:
 Firmware file generated via https://git.ti.com/cgit/lpaa-android-drivers/tasdevice-linux-driver/tree/json/tool/Non_Integrated_Bin_Tool_v1.4.1 and branch-master.
@@ -11016,3 +11255,4 @@ Link: morsemicro/mm81x/v56/bcf_boardtype_0a02.bin -> bcf_aw_hm677.bin
 Version: 56
 
 License: Redistributable. See LICENCE.morsemicro for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.morsemicro
