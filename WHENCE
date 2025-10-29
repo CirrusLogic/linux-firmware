@@ -8567,6 +8567,87 @@ Semiconductor Ltd. All Rights Reserved.
 
 ---------------------------------------------------------------------------
 
+Driver: cs35l63 - CS35L63 ALSA audio driver
+
+File: cirrus/cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+File: cirrus/cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+File: cirrus/cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-spkid0-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-spkid0-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-spkid1-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-spkid1-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-spkid2-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-spkid2-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-spkid3-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-01-spkid3-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-spkid0-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-spkid0-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-spkid1-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-spkid1-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-spkid2-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-spkid2-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-spkid3-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-02-spkid3-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-spkid0-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-spkid0-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-spkid1-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-spkid1-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-spkid2-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-spkid2-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-spkid3-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-03-spkid3-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-spkid0-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-spkid0-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-spkid1-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-spkid1-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-spkid2-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-spkid2-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.5.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-spkid3-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-04-spkid3-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e22-l1u3.bin
+
+
+License: Redistributable. See LICENSE.cirrus for details.
+
+Use of Cirrus Logic drivers, firmware and other materials is permitted
+only in connection with Cirrus Logic hardware products.
+
+Copyright © 2025 Cirrus Logic, Inc. and Cirrus Logic International
+Semiconductor Ltd. All Rights Reserved.
+
+---------------------------------------------------------------------------
+
 Driver: cs42l43 - CS42L43 ALSA audio driver
 
 File: cs42l43.bin
