@@ -8555,165 +8555,165 @@ Originates from https://github.com/linux-msm/audioreach-topology.git
 
 --------------------------------------------------------------------------
 Driver: ti-tas2781 - tas2781 firmware
-File: ti/tas2781/TAS2XXX0C94.bin
-File: ti/tas2781/TAS2XXX0C95.bin
-File: ti/tas2781/TAS2XXX0C96.bin
-File: ti/tas2781/TAS2XXX0C97.bin
-File: ti/tas2781/TAS2XXX10A40.bin
-File: ti/tas2781/TAS2XXX10A41.bin
-File: ti/tas2781/TAS2XXX11540.bin
-File: ti/tas2781/TAS2XXX11541.bin
-File: ti/tas2781/TAS2XXX12040.bin
-File: ti/tas2781/TAS2XXX12041.bin
-File: ti/tas2781/TAS2XXX12140.bin
-File: ti/tas2781/TAS2XXX12141.bin
-File: ti/tas2781/TAS2XXX1EB30.bin
-File: ti/tas2781/TAS2XXX1EB31.bin
-File: ti/tas2781/TAS2XXX2234.bin
-File: ti/tas2781/TAS2XXX2326.bin
-File: ti/tas2781/TAS2XXX387D.bin
-File: ti/tas2781/TAS2XXX387E.bin
-File: ti/tas2781/TAS2XXX387F.bin
-File: ti/tas2781/TAS2XXX3880.bin
-File: ti/tas2781/TAS2XXX3881.bin
-File: ti/tas2781/TAS2XXX3882.bin
-File: ti/tas2781/TAS2XXX3884.bin
-File: ti/tas2781/TAS2XXX3886.bin
-File: ti/tas2781/TAS2XXX38A5.bin
-File: ti/tas2781/TAS2XXX38A7.bin
-File: ti/tas2781/TAS2XXX38A8.bin
-File: ti/tas2781/TAS2XXX38B8.bin
-File: ti/tas2781/TAS2XXX38B9.bin
-File: ti/tas2781/TAS2XXX38BA.bin
-File: ti/tas2781/TAS2XXX38BB.bin
-File: ti/tas2781/TAS2XXX38BE.bin
-File: ti/tas2781/TAS2XXX38BF.bin
-File: ti/tas2781/TAS2XXX38C3.bin
-File: ti/tas2781/TAS2XXX38CB.bin
-File: ti/tas2781/TAS2XXX38CD.bin
-File: ti/tas2781/TAS2XXX38D3.bin
-File: ti/tas2781/TAS2XXX38D4.bin
-File: ti/tas2781/TAS2XXX38D5.bin
-File: ti/tas2781/TAS2XXX38D6.bin
-File: ti/tas2781/TAS2XXX38DF.bin
-File: ti/tas2781/TAS2XXX38E0.bin
-File: ti/tas2781/TAS2XXX38FD.bin
-File: ti/tas2781/TAS2XXX391F.bin
-File: ti/tas2781/TAS2XXX3920.bin
-File: ti/tas2781/TAS2XXX3E300.bin
-File: ti/tas2781/TAS2XXX3E301.bin
-File: ti/tas2781/TAS2XXX3EE00.bin
-File: ti/tas2781/TAS2XXX3EE01.bin
-File: ti/tas2781/TAS2XXX3EF00.bin
-File: ti/tas2781/TAS2XXX3EF01.bin
-File: ti/tas2781/TAS2XXX3F000.bin
-File: ti/tas2781/TAS2XXX3F001.bin
-File: ti/tas2781/TAS2XXX3F100.bin
-File: ti/tas2781/TAS2XXX3F101.bin
-File: ti/tas2781/TAS2XXX3F200.bin
-File: ti/tas2781/TAS2XXX3F201.bin
-File: ti/tas2781/TAS2XXX3F300.bin
-File: ti/tas2781/TAS2XXX3F301.bin
-File: ti/tas2781/TAS2XXX8DE8.bin
-File: ti/tas2781/TAS2XXX8DE9.bin
-File: ti/tas2781/TXNW2781RCA0.bin
-File: ti/tas2781/TXNW2781RCA1.bin
-File: ti/tas2781/TIAS2781RCA2.bin
-File: ti/tas2781/TIAS2781RCA4.bin
-Link: TAS2XXX0C94.bin -> ti/tas2781/TAS2XXX0C94.bin
-Link: TAS2XXX0C95.bin -> ti/tas2781/TAS2XXX0C95.bin
-Link: TAS2XXX0C96.bin -> ti/tas2781/TAS2XXX0C96.bin
-Link: TAS2XXX0C97.bin -> ti/tas2781/TAS2XXX0C97.bin
-Link: TAS2XXX103C8DE80.bin -> ti/tas2781/TAS2XXX8DE8.bin
-Link: TAS2XXX103C8DE81.bin -> ti/tas2781/TAS2XXX8DE8.bin
-Link: TAS2XXX103C8DE90.bin -> ti/tas2781/TAS2XXX8DE9.bin
-Link: TAS2XXX103C8DE91.bin -> ti/tas2781/TAS2XXX8DE9.bin
-Link: TAS2XXX103C8DE8-0.bin -> ti/tas2781/TAS2XXX8DE8.bin
-Link: TAS2XXX103C8DE8-1.bin -> ti/tas2781/TAS2XXX8DE8.bin
-Link: TAS2XXX103C8DE9-0.bin -> ti/tas2781/TAS2XXX8DE9.bin
-Link: TAS2XXX103C8DE9-1.bin -> ti/tas2781/TAS2XXX8DE9.bin
-Link: TAS2XXX10A40.bin -> ti/tas2781/TAS2XXX10A40.bin
-Link: TAS2XXX10A41.bin -> ti/tas2781/TAS2XXX10A41.bin
-Link: TAS2XXX11540.bin -> ti/tas2781/TAS2XXX11540.bin
-Link: TAS2XXX11541.bin -> ti/tas2781/TAS2XXX11541.bin
-Link: TAS2XXX12040.bin -> ti/tas2781/TAS2XXX12040.bin
-Link: TAS2XXX12041.bin -> ti/tas2781/TAS2XXX12041.bin
-Link: TAS2XXX12140.bin -> ti/tas2781/TAS2XXX12140.bin
-Link: TAS2XXX12141.bin -> ti/tas2781/TAS2XXX12141.bin
-Link: TAS2XXX1EB3.bin -> ti/tas2781/TAS2XXX1EB30.bin
-Link: TAS2XXX1EB30.bin -> ti/tas2781/TAS2XXX1EB30.bin
-Link: TAS2XXX1EB31.bin -> ti/tas2781/TAS2XXX1EB31.bin
-Link: TAS2XXX2234.bin -> ti/tas2781/TAS2XXX2234.bin
-Link: TAS2XXX2326.bin -> ti/tas2781/TAS2XXX2326.bin
-Link: TAS2XXX387D.bin -> ti/tas2781/TAS2XXX387D.bin
-Link: TAS2XXX387E.bin -> ti/tas2781/TAS2XXX387E.bin
-Link: TAS2XXX387F.bin -> ti/tas2781/TAS2XXX387F.bin
-Link: TAS2XXX3880.bin -> ti/tas2781/TAS2XXX3880.bin
-Link: TAS2XXX3881.bin -> ti/tas2781/TAS2XXX3881.bin
-Link: TAS2XXX3882.bin -> ti/tas2781/TAS2XXX3882.bin
-Link: TAS2XXX3884.bin -> ti/tas2781/TAS2XXX3884.bin
-Link: TAS2XXX3886.bin -> ti/tas2781/TAS2XXX3886.bin
-Link: TAS2XXX38A5.bin -> ti/tas2781/TAS2XXX38A5.bin
-Link: TAS2XXX38A7.bin -> ti/tas2781/TAS2XXX38A7.bin
-Link: TAS2XXX38A8.bin -> ti/tas2781/TAS2XXX38A8.bin
-Link: TAS2XXX38B8.bin -> ti/tas2781/TAS2XXX38B8.bin
-Link: TAS2XXX38B9.bin -> ti/tas2781/TAS2XXX38B9.bin
-Link: TAS2XXX38BA.bin -> ti/tas2781/TAS2XXX38BA.bin
-Link: TAS2XXX38BB.bin -> ti/tas2781/TAS2XXX38BB.bin
-Link: TAS2XXX38BE.bin -> ti/tas2781/TAS2XXX38BE.bin
-Link: TAS2XXX38BF.bin -> ti/tas2781/TAS2XXX38BF.bin
-Link: TAS2XXX38C3.bin -> ti/tas2781/TAS2XXX38C3.bin
-Link: TAS2XXX38CB.bin -> ti/tas2781/TAS2XXX38CB.bin
-Link: TAS2XXX38CD.bin -> ti/tas2781/TAS2XXX38CD.bin
-Link: TAS2XXX38D3.bin -> ti/tas2781/TAS2XXX38D3.bin
-Link: TAS2XXX38D4.bin -> ti/tas2781/TAS2XXX38D4.bin
-Link: TAS2XXX38D5.bin -> ti/tas2781/TAS2XXX38D5.bin
-Link: TAS2XXX38D6.bin -> ti/tas2781/TAS2XXX38D6.bin
-Link: TAS2XXX38DF.bin -> ti/tas2781/TAS2XXX38DF.bin
-Link: TAS2XXX38E0.bin -> ti/tas2781/TAS2XXX38E0.bin
-Link: TAS2XXX38FD.bin -> ti/tas2781/TAS2XXX38FD.bin
-Link: TAS2XXX391F.bin -> ti/tas2781/TAS2XXX391F.bin
-Link: TAS2XXX3920.bin -> ti/tas2781/TAS2XXX3920.bin
-Link: TAS2XXX3E300.bin -> ti/tas2781/TAS2XXX3E300.bin
-Link: TAS2XXX3E301.bin -> ti/tas2781/TAS2XXX3E301.bin
-Link: TAS2XXX3EE00.bin -> ti/tas2781/TAS2XXX3EE00.bin
-Link: TAS2XXX3EE01.bin -> ti/tas2781/TAS2XXX3EE01.bin
-Link: TAS2XXX3EF00.bin -> ti/tas2781/TAS2XXX3EF00.bin
-Link: TAS2XXX3EF01.bin -> ti/tas2781/TAS2XXX3EF01.bin
-Link: TAS2XXX3F000.bin -> ti/tas2781/TAS2XXX3F000.bin
-Link: TAS2XXX3F001.bin -> ti/tas2781/TAS2XXX3F001.bin
-Link: TAS2XXX3F100.bin -> ti/tas2781/TAS2XXX3F100.bin
-Link: TAS2XXX3F101.bin -> ti/tas2781/TAS2XXX3F101.bin
-Link: TAS2XXX3F200.bin -> ti/tas2781/TAS2XXX3F200.bin
-Link: TAS2XXX3F201.bin -> ti/tas2781/TAS2XXX3F201.bin
-Link: TAS2XXX3F300.bin -> ti/tas2781/TAS2XXX3F300.bin
-Link: TAS2XXX3F301.bin -> ti/tas2781/TAS2XXX3F301.bin
-Link: TAS2XXX8DE8.bin -> ti/tas2781/TAS2XXX8DE8.bin
-Link: TAS2XXX8DE9.bin -> ti/tas2781/TAS2XXX8DE9.bin
-Link: TAS2XXX8DE80.bin -> ti/tas2781/TAS2XXX8DE8.bin
-Link: TAS2XXX8DE81.bin -> ti/tas2781/TAS2XXX8DE8.bin
-Link: TAS2XXX8DE90.bin -> ti/tas2781/TAS2XXX8DE9.bin
-Link: TAS2XXX8DE91.bin -> ti/tas2781/TAS2XXX8DE9.bin
-Link: TIAS2781RCA2.bin -> ti/tas2781/TIAS2781RCA2.bin
-Link: TIAS2781RCA4.bin -> ti/tas2781/TIAS2781RCA4.bin
-Link: TXNW2781RCA1.bin -> ti/tas2781/TXNW2781RCA0.bin
-Link: TXNW2781RCA0.bin -> ti/tas2781/TXNW2781RCA1.bin
-Link: TXNW2781RCA2.bin -> ti/tas2781/TIAS2781RCA2.bin
-Link: TXNW2781RCA4.bin -> ti/tas2781/TIAS2781RCA4.bin
+File: ti/audio/tas2781/TAS2XXX0C94.bin
+File: ti/audio/tas2781/TAS2XXX0C95.bin
+File: ti/audio/tas2781/TAS2XXX0C96.bin
+File: ti/audio/tas2781/TAS2XXX0C97.bin
+File: ti/audio/tas2781/TAS2XXX10A40.bin
+File: ti/audio/tas2781/TAS2XXX10A41.bin
+File: ti/audio/tas2781/TAS2XXX11540.bin
+File: ti/audio/tas2781/TAS2XXX11541.bin
+File: ti/audio/tas2781/TAS2XXX12040.bin
+File: ti/audio/tas2781/TAS2XXX12041.bin
+File: ti/audio/tas2781/TAS2XXX12140.bin
+File: ti/audio/tas2781/TAS2XXX12141.bin
+File: ti/audio/tas2781/TAS2XXX1EB30.bin
+File: ti/audio/tas2781/TAS2XXX1EB31.bin
+File: ti/audio/tas2781/TAS2XXX2234.bin
+File: ti/audio/tas2781/TAS2XXX2326.bin
+File: ti/audio/tas2781/TAS2XXX387D.bin
+File: ti/audio/tas2781/TAS2XXX387E.bin
+File: ti/audio/tas2781/TAS2XXX387F.bin
+File: ti/audio/tas2781/TAS2XXX3880.bin
+File: ti/audio/tas2781/TAS2XXX3881.bin
+File: ti/audio/tas2781/TAS2XXX3882.bin
+File: ti/audio/tas2781/TAS2XXX3884.bin
+File: ti/audio/tas2781/TAS2XXX3886.bin
+File: ti/audio/tas2781/TAS2XXX38A5.bin
+File: ti/audio/tas2781/TAS2XXX38A7.bin
+File: ti/audio/tas2781/TAS2XXX38A8.bin
+File: ti/audio/tas2781/TAS2XXX38B8.bin
+File: ti/audio/tas2781/TAS2XXX38B9.bin
+File: ti/audio/tas2781/TAS2XXX38BA.bin
+File: ti/audio/tas2781/TAS2XXX38BB.bin
+File: ti/audio/tas2781/TAS2XXX38BE.bin
+File: ti/audio/tas2781/TAS2XXX38BF.bin
+File: ti/audio/tas2781/TAS2XXX38C3.bin
+File: ti/audio/tas2781/TAS2XXX38CB.bin
+File: ti/audio/tas2781/TAS2XXX38CD.bin
+File: ti/audio/tas2781/TAS2XXX38D3.bin
+File: ti/audio/tas2781/TAS2XXX38D4.bin
+File: ti/audio/tas2781/TAS2XXX38D5.bin
+File: ti/audio/tas2781/TAS2XXX38D6.bin
+File: ti/audio/tas2781/TAS2XXX38DF.bin
+File: ti/audio/tas2781/TAS2XXX38E0.bin
+File: ti/audio/tas2781/TAS2XXX38FD.bin
+File: ti/audio/tas2781/TAS2XXX391F.bin
+File: ti/audio/tas2781/TAS2XXX3920.bin
+File: ti/audio/tas2781/TAS2XXX3E300.bin
+File: ti/audio/tas2781/TAS2XXX3E301.bin
+File: ti/audio/tas2781/TAS2XXX3EE00.bin
+File: ti/audio/tas2781/TAS2XXX3EE01.bin
+File: ti/audio/tas2781/TAS2XXX3EF00.bin
+File: ti/audio/tas2781/TAS2XXX3EF01.bin
+File: ti/audio/tas2781/TAS2XXX3F000.bin
+File: ti/audio/tas2781/TAS2XXX3F001.bin
+File: ti/audio/tas2781/TAS2XXX3F100.bin
+File: ti/audio/tas2781/TAS2XXX3F101.bin
+File: ti/audio/tas2781/TAS2XXX3F200.bin
+File: ti/audio/tas2781/TAS2XXX3F201.bin
+File: ti/audio/tas2781/TAS2XXX3F300.bin
+File: ti/audio/tas2781/TAS2XXX3F301.bin
+File: ti/audio/tas2781/TAS2XXX8DE8.bin
+File: ti/audio/tas2781/TAS2XXX8DE9.bin
+File: ti/audio/tas2781/TXNW2781RCA0.bin
+File: ti/audio/tas2781/TXNW2781RCA1.bin
+File: ti/audio/tas2781/TIAS2781RCA2.bin
+File: ti/audio/tas2781/TIAS2781RCA4.bin
+Link: TAS2XXX0C94.bin -> ti/audio/tas2781/TAS2XXX0C94.bin
+Link: TAS2XXX0C95.bin -> ti/audio/tas2781/TAS2XXX0C95.bin
+Link: TAS2XXX0C96.bin -> ti/audio/tas2781/TAS2XXX0C96.bin
+Link: TAS2XXX0C97.bin -> ti/audio/tas2781/TAS2XXX0C97.bin
+Link: TAS2XXX103C8DE80.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX103C8DE81.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX103C8DE90.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
+Link: TAS2XXX103C8DE91.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
+Link: TAS2XXX103C8DE8-0.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX103C8DE8-1.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX103C8DE9-0.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
+Link: TAS2XXX103C8DE9-1.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
+Link: TAS2XXX10A40.bin -> ti/audio/tas2781/TAS2XXX10A40.bin
+Link: TAS2XXX10A41.bin -> ti/audio/tas2781/TAS2XXX10A41.bin
+Link: TAS2XXX11540.bin -> ti/audio/tas2781/TAS2XXX11540.bin
+Link: TAS2XXX11541.bin -> ti/audio/tas2781/TAS2XXX11541.bin
+Link: TAS2XXX12040.bin -> ti/audio/tas2781/TAS2XXX12040.bin
+Link: TAS2XXX12041.bin -> ti/audio/tas2781/TAS2XXX12041.bin
+Link: TAS2XXX12140.bin -> ti/audio/tas2781/TAS2XXX12140.bin
+Link: TAS2XXX12141.bin -> ti/audio/tas2781/TAS2XXX12141.bin
+Link: TAS2XXX1EB3.bin -> ti/audio/tas2781/TAS2XXX1EB30.bin
+Link: TAS2XXX1EB30.bin -> ti/audio/tas2781/TAS2XXX1EB30.bin
+Link: TAS2XXX1EB31.bin -> ti/audio/tas2781/TAS2XXX1EB31.bin
+Link: TAS2XXX2234.bin -> ti/audio/tas2781/TAS2XXX2234.bin
+Link: TAS2XXX2326.bin -> ti/audio/tas2781/TAS2XXX2326.bin
+Link: TAS2XXX387D.bin -> ti/audio/tas2781/TAS2XXX387D.bin
+Link: TAS2XXX387E.bin -> ti/audio/tas2781/TAS2XXX387E.bin
+Link: TAS2XXX387F.bin -> ti/audio/tas2781/TAS2XXX387F.bin
+Link: TAS2XXX3880.bin -> ti/audio/tas2781/TAS2XXX3880.bin
+Link: TAS2XXX3881.bin -> ti/audio/tas2781/TAS2XXX3881.bin
+Link: TAS2XXX3882.bin -> ti/audio/tas2781/TAS2XXX3882.bin
+Link: TAS2XXX3884.bin -> ti/audio/tas2781/TAS2XXX3884.bin
+Link: TAS2XXX3886.bin -> ti/audio/tas2781/TAS2XXX3886.bin
+Link: TAS2XXX38A5.bin -> ti/audio/tas2781/TAS2XXX38A5.bin
+Link: TAS2XXX38A7.bin -> ti/audio/tas2781/TAS2XXX38A7.bin
+Link: TAS2XXX38A8.bin -> ti/audio/tas2781/TAS2XXX38A8.bin
+Link: TAS2XXX38B8.bin -> ti/audio/tas2781/TAS2XXX38B8.bin
+Link: TAS2XXX38B9.bin -> ti/audio/tas2781/TAS2XXX38B9.bin
+Link: TAS2XXX38BA.bin -> ti/audio/tas2781/TAS2XXX38BA.bin
+Link: TAS2XXX38BB.bin -> ti/audio/tas2781/TAS2XXX38BB.bin
+Link: TAS2XXX38BE.bin -> ti/audio/tas2781/TAS2XXX38BE.bin
+Link: TAS2XXX38BF.bin -> ti/audio/tas2781/TAS2XXX38BF.bin
+Link: TAS2XXX38C3.bin -> ti/audio/tas2781/TAS2XXX38C3.bin
+Link: TAS2XXX38CB.bin -> ti/audio/tas2781/TAS2XXX38CB.bin
+Link: TAS2XXX38CD.bin -> ti/audio/tas2781/TAS2XXX38CD.bin
+Link: TAS2XXX38D3.bin -> ti/audio/tas2781/TAS2XXX38D3.bin
+Link: TAS2XXX38D4.bin -> ti/audio/tas2781/TAS2XXX38D4.bin
+Link: TAS2XXX38D5.bin -> ti/audio/tas2781/TAS2XXX38D5.bin
+Link: TAS2XXX38D6.bin -> ti/audio/tas2781/TAS2XXX38D6.bin
+Link: TAS2XXX38DF.bin -> ti/audio/tas2781/TAS2XXX38DF.bin
+Link: TAS2XXX38E0.bin -> ti/audio/tas2781/TAS2XXX38E0.bin
+Link: TAS2XXX38FD.bin -> ti/audio/tas2781/TAS2XXX38FD.bin
+Link: TAS2XXX391F.bin -> ti/audio/tas2781/TAS2XXX391F.bin
+Link: TAS2XXX3920.bin -> ti/audio/tas2781/TAS2XXX3920.bin
+Link: TAS2XXX3E300.bin -> ti/audio/tas2781/TAS2XXX3E300.bin
+Link: TAS2XXX3E301.bin -> ti/audio/tas2781/TAS2XXX3E301.bin
+Link: TAS2XXX3EE00.bin -> ti/audio/tas2781/TAS2XXX3EE00.bin
+Link: TAS2XXX3EE01.bin -> ti/audio/tas2781/TAS2XXX3EE01.bin
+Link: TAS2XXX3EF00.bin -> ti/audio/tas2781/TAS2XXX3EF00.bin
+Link: TAS2XXX3EF01.bin -> ti/audio/tas2781/TAS2XXX3EF01.bin
+Link: TAS2XXX3F000.bin -> ti/audio/tas2781/TAS2XXX3F000.bin
+Link: TAS2XXX3F001.bin -> ti/audio/tas2781/TAS2XXX3F001.bin
+Link: TAS2XXX3F100.bin -> ti/audio/tas2781/TAS2XXX3F100.bin
+Link: TAS2XXX3F101.bin -> ti/audio/tas2781/TAS2XXX3F101.bin
+Link: TAS2XXX3F200.bin -> ti/audio/tas2781/TAS2XXX3F200.bin
+Link: TAS2XXX3F201.bin -> ti/audio/tas2781/TAS2XXX3F201.bin
+Link: TAS2XXX3F300.bin -> ti/audio/tas2781/TAS2XXX3F300.bin
+Link: TAS2XXX3F301.bin -> ti/audio/tas2781/TAS2XXX3F301.bin
+Link: TAS2XXX8DE8.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX8DE9.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
+Link: TAS2XXX8DE80.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX8DE81.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX8DE90.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
+Link: TAS2XXX8DE91.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
+Link: TIAS2781RCA2.bin -> ti/audio/tas2781/TIAS2781RCA2.bin
+Link: TIAS2781RCA4.bin -> ti/audio/tas2781/TIAS2781RCA4.bin
+Link: TXNW2781RCA1.bin -> ti/audio/tas2781/TXNW2781RCA0.bin
+Link: TXNW2781RCA0.bin -> ti/audio/tas2781/TXNW2781RCA1.bin
+Link: TXNW2781RCA2.bin -> ti/audio/tas2781/TIAS2781RCA2.bin
+Link: TXNW2781RCA4.bin -> ti/audio/tas2781/TIAS2781RCA4.bin
 
 Licence: Redistributable. See LICENCE.ti-tspa for details. Marked:
-	 Copyright (C) 2023 - 2024 Texas Instruments
+	 Copyright (C) 2023 - 2025 Texas Instruments
 
 --------------------------------------------------------------------------
 
 Driver: ti-tas2563 - tas2563 firmware
-File: ti/tas2563/TAS2XXX3870.bin
-File: ti/tas2563/INT8866RCA2.bin
-Link: TAS2XXX3870.bin -> ti/tas2563/TAS2XXX3870.bin
-Link: INT8866RCA2.bin -> ti/tas2563/INT8866RCA2.bin
+File: ti/audio/tas2563/TAS2XXX3870.bin
+File: ti/audio/tas2563/INT8866RCA2.bin
+Link: TAS2XXX3870.bin -> ti/audio/tas2563/TAS2XXX3870.bin
+Link: INT8866RCA2.bin -> ti/audio/tas2563/INT8866RCA2.bin
 
 Licence: Redistributable. LICENCE.ti-tspa for details. Marked:
-	 Copyright (C) 2023 - 2024 Texas Instruments
+	 Copyright (C) 2023 - 2025 Texas Instruments
 
 --------------------------------------------------------------------------
 
