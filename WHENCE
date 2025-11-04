@@ -5297,7 +5297,7 @@ File: i915/dg2_guc_70.4.1.bin
 Version: GuC API/APB ver 70.4.1 for DG2
 
 File: i915/dg2_guc_70.bin
-Version: GuC API/APB ver 70.49.4 for DG2
+Version: GuC API/APB ver 70.53.0 for DG2
 
 File: i915/dg2_huc_gsc.bin
 Version: HuC API/APB ver 7.10.16 for DG2
@@ -5318,7 +5318,7 @@ File: i915/mtl_dmc.bin
 Version: DMC API/APB ver 2 release 23 for Meteorlake
 
 File: i915/mtl_guc_70.bin
-Version: GuC API/APB ver 70.49.4 for Meteorlake
+Version: GuC API/APB ver 70.53.0 for Meteorlake
 
 File: i915/mtl_huc_gsc.bin
 Version: HuC API/APB ver 8.5.4 for Meteorlake
