@@ -6740,6 +6740,10 @@ https://github.com/andersson/pil-squasher
 cdsp.mbn has been converted from 21-cdsp_split/firmware/cdsp.* using
 https://github.com/andersson/pil-squasher
 
+File: qcom/kaanapali/soccp.mbn
+File: qcom/kaanapali/soccp_dtb.mbn
+Version: SOCCP.FW.2.1-00204-KAANAPALI_SOCCP_PACK-1
+RawFile: qcom/kaanapali/soccpr.jsn
 File: qcom/sa8775p/adsp.mbn
 Version: DSP.AT.1.0.1-00163-LEMANS-1
 RawFile: qcom/sa8775p/adspr.jsn
