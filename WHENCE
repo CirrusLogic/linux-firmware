@@ -6194,10 +6194,14 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
-Driver: mt7988 - MediaTek MT7988 Internal 2.5G Ethernet Phy
+Driver: mtk-2p5ge - MediaTek MT798x Internal 2.5G Ethernet Phy
 
 File: mediatek/mt7988/i2p5ge-phy-pmb.bin
-Version: 20230728
+Version: 20241030
+File: mediatek/mt7987/i2p5ge-phy-DSPBitTb.bin
+Version: 20250822
+File: mediatek/mt7987/i2p5ge-phy-pmb.bin
+Version: 20250822
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
