@@ -8573,6 +8573,12 @@ File: ti/audio/tas2781/TAS2XXX12040.bin
 File: ti/audio/tas2781/TAS2XXX12041.bin
 File: ti/audio/tas2781/TAS2XXX12140.bin
 File: ti/audio/tas2781/TAS2XXX12141.bin
+File: ti/audio/tas2781/TAS2XXX13840.bin
+File: ti/audio/tas2781/TAS2XXX13841.bin
+File: ti/audio/tas2781/TAS2XXX13940.bin
+File: ti/audio/tas2781/TAS2XXX13941.bin
+File: ti/audio/tas2781/TAS2XXX13A40.bin
+File: ti/audio/tas2781/TAS2XXX13A41.bin
 File: ti/audio/tas2781/TAS2XXX1EB30.bin
 File: ti/audio/tas2781/TAS2XXX1EB31.bin
 File: ti/audio/tas2781/TAS2XXX2234.bin
@@ -8620,8 +8626,27 @@ File: ti/audio/tas2781/TAS2XXX3F200.bin
 File: ti/audio/tas2781/TAS2XXX3F201.bin
 File: ti/audio/tas2781/TAS2XXX3F300.bin
 File: ti/audio/tas2781/TAS2XXX3F301.bin
+File: ti/audio/tas2781/TAS2xxx8C70.bin
+File: ti/audio/tas2781/TAS2xxx8C71.bin
+File: ti/audio/tas2781/TAS2xxx8C72.bin
+File: ti/audio/tas2781/TAS2XXX8D8E.bin
+File: ti/audio/tas2781/TAS2XXX8DAA.bin
 File: ti/audio/tas2781/TAS2XXX8DE8.bin
 File: ti/audio/tas2781/TAS2XXX8DE9.bin
+File: ti/audio/tas2781/TAS2XXX8E17.bin
+File: ti/audio/tas2781/TAS2XXX8E19.bin
+File: ti/audio/tas2781/TAS2XXX8E1C.bin
+File: ti/audio/tas2781/TAS2XXX8E8A.bin
+File: ti/audio/tas2781/TAS2XXX8ED5.bin
+File: ti/audio/tas2781/TAS2XXX8ED6.bin
+File: ti/audio/tas2781/TAS2XXX8ED7.bin
+File: ti/audio/tas2781/TAS2XXX8ED8.bin
+File: ti/audio/tas2781/TAS2XXX8ED9.bin
+File: ti/audio/tas2781/TAS2XXX8EDA.bin
+File: ti/audio/tas2781/TAS2XXX8F40.bin
+File: ti/audio/tas2781/TAS2XXX8F41.bin
+File: ti/audio/tas2781/TAS2XXX8F42.bin
+File: ti/audio/tas2781/TAS2XXX8F62.bin
 File: ti/audio/tas2781/TXNW2781RCA0.bin
 File: ti/audio/tas2781/TXNW2781RCA1.bin
 File: ti/audio/tas2781/TIAS2781RCA2.bin
@@ -8646,6 +8671,12 @@ Link: TAS2XXX12040.bin -> ti/audio/tas2781/TAS2XXX12040.bin
 Link: TAS2XXX12041.bin -> ti/audio/tas2781/TAS2XXX12041.bin
 Link: TAS2XXX12140.bin -> ti/audio/tas2781/TAS2XXX12140.bin
 Link: TAS2XXX12141.bin -> ti/audio/tas2781/TAS2XXX12141.bin
+Link: TAS2XXX13840.bin -> ti/audio/tas2781/TAS2XXX13840.bin
+Link: TAS2XXX13841.bin -> ti/audio/tas2781/TAS2XXX13841.bin
+Link: TAS2XXX13940.bin -> ti/audio/tas2781/TAS2XXX13940.bin
+Link: TAS2XXX13941.bin -> ti/audio/tas2781/TAS2XXX13941.bin
+Link: TAS2XXX13A40.bin -> ti/audio/tas2781/TAS2XXX13A40.bin
+Link: TAS2XXX13A41.bin -> ti/audio/tas2781/TAS2XXX13A41.bin
 Link: TAS2XXX1EB3.bin -> ti/audio/tas2781/TAS2XXX1EB30.bin
 Link: TAS2XXX1EB30.bin -> ti/audio/tas2781/TAS2XXX1EB30.bin
 Link: TAS2XXX1EB31.bin -> ti/audio/tas2781/TAS2XXX1EB31.bin
@@ -8694,12 +8725,31 @@ Link: TAS2XXX3F200.bin -> ti/audio/tas2781/TAS2XXX3F200.bin
 Link: TAS2XXX3F201.bin -> ti/audio/tas2781/TAS2XXX3F201.bin
 Link: TAS2XXX3F300.bin -> ti/audio/tas2781/TAS2XXX3F300.bin
 Link: TAS2XXX3F301.bin -> ti/audio/tas2781/TAS2XXX3F301.bin
+Link: TAS2xxx8C70.bin -> ti/audio/tas2781/TAS2xxx8C70.bin
+Link: TAS2xxx8C71.bin -> ti/audio/tas2781/TAS2xxx8C71.bin
+Link: TAS2xxx8C72.bin -> ti/audio/tas2781/TAS2xxx8C72.bin
+Link: TAS2XXX8D8E.bin -> ti/audio/tas2781/TAS2XXX8D8E.bin
+Link: TAS2XXX8DAA.bin -> ti/audio/tas2781/TAS2XXX8DAA.bin
 Link: TAS2XXX8DE8.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
 Link: TAS2XXX8DE9.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
 Link: TAS2XXX8DE80.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
 Link: TAS2XXX8DE81.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
 Link: TAS2XXX8DE90.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
 Link: TAS2XXX8DE91.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
+Link: TAS2XXX8E17.bin -> ti/audio/tas2781/TAS2XXX8E17.bin
+Link: TAS2XXX8E19.bin -> ti/audio/tas2781/TAS2XXX8E19.bin
+Link: TAS2XXX8E1C.bin -> ti/audio/tas2781/TAS2XXX8E1C.bin
+Link: TAS2XXX8E8A.bin -> ti/audio/tas2781/TAS2XXX8E8A.bin
+Link: TAS2XXX8ED5.bin -> ti/audio/tas2781/TAS2XXX8ED5.bin
+Link: TAS2XXX8ED6.bin -> ti/audio/tas2781/TAS2XXX8ED6.bin
+Link: TAS2XXX8ED7.bin -> ti/audio/tas2781/TAS2XXX8ED7.bin
+Link: TAS2XXX8ED8.bin -> ti/audio/tas2781/TAS2XXX8ED8.bin
+Link: TAS2XXX8ED9.bin -> ti/audio/tas2781/TAS2XXX8ED9.bin
+Link: TAS2XXX8EDA.bin -> ti/audio/tas2781/TAS2XXX8EDA.bin
+Link: TAS2XXX8F40.bin -> ti/audio/tas2781/TAS2XXX8F40.bin
+Link: TAS2XXX8F41.bin -> ti/audio/tas2781/TAS2XXX8F41.bin
+Link: TAS2XXX8F42.bin -> ti/audio/tas2781/TAS2XXX8F42.bin
+Link: TAS2XXX8F62.bin -> ti/audio/tas2781/TAS2XXX8F62.bin
 Link: TIAS2781RCA2.bin -> ti/audio/tas2781/TIAS2781RCA2.bin
 Link: TIAS2781RCA4.bin -> ti/audio/tas2781/TIAS2781RCA4.bin
 Link: TXNW2781RCA1.bin -> ti/audio/tas2781/TXNW2781RCA0.bin
