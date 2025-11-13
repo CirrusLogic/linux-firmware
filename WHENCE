@@ -4382,7 +4382,7 @@ Version: 2024-11-21
 RawFile: amd-ucode/microcode_amd_fam19h.bin
 Version: 2025-10-27
 RawFile: amd-ucode/microcode_amd_fam1ah.bin
-Version: 2025-10-30
+Version: 2025-11-13
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
