@@ -8916,3 +8916,9 @@ Driver: sdx61 - Qualcomm SDX61 firmware image file for Foxconn vendor
 File: qcom/sdx61/foxconn/prog_firehose_lite.elf
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+---------------------------------------------------------------------------
+
+Driver: sdx35 - Qualcomm SDX35 firmware image file for Foxconn vendor
+File: qcom/sdx35/foxconn/xbl_s_devprg_ns.melf
+
+License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
