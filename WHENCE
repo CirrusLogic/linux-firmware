@@ -8030,6 +8030,7 @@ File: cirrus/cs35l56/CS35L56_Rev3.11.26.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28B.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.13.3R.wmfw
+File: cirrus/cs35l56/CS35L56_Rev4.5.9.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp2.bin
@@ -8146,6 +8147,36 @@ File: cirrus/cs35l56-b0-dsp1-misc-10280d33-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280d33-spkid1-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280d33-spkid1-amp3.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280d33-spkid1-amp4.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1-l2u3.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8c52.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp2.bin
@@ -8398,6 +8429,34 @@ Use of Cirrus Logic drivers, firmware and other materials is permitted
 only in connection with Cirrus Logic hardware products.
 
 Copyright © 2023 Cirrus Logic, Inc. and Cirrus Logic International
+Semiconductor Ltd. All Rights Reserved.
+
+---------------------------------------------------------------------------
+
+Driver: cs42l45 - CS42L45 SDCA audio driver
+
+File: sdca/1fa/1028/db3/1.bin
+File: sdca/1fa/1028/db3/2.bin
+File: sdca/1fa/1028/db3/3.bin
+File: sdca/1fa/1028/db3/4.bin
+File: sdca/1fa/1028/db3/42450005.bin
+Link: sdca/1fa/1028/db4/1.bin -> ../db3/1.bin
+Link: sdca/1fa/1028/db4/2.bin -> ../db3/2.bin
+Link: sdca/1fa/1028/db4/3.bin -> ../db3/3.bin
+Link: sdca/1fa/1028/db4/4.bin -> ../db3/4.bin
+Link: sdca/1fa/1028/db4/42450005.bin -> ../db3/42450005.bin
+File: sdca/1fa/1028/db9/1.bin
+File: sdca/1fa/1028/db9/2.bin
+File: sdca/1fa/1028/db9/3.bin
+File: sdca/1fa/1028/db9/4.bin
+File: sdca/1fa/1028/db9/42450005.bin
+
+License: Redistributable. See LICENSE.cirrus for details.
+
+Use of Cirrus Logic drivers, firmware and other materials is permitted
+only in connection with Cirrus Logic hardware products.
+
+Copyright © 2025 Cirrus Logic, Inc. and Cirrus Logic International
 Semiconductor Ltd. All Rights Reserved.
 
 --------------------------------------------------------------------------
