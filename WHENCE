@@ -6606,17 +6606,6 @@ File: qcom/apq8096/mba.mbn
 File: qcom/apq8096/modem.mbn
 Version: MPSS.TH.2.0.1-00481
 RawFile: qcom/apq8096/modemr.jsn
-File: qcom/kaanapali/adsp.mbn
-File: qcom/kaanapali/adsp_dtb.mbn
-Version: LPAIDSP.HT.1.2-00769-KAANAPALI-1
-RawFile: qcom/kaanapali/adspr.jsn
-RawFile: qcom/kaanapali/adsps.jsn
-RawFile: qcom/kaanapali/adspua.jsn
-RawFile: qcom/kaanapali/adspuo.jsn
-File: qcom/kaanapali/cdsp.mbn
-File: qcom/kaanapali/cdsp_dtb.mbn
-Version: CDSP.HT.3.2-00684-KAANAPALI-1
-RawFile: qcom/kaanapali/cdspr.jsn
 File: qcom/qcm2290/adsp.mbn
 Version: ADSP.VT.5.4.1.c4-00013-KAMORTA-1
 RawFile: qcom/qcm2290/adspr.jsn
@@ -6759,6 +6748,17 @@ https://github.com/andersson/pil-squasher
 cdsp.mbn has been converted from 21-cdsp_split/firmware/cdsp.* using
 https://github.com/andersson/pil-squasher
 
+File: qcom/kaanapali/adsp.mbn
+File: qcom/kaanapali/adsp_dtb.mbn
+Version: LPAIDSP.HT.1.6-00223-KAANAPALI-1
+RawFile: qcom/kaanapali/adspr.jsn
+RawFile: qcom/kaanapali/adsps.jsn
+RawFile: qcom/kaanapali/adspua.jsn
+RawFile: qcom/kaanapali/adspuo.jsn
+File: qcom/kaanapali/cdsp.mbn
+File: qcom/kaanapali/cdsp_dtb.mbn
+Version: CDSP.HT.3.2-00726.1-KAANAPALI-1
+RawFile: qcom/kaanapali/cdspr.jsn
 File: qcom/kaanapali/soccp.mbn
 File: qcom/kaanapali/soccp_dtb.mbn
 Version: SOCCP.FW.2.1-00204-KAANAPALI_SOCCP_PACK-1
