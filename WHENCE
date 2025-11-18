@@ -6788,6 +6788,18 @@ RawFile: qcom/qcs8300/cdspr.jsn
 File: qcom/qcs8300/gpdsp0.mbn
 Version: DSP.AT.1.0.1-00163-LEMANS-1
 
+File: qcom/sm8750/adsp.mbn
+File: qcom/sm8750/adsp_dtb.mbn
+Version: LPAIDSP.HT.1.2.c1-00379-PAKALA-1
+RawFile: qcom/sm8750/adspr.jsn
+RawFile: qcom/sm8750/adsps.jsn
+RawFile: qcom/sm8750/adspua.jsn
+RawFile: qcom/sm8750/adspuo.jsn
+File: qcom/sm8750/cdsp.mbn
+File: qcom/sm8750/cdsp_dtb.mbn
+Version: CDSP.HT.3.1-00883-PAKALA-1
+RawFile: qcom/sm8750/cdspr.jsn
+
 Licence: Redistributable. See LICENSE.qcom-2 and qcom/NOTICE.txt for details
 
 --------------------------------------------------------------------------
