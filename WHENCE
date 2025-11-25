@@ -4867,6 +4867,39 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 
 --------------------------------------------------------------------------
 
+Driver: qca - Qualcomm Atheros Bluetooth support for WCN685x uart interface chips
+
+File: qca/wcnhpbtfw21.tlv
+Version: BTFW.HSP.2.1.0-00660-USB_UART_PATCHZ-6
+File: qca/wcnhpnv21.bin
+File: qca/wcnhpnv21g.bin
+File: qca/wcnhpnv21.b8c
+File: qca/wcnhpnv21.b9f
+File: qca/wcnhpnv21.ba0
+File: qca/wcnhpnv21.ba1
+File: qca/wcnhpnv21.ba2
+File: qca/wcnhpnv21.ba3
+File: qca/wcnhpnv21.ba4
+File: qca/wcnhpnv21.baa
+File: qca/wcnhpnv21.bb8
+File: qca/wcnhpnv21.b10c
+File: qca/wcnhpnv21.b111
+File: qca/wcnhpnv21g.b8c
+File: qca/wcnhpnv21g.b9f
+File: qca/wcnhpnv21g.ba0
+File: qca/wcnhpnv21g.ba1
+File: qca/wcnhpnv21g.ba2
+File: qca/wcnhpnv21g.ba3
+File: qca/wcnhpnv21g.ba4
+File: qca/wcnhpnv21g.baa
+File: qca/wcnhpnv21g.bb8
+File: qca/wcnhpnv21g.b10c
+File: qca/wcnhpnv21g.b111
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
 Driver: qca - Qualcomm Atheros Bluetooth support for QCA2066 chips
 
 File: qca/hpbtfw21.tlv
