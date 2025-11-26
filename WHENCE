@@ -9021,11 +9021,11 @@ License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 Driver: intel_vpu - Intel NPU driver
 
 File: intel/vpu/vpu_37xx_v1.bin
-Version: 20250723*MTL_CLIENT_SILICON-NVR+NN-deployment*52e7ebee50a93a07d14a1f162226cd55ad3999f0*52e7ebee50a93a07d14a1f162226cd55ad3999f0*52e7ebee50a
+Version: 20251016*MTL_CLIENT_SILICON-release*1600*ci_tag_ud202544_vpu_rc_20251016_1600*74b0ef77ba8
 Link: intel/vpu/vpu_37xx_v0.0.bin -> vpu_37xx_v1.bin
 
 File: intel/vpu/vpu_40xx_v1.bin
-Version: Jul 23 2025*NPU40xx*build/ci/npu-fw-ci-main-20250721_233537-27032-2-g52e7ebee50a*52e7ebee50a93a07d14a1f162226cd55ad3999f0
+Version: Oct 16 2025*NPU40xx*ci_tag_ud202544_vpu_rc_20251016_1600*74b0ef77ba8227e491c299e8efa1d23a86c250ea
 Link: intel/vpu/vpu_40xx_v0.0.bin -> vpu_40xx_v1.bin
 
 License: Redistributable. See LICENSE.intel_vpu for details
