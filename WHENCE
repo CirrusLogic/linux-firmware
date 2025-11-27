@@ -6489,7 +6489,7 @@ Version: VIDEO.VPU.2.4.2-00025
 File: qcom/vpu/vpu30_p4_s7.mbn
 Link: qcom/vpu/vpu30_p4.mbn -> vpu30_p4_s7.mbn
 
-Version: VIDEO.VPU.3.1-0096
+Version: VIDEO.VPU.3.1-0095
 
 File: qcom/vpu/vpu30_p4_s6.mbn
 
