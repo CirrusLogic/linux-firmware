@@ -4266,6 +4266,18 @@ File: intel/ibt-0190-0291-pci.ddc
 File: intel/ibt-0190-0291-pci.sfi
 Version: BT_BlazarI_S_REL104829_24.10.25461.104829
 
+File: intel/ibt-00a0-01a1-iml.sfi
+File: intel/ibt-00a0-01a1-pci.ddc
+File: intel/ibt-00a0-01a1-pci.sfi
+File: intel/ibt-00a0-01a1-usb.ddc
+File: intel/ibt-00a0-01a1-usb.sfi
+File: intel/ibt-00a0-0291-iml.sfi
+File: intel/ibt-00a0-0291-pci.ddc
+File: intel/ibt-00a0-0291-pci.sfi
+File: intel/ibt-00a0-0291-usb.ddc
+File: intel/ibt-00a0-0291-usb.sfi
+Version: BT_Scorpius_S_REL68935_24.10.25461.68935
+
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
 File: rtl_bt/rtl8192ee_fw.bin
