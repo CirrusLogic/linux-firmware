@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: CC0-1.0
+
 FIRMWAREDIR = /lib/firmware
 NUM_JOBS := $(or $(patsubst -j%,%,$(filter -j%,$(MAKEFLAGS))),\
 		 1)
