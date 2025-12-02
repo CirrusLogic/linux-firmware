@@ -8392,6 +8392,7 @@ File: cirrus/cs35l56/CS35L56_Rev3.11.26.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28B.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.12.2.wmfw
+File: cirrus/cs35l56/CS35L56_Rev3.13.0.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.13.3.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.13.3R.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.13.4.wmfw
@@ -9175,6 +9176,15 @@ File: cirrus/cs35l56-b0-dsp1-misc-17aa3953-spkid0-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa3956-spkid1.wmfw -> cs35l56/CS35L56_Rev3.12.2.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa3956-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa3956-spkid1-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa395b.wmfw -> cs35l56/CS35L56_Rev3.13.0.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa395b-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa395b-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa395f-spkid0.wmfw -> cs35l56/CS35L56_Rev3.13.4.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa395f-spkid0-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa395f-spkid0-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa3960-spkid1.wmfw -> cs35l56/CS35L56_Rev3.13.4.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa3960-spkid1-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa3960-spkid1-amp2.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
