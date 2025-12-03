@@ -70,11 +70,11 @@ Microcode patches in microcode_amd_fam19h.bin:
     Minimum base ucode version for loading: 0x0aa00218
 
 Microcode patches in microcode_amd_fam1ah.bin:
-  Family=0x1a Model=0x02 Stepping=0x01: Patch=0x0b00215a Length=14368 bytes
+  Family=0x1a Model=0x02 Stepping=0x01: Patch=0x0b002161 Length=14368 bytes
     Minimum base ucode version for loading: 0x0b002140
   Family=0x1a Model=0x08 Stepping=0x01: Patch=0x0b008121 Length=14368 bytes
     Minimum base ucode version for loading: 0x0b008112
-  Family=0x1a Model=0x11 Stepping=0x00: Patch=0x0b101054 Length=14368 bytes
+  Family=0x1a Model=0x11 Stepping=0x00: Patch=0x0b101058 Length=14368 bytes
     Minimum base ucode version for loading: 0x0b101040
   Family=0x1a Model=0x24 Stepping=0x00: Patch=0x0b204037 Length=14368 bytes
     Minimum base ucode version for loading: 0x0b204032
