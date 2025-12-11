@@ -6610,6 +6610,14 @@ File: qcom/gen71500_sqe.fw
 Version: v1.81
 File: qcom/x1p42100/gen71500_zap.mbn
 Version: v0.13
+File: qcom/gen80000_aqe.fw
+Version: v0.14
+File: qcom/gen80000_gmu.bin
+Version: v5.01.19
+File: qcom/gen80000_sqe.fw
+Version: v0.77
+File: qcom/sm8750/gen80000_zap.mbn
+Version: v0.02
 File: qcom/gen80200_aqe.fw
 Version: v0.25
 File: qcom/gen80200_gmu.bin
