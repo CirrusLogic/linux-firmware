@@ -6598,6 +6598,12 @@ File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/a702_sqe.fw
 Version: v0.47
 File: qcom/qcm2290/a702_zap.mbn
+File: qcom/a740_sqe.fw
+Version: v1.81
+File: qcom/gmu_gen70200.bin
+Version: v4.01.09
+File: qcom/sm8550/a740_zap.mbn
+Version: v0.11
 File: qcom/gen70500_gmu.bin
 Version: v4.03.11
 File: qcom/gen70500_sqe.fw
