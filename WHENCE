@@ -6582,6 +6582,7 @@ File: qcom/a530_pfp.fw
 Version: 1.87.01
 File: qcom/a530_pm4.fw
 File: qcom/a530v3_gpmu.fw2
+Version v2.04 (2015-08-31)
 File: qcom/apq8096/a530_zap.mbn
 Link: qcom/a530_zap.mdt -> apq8096/a530_zap.mbn
 File: qcom/qrb4210/a610_zap.mbn
