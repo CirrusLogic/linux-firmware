@@ -6602,7 +6602,6 @@ File: qcom/a640_gmu.bin
 Version: v1.05
 File: qcom/sm8150/a640_zap.mbn
 Version: v0.20
-Link: qcom/a640_zap.mdt -> sm8150/a640_zap.mbn
 File: qcom/a650_gmu.bin
 Version: v2.1.8
 File: qcom/a650_sqe.fw
