@@ -1275,6 +1275,10 @@ File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-101.ucode
 Link: iwlwifi-gl-c0-fm-c0-101.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-101.ucode
 Version: 98.6ef20b19.0
 
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c101.ucode
+Link: iwlwifi-gl-c0-fm-c0-c101.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c101.ucode
+Version: 101.6e695a70.0
+
 File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0.pnvm
 Link: iwlwifi-gl-c0-fm-c0.pnvm -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0.pnvm
 
@@ -1309,6 +1313,10 @@ Version: 97.3f3ef548.0
 File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-101.ucode
 Link: iwlwifi-bz-b0-fm-c0-101.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-101.ucode
 Version: 98.6ef20b19.0
+
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c101.ucode
+Link: iwlwifi-bz-b0-fm-c0-c101.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c101.ucode
+Version: 101.6e695a70.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0.pnvm
 Link: iwlwifi-bz-b0-fm-c0.pnvm -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0.pnvm
@@ -1359,9 +1367,17 @@ File: intel/iwlwifi/iwlwifi-sc-a0-wh-b0-101.ucode
 Link: iwlwifi-sc-a0-wh-b0-101.ucode -> intel/iwlwifi/iwlwifi-sc-a0-wh-b0-101.ucode
 Version: 98.80584591.0
 
+File: intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c101.ucode
+Link: iwlwifi-sc-a0-wh-b0-c101.ucode -> intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c101.ucode
+Version: 101.6e695a70.0
+
 File: intel/iwlwifi/iwlwifi-sc-a0-gf-a0-100.ucode
 Link: iwlwifi-sc-a0-gf-a0-100.ucode -> intel/iwlwifi/iwlwifi-sc-a0-gf-a0-100.ucode
 Version: 97.de068435d.0
+
+File: intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c101.ucode
+Link: iwlwifi-sc-a0-fm-c0-c101.ucode -> intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c101.ucode
+Version: 101.6e695a70.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
