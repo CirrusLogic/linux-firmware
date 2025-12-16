@@ -5433,7 +5433,7 @@ File: xe/lnl_huc.bin
 Version: HuC API/APB ver 9.4.13 for Lunarlake
 
 File: xe/bmg_guc_70.bin
-Version: GuC API/APB ver 70.54.0 for Battlemage
+Version: GuC API/APB ver 70.55.3 for Battlemage
 
 File: xe/bmg_huc.bin
 Version: HuC API/APB ver 8.2.10 for Battlemage
@@ -5442,7 +5442,7 @@ File: xe/fan_control_8086_e20b_8086_1100.bin
 Version: fan_control ver 203.0.0.0 for Battlemage
 
 File: xe/ptl_guc_70.bin
-Version: GuC API/APB ver 70.54.0 for Pantherlake
+Version: GuC API/APB ver 70.55.3 for Pantherlake
 
 File: xe/ptl_huc.bin
 Version: HuC API/APB ver 10.3.3 for Pantherlake
