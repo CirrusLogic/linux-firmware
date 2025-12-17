@@ -9145,3 +9145,10 @@ Driver: sdx35 - Qualcomm SDX35 firmware image file for Foxconn vendor
 File: qcom/sdx35/foxconn/xbl_s_devprg_ns.melf
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+--------------------------------------------------------------------------
+
+Driver: pcie-rcar-gen4 - Renesas R-Car Gen4 PCIe controller
+
+File: rcar_gen4_pcie.bin
+
+Licence: Redistributable. See LICENCE.r8a779g_pcie_phy for details.
