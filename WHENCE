@@ -4298,6 +4298,11 @@ File: intel/ibt-00a0-0291-usb.ddc
 File: intel/ibt-00a0-0291-usb.sfi
 Version: BT_Scorpius_S_REL68935_24.10.25461.68935
 
+File: intel/ibt-00a0-0041-iml.sfi
+File: intel/ibt-00a0-0041-pci.ddc
+File: intel/ibt-00a0-0041-pci.sfi
+Version: BT_Scorpius_S_REL63418_24.00.25374.63418
+
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
 File: rtl_bt/rtl8192ee_fw.bin
