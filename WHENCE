@@ -6259,9 +6259,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 Wireless MACs
 
 File: mediatek/mt7925/WIFI_MT7925_PATCH_MCU_1_1_hdr.bin
-Version: 20251124092925a
+Version: 20251210092928a
 File: mediatek/mt7925/WIFI_RAM_CODE_MT7925_1_1.bin
-Version: 20251124092846
+Version: 20251210092754
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6270,7 +6270,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 bluetooth chipset
 
 File: mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin
-Version: 20251124093155
+Version: 20251210093205
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
