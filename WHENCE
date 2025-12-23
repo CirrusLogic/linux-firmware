@@ -9106,12 +9106,16 @@ License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 Driver: intel_vpu - Intel NPU driver
 
 File: intel/vpu/vpu_37xx_v1.bin
-Version: 20251016*MTL_CLIENT_SILICON-release*1600*ci_tag_ud202544_vpu_rc_20251016_1600*74b0ef77ba8
+Version: 20251113*MTL_CLIENT_SILICON-NVR+NN-deployment*72f907ffc780df5579a2fed65afc4944da8b0e44*72f907ffc780df5579a2fed65afc4944da8b0e44*72f907ffc78
 Link: intel/vpu/vpu_37xx_v0.0.bin -> vpu_37xx_v1.bin
 
 File: intel/vpu/vpu_40xx_v1.bin
-Version: Oct 16 2025*NPU40xx*ci_tag_ud202544_vpu_rc_20251016_1600*74b0ef77ba8227e491c299e8efa1d23a86c250ea
+Version: Nov 13 2025*NPU40xx*ci_tag_ud202548_vpu_rc_20251112_1901-1-g72f907ffc78*72f907ffc780df5579a2fed65afc4944da8b0e44
 Link: intel/vpu/vpu_40xx_v0.0.bin -> vpu_40xx_v1.bin
+
+File: intel/vpu/vpu_50xx_v1.bin
+Version: Nov 13 2025*NPU50xx*ci_tag_ud202548_vpu_rc_20251112_1901-1-g72f907ffc78*72f907ffc780df5579a2fed65afc4944da8b0e44
+Link: intel/vpu/vpu_50xx_v0.0.bin -> vpu_50xx_v1.bin
 
 License: Redistributable. See LICENSE.intel_vpu for details
 
