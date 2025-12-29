@@ -2145,6 +2145,16 @@ Licence: Redistributable. See LICENSE.airoha for details.
 
 --------------------------------------------------------------------------
 
+Driver: an8811hb - Airoha 2.5G Ethernet Phy
+
+File: airoha/an8811hb/EthMD32_CRC.DM.bin
+File: airoha/an8811hb/EthMD32_CRC.DSP.bin
+Version: 25110702
+
+Licence: Redistributable. See LICENSE.airoha for details.
+
+--------------------------------------------------------------------------
+
 Driver: airoha-npu - Airoha Network Processor Unit driver
 
 File: airoha/en7581_npu_data.bin
