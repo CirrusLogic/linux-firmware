@@ -9095,7 +9095,6 @@ File: qcom/qdu100/efs2.bin
 File: qcom/qdu100/efs3.bin
 File: qcom/qdu100/fw_csm_gsi_3.0.elf
 File: qcom/qdu100/hypvm.mbn
-File: qcom/qdu100/kernel_boot.elf
 File: qcom/qdu100/mdmddr.mbn
 File: qcom/qdu100/multi_image.mbn
 File: qcom/qdu100/multi_image_qti.mbn
