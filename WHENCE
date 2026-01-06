@@ -4904,15 +4904,15 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: qca - Qualcomm Atheros Bluetooth support for WCN6750 chips
 
 File: qca/msbtfw11.mbn
-Version: BTFW.MOSELLE.1.1.3-00100-MSL_PATCHZ-1
+Version: BTFW.MOSELLE.1.1.3-00105-MSL_PATCHZ-1
 File: qca/msbtfw11.tlv
-Version: BTFW.MOSELLE.1.1.3-00100-MSL_PATCHZ-1
+Version: BTFW.MOSELLE.1.1.3-00105-MSL_PATCHZ-1
 File: qca/msnv11.bin
-Version: BTFW.MOSELLE.1.1.3-00100-MSL_PATCHZ-1
+Version: BTFW.MOSELLE.1.1.3-00105-MSL_PATCHZ-1
 File: qca/msnv11.b0a
-Version: BTFW.MOSELLE.1.1.3-00100-MSL_PATCHZ-1
+Version: BTFW.MOSELLE.1.1.3-00105-MSL_PATCHZ-1
 File: qca/msnv11.b09
-Version: BTFW.MOSELLE.1.1.3-00100-MSL_PATCHZ-1
+Version: BTFW.MOSELLE.1.1.3-00105-MSL_PATCHZ-1
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
