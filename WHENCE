@@ -6880,14 +6880,14 @@ File: qcom/kaanapali/soccp_dtb.mbn
 Version: SOCCP.FW.2.1-00204-KAANAPALI_SOCCP_PACK-1
 RawFile: qcom/kaanapali/soccpr.jsn
 File: qcom/qcs8300/adsp.mbn
-Version: DSP.AT.1.0.1-00163-LEMANS-1
+Version: DSP.AT.1.0.1-00170-LEMANS-1
 RawFile: qcom/qcs8300/adspr.jsn
 RawFile: qcom/qcs8300/adspua.jsn
 File: qcom/qcs8300/cdsp0.mbn
-Version: DSP.AT.1.0.1-00163-LEMANS-1
+Version: DSP.AT.1.0.1-00170-LEMANS-1
 RawFile: qcom/qcs8300/cdspr.jsn
 File: qcom/qcs8300/gpdsp0.mbn
-Version: DSP.AT.1.0.1-00163-LEMANS-1
+Version: DSP.AT.1.0.1-00170-LEMANS-1
 File: qcom/sa8775p/adsp.mbn
 Version: DSP.AT.1.0.1-00163-LEMANS-1
 RawFile: qcom/sa8775p/adspr.jsn
