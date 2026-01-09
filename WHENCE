@@ -5469,6 +5469,9 @@ Version: HuC API/APB ver 8.2.10 for Battlemage
 File: xe/fan_control_8086_e20b_8086_1100.bin
 Version: fan_control ver 203.0.0.0 for Battlemage
 
+File: xe/ptl_gsc_1.bin
+Version: GSC API/APB v1.0, release 105.0.2.1301, SVN 1 for Pantherlake
+
 File: xe/ptl_guc_70.bin
 Version: GuC API/APB ver 70.55.3 for Pantherlake
 
