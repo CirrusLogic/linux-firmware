@@ -8696,8 +8696,8 @@ Originates from https://github.com/nxp-imx/imx-firmware/tree/lf-6.1.22_2.0.0/nxp
 Driver: qcom-sc8280xp - Qualcomm ASoC tplg Firmware
 File: qcom/sc8280xp/LENOVO/21BX/audioreach-tplg.bin
 Link: qcom/sc8280xp/SC8280XP-LENOVO-X13S-tplg.bin -> LENOVO/21BX/audioreach-tplg.bin
-Version: v1.0.0
-Info: DATE=15.10.2025
+Version: v1.0.1
+Info: DATE=10.01.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
@@ -8733,9 +8733,13 @@ License: Redistributable. See LICENSE.powervr for details
 --------------------------------------------------------------------------
 
 Driver: qcom-qcs6490 - Qualcomm ASoC topology
-File: qcom/qcs6490/QCS6490-Radxa-Dragon-Q6A-tplg.bin
+File: qcom/qcs6490/radxa/dragon-q6a/QCS6490-Radxa-Dragon-Q6A-tplg.bin
+Link: qcom/qcs6490/QCS6490-Radxa-Dragon-Q6A-tplg.bin -> radxa/dragon-q6a/QCS6490-Radxa-Dragon-Q6A-tplg.bin
+File: qcom/qcs6490/Thundercomm/RubikPi3/QCS6490-Thundercomm-RubikPi3-tplg.bin
+Link: qcom/qcs6490/QCS6490-Thundercomm-RubikPi3-tplg.bin -> Thundercomm/RubikPi3/QCS6490-Thundercomm-RubikPi3-tplg.bin
 File: qcom/qcs6490/QCS6490-RB3Gen2-tplg.bin
-Version: v0.1.0
+Version: v1.0.1
+Info: DATE=10.01.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
@@ -8754,7 +8758,8 @@ Originates from https://github.com/linux-msm/audioreach-topology.git
 Driver: qcom-qcs9100 - Qualcomm ASoC topology
 File: qcom/sa8775p/LEMANS-EVK-tplg.bin
 Link: qcom/qcs9100/LEMANS-EVK-tplg.bin -> ../sa8775p/LEMANS-EVK-tplg.bin
-Version: v0.1.0
+Version: v1.0.1
+Info: DATE=10.01.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
@@ -8764,8 +8769,8 @@ Originates from https://github.com/linux-msm/audioreach-topology.git
 Driver: qcom-sm8550 - Qualcomm ASoC tplg Firmware
 File: qcom/sm8550/SM8550-HDK-tplg.bin
 File: qcom/sm8550/SM8550-QRD-tplg.bin
-Version: v1.0.0
-Info: DATE=15.10.2025
+Version: v1.0.1
+Info: DATE=10.01.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://git.codelinaro.org/linaro/qcomlt/audioreach-topology.git
@@ -8775,8 +8780,8 @@ Originates from https://git.codelinaro.org/linaro/qcomlt/audioreach-topology.git
 Driver: qcom-sm8650 - Qualcomm ASoC tplg Firmware
 File: qcom/sm8650/SM8650-QRD-tplg.bin
 File: qcom/sm8650/SM8650-MTP-tplg.bin
-Version: v1.0.0
-Info: DATE=15.10.2025
+Version: v1.0.1
+Info: DATE=10.01.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://git.codelinaro.org/linaro/qcomlt/audioreach-topology.git
@@ -8786,16 +8791,67 @@ Originates from https://git.codelinaro.org/linaro/qcomlt/audioreach-topology.git
 Driver: qcom-x1e80100 - Qualcomm ASoC tplg Firmware
 File: qcom/x1e80100/LENOVO/21N1/X1E80100-LENOVO-Thinkpad-T14s-tplg.bin
 Link: qcom/x1e80100/X1E80100-LENOVO-Thinkpad-T14s-tplg.bin -> LENOVO/21N1/X1E80100-LENOVO-Thinkpad-T14s-tplg.bin
-Version: v1.0.0
-Info: DATE=15.10.2025
+Version: v1.0.1
+Info: DATE=10.01.2026
 
 File: qcom/x1e80100/LENOVO/83ED/X1E80100-LENOVO-Yoga-Slim7x-tplg.bin
 Link: qcom/x1e80100/X1E80100-LENOVO-Yoga-Slim7x-tplg.bin -> LENOVO/83ED/X1E80100-LENOVO-Yoga-Slim7x-tplg.bin
-Version: v1.0.0
-Info: DATE=15.10.2025
+Version: v1.0.1
+Info: DATE=10.01.2026
 
 File: qcom/x1e80100/X1E80100-EVK-tplg.bin
 Version: v0.1.0
+
+File: qcom/x1e80100/ASUSTeK/vivobook-16/X1E80100-ASUS-Vivobook-16-tplg.bin
+Link: qcom/x1e80100/X1E80100-ASUS-Vivobook-16-tplg.bin -> ASUSTeK/vivobook-16/X1E80100-ASUS-Vivobook-16-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+File: qcom/x1e80100/ASUSTeK/vivobook-s15/X1E80100-ASUS-Vivobook-S15-tplg.bin
+Link: qcom/x1e80100/X1E80100-ASUS-Vivobook-S15-tplg.bin -> ASUSTeK/vivobook-s15/X1E80100-ASUS-Vivobook-S15-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+File: qcom/x1e80100/ASUSTeK/zenbook-a14/X1E80100-ASUS-Zenbook-A14-tplg.bin
+Link: qcom/x1e80100/X1E80100-ASUS-Zenbook-A14-tplg.bin -> ASUSTeK/zenbook-a14/X1E80100-ASUS-Zenbook-A14-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+File: qcom/x1e80100/X1E001DE-DEVKIT-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+File: qcom/x1e80100/X1E80100-CRD-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+File: qcom/x1e80100/X1E80100-Romulus-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+File: qcom/x1e80100/X1E80100-TUXEDO-Elite-14-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+File: qcom/x1e80100/dell/inspiron-14-plus-7441/X1E80100-Dell-Inspiron-14p-7441-tplg.bin
+Link: qcom/x1e80100/X1E80100-Dell-Inspiron-14p-7441-tplg.bin -> dell/inspiron-14-plus-7441/X1E80100-Dell-Inspiron-14p-7441-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+File: qcom/x1e80100/dell/latitude-7455/X1E80100-Dell-Latitude-7455-tplg.bin
+Link: qcom/x1e80100/X1E80100-Dell-Latitude-7455-tplg.bin -> dell/latitude-7455/X1E80100-Dell-Latitude-7455-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+File: qcom/x1e80100/dell/xps13-9345/X1E80100-Dell-XPS-13-9345-tplg.bin
+Link: qcom/x1e80100/X1E80100-Dell-XPS-13-9345-tplg.bin -> dell/xps13-9345/X1E80100-Dell-XPS-13-9345-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+File: qcom/x1e80100/hp/omnibook-x14/X1E80100-HP-OMNIBOOK-X14-tplg.bin
+Link: qcom/x1e80100/X1E80100-HP-OMNIBOOK-X14-tplg.bin -> hp/omnibook-x14/X1E80100-HP-OMNIBOOK-X14-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
@@ -9182,3 +9238,40 @@ Driver: pcie-rcar-gen4 - Renesas R-Car Gen4 PCIe controller
 File: rcar_gen4_pcie.bin
 
 Licence: Redistributable. See LICENCE.r8a779g_pcie_phy for details.
+--------------------------------------------------------------------------
+
+Driver: qcm6490 - Qualcomm ASoC tplg Firmware
+File: qcom/qcm6490/QCM6490-IDP-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+Licence: Redistributable. See LICENCE.linaro for details
+Originates from https://github.com/linux-msm/audioreach-topology.git
+--------------------------------------------------------------------------
+
+Driver: qcs615 - Qualcomm ASoC tplg Firmware
+File: qcom/qcs615/TALOS-EVK-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+Licence: Redistributable. See LICENCE.linaro for details
+Originates from https://github.com/linux-msm/audioreach-topology.git
+--------------------------------------------------------------------------
+
+Driver: sm8450 - Qualcomm ASoC tplg Firmware
+File: qcom/sm8450/SM8450-HDK-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+Licence: Redistributable. See LICENCE.linaro for details
+Originates from https://github.com/linux-msm/audioreach-topology.git
+--------------------------------------------------------------------------
+
+Driver: sm8750 - Qualcomm ASoC tplg Firmware
+File: qcom/sm8750/SM8750-MTP-tplg.bin
+File: qcom/sm8750/SM8750-QRD-tplg.bin
+Version: v1.0.1
+Info: DATE=10.01.2026
+
+Licence: Redistributable. See LICENCE.linaro for details
+Originates from https://github.com/linux-msm/audioreach-topology.git
