@@ -4331,7 +4331,7 @@ File: intel/ibt-00a0-0291-pci.ddc
 File: intel/ibt-00a0-0291-pci.sfi
 File: intel/ibt-00a0-0291-usb.ddc
 File: intel/ibt-00a0-0291-usb.sfi
-Version: BT_Scorpius_S_REL68935_24.10.25461.68935
+Version: BT_Scorpius_S_REL75512_24.20.26030.75512
 
 File: intel/ibt-00a0-0041-iml.sfi
 File: intel/ibt-00a0-0041-pci.ddc
