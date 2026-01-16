@@ -4287,13 +4287,13 @@ File: intel/ibt-0093-4150.sfi
 File: intel/ibt-0093-4150.ddc
 File: intel/ibt-0093-1050.sfi
 File: intel/ibt-0093-1050.ddc
-Version: BT_BlazaruHrpGfp_S_REL191_24.00.25461.191
+Version: BT_BlazaruHrpGfp_S_REL203_24.00.25462.203
 
 File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
 File: intel/ibt-0093-0291.sfi
 File: intel/ibt-0093-0291.ddc
-Version: BT_BlazarU_S_REL97345_24.10.25461.97345
+Version: BT_BlazarU_S_REL102203_24.20.26030.102203
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4312,14 +4312,14 @@ File: intel/ibt-0190-0041-pci.ddc
 File: intel/ibt-0190-0041-pci.sfi
 File: intel/ibt-0190-0041-usb.ddc
 File: intel/ibt-0190-0041-usb.sfi
-Version: BT_BlazariGfp_S_REL145_24.00.25461.145
+Version: BT_BlazariGfp_S_REL156_24.00.25462.156
 
 File: intel/ibt-0190-0291-iml.sfi
 File: intel/ibt-0190-0291-usb.ddc
 File: intel/ibt-0190-0291-usb.sfi
 File: intel/ibt-0190-0291-pci.ddc
 File: intel/ibt-0190-0291-pci.sfi
-Version: BT_BlazarI_S_REL104829_24.10.25461.104829
+Version: BT_BlazarI_S_REL109743_24.20.26030.109743
 
 File: intel/ibt-00a0-01a1-iml.sfi
 File: intel/ibt-00a0-01a1-pci.ddc
@@ -4331,12 +4331,12 @@ File: intel/ibt-00a0-0291-pci.ddc
 File: intel/ibt-00a0-0291-pci.sfi
 File: intel/ibt-00a0-0291-usb.ddc
 File: intel/ibt-00a0-0291-usb.sfi
-Version: BT_Scorpius_S_REL68935_24.10.25461.68935
+Version: BT_Scorpius_S_REL75512_24.20.26030.75512
 
 File: intel/ibt-00a0-0041-iml.sfi
 File: intel/ibt-00a0-0041-pci.ddc
 File: intel/ibt-00a0-0041-pci.sfi
-Version: BT_Scorpius_S_REL63418_24.00.25374.63418
+Version: BT_ScorpiusGfp_S_REL199_24.00.25462.199
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
