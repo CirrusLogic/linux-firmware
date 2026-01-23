@@ -9226,6 +9226,18 @@ File: LENOVO/ish/ish_lnlm_53c4ffad_2a17559f.bin
 Link: intel/ish/ish_lnlm_53c4ffad_2a17559f.bin -> ../../LENOVO/ish/ish_lnlm_53c4ffad_2a17559f.bin
 Version: 5.8.4.7720
 
+File: LENOVO/ish/ish_lnlm_53c4ffad_a672a235.bin
+Link: intel/ish/ish_lnlm_53c4ffad_a672a235.bin -> ../../LENOVO/ish/ish_lnlm_53c4ffad_a672a235.bin
+Version: 5.8.36.09092
+
+File: LENOVO/ish/ish_lnlm_53c4ffad_cb391961.bin
+Link: intel/ish/ish_lnlm_53c4ffad_cb391961.bin -> ../../LENOVO/ish/ish_lnlm_53c4ffad_cb391961.bin
+Version: 5.8.4.7720
+
+File: LENOVO/ish/ish_lnlm_53c4ffad_ebb27e41.bin
+Link: intel/ish/ish_lnlm_53c4ffad_ebb27e41.bin -> ../../LENOVO/ish/ish_lnlm_53c4ffad_ebb27e41.bin
+Version: 5.8.4.7720
+
 License: Redistributable. See LICENCE.lenovo for details
 
 File: HP/ish/ish_lnlm_12128606.bin
