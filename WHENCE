@@ -3506,6 +3506,7 @@ Driver: rtw89 - Realtek 802.11ax and 802.11be WLAN driver
 
 File: rtw89/rtw8851b_fw.bin
 File: rtw89/rtw8852a_fw.bin
+File: rtw89/rtw8852a_fw-1.bin
 File: rtw89/rtw8852b_fw.bin
 File: rtw89/rtw8852b_fw-1.bin
 File: rtw89/rtw8852b_fw-2.bin
