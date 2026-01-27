@@ -6793,10 +6793,12 @@ Link: qcom/qcs6490/battmgr.jsn -> ../qcm6490/battmgr.jsn
 Link: qcom/qcs6490/cdsp.mbn -> ../qcm6490/cdsp.mbn
 Link: qcom/qcs6490/cdspr.jsn -> ../qcm6490/cdspr.jsn
 File: qcom/qcs6490/radxa/dragon-q6a/adsp.mbn
-Version: ADSP.HT.5.5.c8-00217-KODIAK-1
+Version: ADSP.HT.5.5.c9-00028-KODIAK-2
 RawFile: qcom/qcs6490/radxa/dragon-q6a/adspr.jsn
-RawFile: qcom/qcs6490/radxa/dragon-q6a/adsps.jsn
 RawFile: qcom/qcs6490/radxa/dragon-q6a/adspua.jsn
+File: qcom/qcs6490/radxa/dragon-q6a/cdsp.mbn
+Version: CDSP.HT.2.5.c4-00004-KODIAK-1
+RawFile: qcom/qcs6490/radxa/dragon-q6a/cdspr.jsn
 File: qcom/qcs6490/Thundercomm/RubikPi3/adsp.mbn
 Version: ADSP.HT.5.5.c8-00217-KODIAK-1
 RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adspr.jsn
