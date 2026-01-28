@@ -2180,6 +2180,16 @@ Licence: Redistributable. See LICENSE.airoha for details.
 
 --------------------------------------------------------------------------
 
+Driver: airoha-npu-7581-mt7996 - Airoha Network Processor Unit driver for
+				 EN7581 SoC used for MT7990 offloading
+
+File: airoha/en7581_MT7996_npu_data.bin
+File: airoha/en7581_MT7996_npu_rv32.bin
+
+Licence: Redistributable. See LICENSE.airoha for details.
+
+--------------------------------------------------------------------------
+
 Driver: airoha-npu-7583 - Airoha Network Processor Unit driver for AN7583 SoC
 
 File: airoha/an7583_npu_data.bin
