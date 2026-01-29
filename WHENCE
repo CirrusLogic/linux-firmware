@@ -3675,6 +3675,9 @@ Version: 0.0.4
 File: rtl_nic/rtl8125k-1.fw
 Version: 0.0.1
 
+File: rtl_nic/rtl8125cp-1.fw
+Version: 0.0.1
+
 File: rtl_nic/rtl9151a-1.fw
 Version: 0.0.1
 
