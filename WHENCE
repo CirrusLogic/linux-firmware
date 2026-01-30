@@ -3302,9 +3302,9 @@ Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
 The cc33xx-conf.bin is a binary containing two parts: radio calibration
 and hardware configuration. The binary can be modified using the tool
-cc33conf which can be found in the CC33XX Linux SDK here: 
+cc33conf which can be found in the CC33XX Linux SDK here:
 
-https://www.ti.com/tool/CC33XX-SOFTWARE 
+https://www.ti.com/tool/CC33XX-SOFTWARE
 
 The driver expects to find the firmwares under a ti-connectivity
 subdirectory.  So if your system looks for firmwares in /lib/firmware,
