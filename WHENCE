@@ -9257,6 +9257,9 @@ License: Redistributable. See LICENCE.HP for details
 File: dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
 Link: intel/ish/ish_lnlm_39ceeaf8.bin -> ../../dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
 
+File: dell/ish/ish_ptl_39ceeaf8_581.7779.0.bin
+Link: intel/ish/ish_ptl_39ceeaf8.bin -> ../../dell/ish/ish_ptl_39ceeaf8_581.7779.0.bin
+
 License: Redistributable. See LICENSE.dell for details
 
 --------------------------------------------------------------------------
