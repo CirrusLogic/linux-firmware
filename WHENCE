@@ -9177,6 +9177,43 @@ Licence: Redistributable. See LICENCE.ti-tspa for details. Marked:
 
 --------------------------------------------------------------------------
 
+Driver: ti-tas2783 - tas2783 firmware
+
+File: ti/audio/tas2783/8EXX-X-9.bin
+File: ti/audio/tas2783/8EXX-X-A.bin
+File: ti/audio/tas2783/8EXX-X-C.bin
+File: ti/audio/tas2783/8EXX-X-D.bin
+File: ti/audio/tas2783/8EF6-X-9.bin
+File: ti/audio/tas2783/8EF6-X-C.bin
+
+Link: 8E86-1-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
+Link: 8E86-1-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
+Link: 8E86-1-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
+Link: 8E86-1-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
+Link: 8E86-2-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
+Link: 8E86-2-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
+Link: 8E86-2-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
+Link: 8E86-2-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
+Link: 8E87-1-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
+Link: 8E87-1-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
+Link: 8E87-1-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
+Link: 8E87-1-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
+Link: 8E87-2-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
+Link: 8E87-2-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
+Link: 8E87-2-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
+Link: 8E87-2-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
+Link: 8EF5-0-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
+Link: 8EF5-0-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
+Link: 8EF5-0-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
+Link: 8EF5-0-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
+Link: 8EF6-2-9.bin -> ti/audio/tas2783/8EF6-X-9.bin
+Link: 8EF6-2-C.bin -> ti/audio/tas2783/8EF6-X-C.bin
+
+Licence: Redistributable. LICENCE.ti-tspa for details. Marked:
+	 Copyright (C) 2026 Texas Instruments
+
+--------------------------------------------------------------------------
+
 Driver: ti-tas2563 - tas2563 firmware
 File: ti/audio/tas2563/TAS2XXX3870.bin
 File: ti/audio/tas2563/INT8866RCA2.bin
