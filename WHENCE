@@ -6921,6 +6921,16 @@ https://github.com/andersson/pil-squasher
 cdsp.mbn has been converted from 21-cdsp_split/firmware/cdsp.* using
 https://github.com/andersson/pil-squasher
 
+File: qcom/glymur/adsp.mbn
+File: qcom/glymur/adsp_dtb.mbn
+Version: LPAIDSP.HT.1.6.c1-00007-GLYMUR-3
+RawFile: qcom/glymur/adspr.jsn
+RawFile: qcom/glymur/adsps.jsn
+RawFile: qcom/glymur/adspua.jsn
+File: qcom/glymur/cdsp.mbn
+File: qcom/glymur/cdsp_dtb.mbn
+Version: CDSP.HT.3.3-00302-GLYMUR-1
+RawFile: qcom/glymur/cdspr.jsn
 File: qcom/kaanapali/adsp.mbn
 File: qcom/kaanapali/adsp_dtb.mbn
 Version: LPAIDSP.HT.1.6-00223-KAANAPALI-1
