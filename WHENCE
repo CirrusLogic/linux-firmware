@@ -9359,6 +9359,7 @@ File: qcom/sa8775p/qupv3fw.elf
 File: qcom/qcm6490/qupv3fw.elf
 Link: qcom/qcs6490/qupv3fw.elf -> ../qcm6490/qupv3fw.elf
 File: qcom/qcs8300/qupv3fw.elf
+File: qcom/x1e80100/qupv3fw.elf
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 ---------------------------------------------------------------------------
