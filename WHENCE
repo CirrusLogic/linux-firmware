@@ -6723,6 +6723,14 @@ File: qcom/gen80200_sqe.fw
 Version: v0.88
 File: qcom/kaanapali/gen80200_zap.mbn
 Version: v0.03
+File: qcom/gen80100_aqe.fw
+Version: v0.30
+File: qcom/gen80100_gmu.bin
+Version: v5.02.26
+File: qcom/gen80100_sqe.fw
+Version: v1.00
+File: qcom/glymur/gen80100_zap.mbn
+Version: v0.03
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
