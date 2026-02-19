@@ -6241,6 +6241,17 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
+Driver: mt7902 - MediaTek MT7902 Wireless MACs
+
+File: mediatek/WIFI_MT7902_patch_mcu_1_1_hdr.bin
+Version: 20251212032046a
+File: mediatek/WIFI_RAM_CODE_MT7902_1.bin
+Version: 20251212032127
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
 Driver: mt7920 - MediaTek MT7920 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1a_2_hdr.bin
