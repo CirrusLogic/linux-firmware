@@ -9305,10 +9305,6 @@ Version: 5.8.1.7778
 
 License: Redistributable. See LICENSE.intel for details
 
-File: LENOVO/ish/ish_lnlm_53c4ffad_2a17559f.bin
-Link: intel/ish/ish_lnlm_53c4ffad_2a17559f.bin -> ../../LENOVO/ish/ish_lnlm_53c4ffad_2a17559f.bin
-Version: 5.8.4.7720
-
 File: LENOVO/ish/ish_lnlm_53c4ffad_a672a235.bin
 Link: intel/ish/ish_lnlm_53c4ffad_a672a235.bin -> ../../LENOVO/ish/ish_lnlm_53c4ffad_a672a235.bin
 Version: 5.8.36.09092
