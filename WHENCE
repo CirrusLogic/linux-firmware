@@ -8958,14 +8958,24 @@ License: Redistributable. See LICENSE.powervr for details
 
 --------------------------------------------------------------------------
 
+Driver: qcom-kaanapali - Qualcomm ASoC tplg Firmware
+File: qcom/kaanapali/Kaanapali-MTP-tplg.bin
+Version: v1.0.2
+Info: DATE=28.02.2026
+
+Licence: Redistributable. See LICENCE.linaro for details
+Originates from https://github.com/linux-msm/audioreach-topology.git
+
+--------------------------------------------------------------------------
+
 Driver: qcom-qcs6490 - Qualcomm ASoC topology
 File: qcom/qcs6490/radxa/dragon-q6a/QCS6490-Radxa-Dragon-Q6A-tplg.bin
 Link: qcom/qcs6490/QCS6490-Radxa-Dragon-Q6A-tplg.bin -> radxa/dragon-q6a/QCS6490-Radxa-Dragon-Q6A-tplg.bin
 File: qcom/qcs6490/Thundercomm/RubikPi3/QCS6490-Thundercomm-RubikPi3-tplg.bin
 Link: qcom/qcs6490/QCS6490-Thundercomm-RubikPi3-tplg.bin -> Thundercomm/RubikPi3/QCS6490-Thundercomm-RubikPi3-tplg.bin
 File: qcom/qcs6490/QCS6490-RB3Gen2-tplg.bin
-Version: v1.0.1
-Info: DATE=10.01.2026
+Version: v1.0.2
+Info: DATE=28.02.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
@@ -8974,7 +8984,8 @@ Originates from https://github.com/linux-msm/audioreach-topology.git
 
 Driver: qcom-qcs8300 - Qualcomm ASoC topology
 File: qcom/qcs8300/MONACO-EVK-tplg.bin
-Version: v0.1.0
+Version: v1.0.2
+Info: DATE=28.02.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
@@ -8984,8 +8995,8 @@ Originates from https://github.com/linux-msm/audioreach-topology.git
 Driver: qcom-qcs9100 - Qualcomm ASoC topology
 File: qcom/sa8775p/LEMANS-EVK-tplg.bin
 Link: qcom/qcs9100/LEMANS-EVK-tplg.bin -> ../sa8775p/LEMANS-EVK-tplg.bin
-Version: v1.0.1
-Info: DATE=10.01.2026
+Version: v1.0.2
+Info: DATE=28.02.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
@@ -9517,8 +9528,8 @@ Licence: Redistributable. See LICENCE.r8a779g_pcie_phy for details.
 
 Driver: qcm6490 - Qualcomm ASoC tplg Firmware
 File: qcom/qcm6490/QCM6490-IDP-tplg.bin
-Version: v1.0.1
-Info: DATE=10.01.2026
+Version: v1.0.2
+Info: DATE=28.02.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
@@ -9526,8 +9537,8 @@ Originates from https://github.com/linux-msm/audioreach-topology.git
 
 Driver: qcs615 - Qualcomm ASoC tplg Firmware
 File: qcom/qcs615/TALOS-EVK-tplg.bin
-Version: v1.0.1
-Info: DATE=10.01.2026
+Version: v1.0.2
+Info: DATE=28.02.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
@@ -9535,8 +9546,8 @@ Originates from https://github.com/linux-msm/audioreach-topology.git
 
 Driver: sm8450 - Qualcomm ASoC tplg Firmware
 File: qcom/sm8450/SM8450-HDK-tplg.bin
-Version: v1.0.1
-Info: DATE=10.01.2026
+Version: v1.0.2
+Info: DATE=28.02.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
