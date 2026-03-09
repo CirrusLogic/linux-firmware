@@ -9432,16 +9432,16 @@ Version: 5.8.1.7778
 
 License: Redistributable. See LICENSE.intel for details
 
-File: LENOVO/ish/ish_lnlm_53c4ffad_a672a235.bin
-Link: intel/ish/ish_lnlm_53c4ffad_a672a235.bin -> ../../LENOVO/ish/ish_lnlm_53c4ffad_a672a235.bin
+File: LENOVO/ish/ish_lnlm_lenovo_X9-14_2025_5.8.36.09092.bin
+Link: intel/ish/ish_lnlm_53c4ffad_a672a235.bin -> ../../LENOVO/ish/ish_lnlm_lenovo_X9-14_2025_5.8.36.09092.bin
+Info: product_family - "ThinkPad X9-14 Gen 1"
 Version: 5.8.36.09092
 
-File: LENOVO/ish/ish_lnlm_53c4ffad_cb391961.bin
-Link: intel/ish/ish_lnlm_53c4ffad_cb391961.bin -> ../../LENOVO/ish/ish_lnlm_53c4ffad_cb391961.bin
-Version: 5.8.4.7720
-
-File: LENOVO/ish/ish_lnlm_53c4ffad_ebb27e41.bin
-Link: intel/ish/ish_lnlm_53c4ffad_ebb27e41.bin -> ../../LENOVO/ish/ish_lnlm_53c4ffad_ebb27e41.bin
+File: LENOVO/ish/ish_lnlm_lenovo_X1_2025_5.8.4.7720.bin
+Link: intel/ish/ish_lnlm_53c4ffad_cb391961.bin -> ../../LENOVO/ish/ish_lnlm_lenovo_X1_2025_5.8.4.7720.bin
+Info: product_family - "ThinkPad X1 2-in-1 Gen 10"
+Link: intel/ish/ish_lnlm_53c4ffad_ebb27e41.bin -> ../../LENOVO/ish/ish_lnlm_lenovo_X1_2025_5.8.4.7720.bin
+Info: product_family - "ThinkPad X1 Carbon Gen 13"
 Version: 5.8.4.7720
 
 License: Redistributable. See LICENCE.lenovo for details
