@@ -9798,6 +9798,11 @@ Link: intel/ish/ish_lnlm_53c4ffad_a672a235.bin -> ../../LENOVO/ish/ish_lnlm_leno
 Info: product_family - "ThinkPad X9-14 Gen 1"
 Version: 5.8.36.09092
 
+File: LENOVO/ish/ish_lnlm_lenovo_x9-15_2025_5.8.0.7720.bin
+Link: intel/ish/ish_lnlm_53c4ffad_90ef58cf.bin -> ../../LENOVO/ish/ish_lnlm_lenovo_x9-15_2025_5.8.0.7720.bin
+Info: product_family - "ThinkPad X9-15 Gen 1"
+Version: 5.8.0.7720
+
 File: LENOVO/ish/ish_lnlm_lenovo_X1_2025_5.8.4.7720.bin
 Link: intel/ish/ish_lnlm_53c4ffad_cb391961.bin -> ../../LENOVO/ish/ish_lnlm_lenovo_X1_2025_5.8.4.7720.bin
 Info: product_family - "ThinkPad X1 2-in-1 Gen 10"
