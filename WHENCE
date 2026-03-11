@@ -4252,7 +4252,7 @@ Link: intel/ibt-19-240-1.sfi -> ibt-19-0-4.sfi
 Link: intel/ibt-19-240-1.ddc -> ibt-19-0-4.ddc
 Link: intel/ibt-19-240-4.sfi -> ibt-19-0-4.sfi
 Link: intel/ibt-19-240-4.ddc -> ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL53697
+Version: BT_Quasar_REL53843_22.180.2607.53843
 
 File: intel/ibt-0041-0041.sfi
 File: intel/ibt-0041-0041.ddc
