@@ -4324,7 +4324,7 @@ File: intel/ibt-0190-0291-usb.ddc
 File: intel/ibt-0190-0291-usb.sfi
 File: intel/ibt-0190-0291-pci.ddc
 File: intel/ibt-0190-0291-pci.sfi
-Version: BT_BlazarI_S_REL109743_24.20.26030.109743
+Version: BT_BlazarI_S_REL113003_24.30.26081.113003
 
 # Below fw files are for BlazarIW for WCL
 File: intel/ibt-1190-01a1-iml.sfi
