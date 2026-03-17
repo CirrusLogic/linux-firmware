@@ -9790,6 +9790,8 @@ File: intel/ish/ish_lnlm.bin
 Version: 5.8.0.7716
 File: intel/ish/ish_ptl.bin
 Version: 5.8.1.7778
+File: intel/ish/ish_wcl.bin
+Version: 5.8.4.7784
 
 License: Redistributable. See LICENSE.intel for details
 
