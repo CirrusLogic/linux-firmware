@@ -1395,6 +1395,10 @@ File: intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c102.ucode
 Link: iwlwifi-sc-a0-fm-c0-c102.ucode -> intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c102.ucode
 Version: 102.07fca168.0
 
+File: intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c102.ucode
+Link: iwlwifi-bz-b0-wh-b0-c102.ucode -> intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c102.ucode
+Version: 102.07fca168.0
+
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
