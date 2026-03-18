@@ -4321,6 +4321,8 @@ Version: BT_BlazariGfp_S_REL233_24.00.26071.233
 File: intel/ibt-1190-0041-iml.sfi
 File: intel/ibt-1190-0041-pci.ddc
 File: intel/ibt-1190-0041-pci.sfi
+File: intel/ibt-1190-0041-usb.sfi
+File: intel/ibt-1190-0041-usb.ddc
 Version: BT_BlazariGfp_S_REL182_24.00.25515.182
 
 File: intel/ibt-0190-0291-iml.sfi
