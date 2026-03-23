@@ -4560,6 +4560,7 @@ Link: qat_4xxx.bin -> intel/qat/qat_4xxx.bin
 File: intel/qat/qat_4xxx_mmp.bin
 Link: qat_4xxx_mmp.bin -> intel/qat/qat_4xxx_mmp.bin
 File: intel/qat/qat_402xx.bin
+Version: 1.2.80
 Link: qat_402xx.bin -> intel/qat/qat_402xx.bin
 File: intel/qat/qat_402xx_mmp.bin
 Link: qat_402xx_mmp.bin -> intel/qat/qat_402xx_mmp.bin
