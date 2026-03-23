@@ -4556,6 +4556,7 @@ Link: qat_c62x.bin -> intel/qat/qat_c62x.bin
 File: intel/qat/qat_c62x_mmp.bin
 Link: qat_c62x_mmp.bin -> intel/qat/qat_c62x_mmp.bin
 File: intel/qat/qat_4xxx.bin
+Version: 1.2.80
 Link: qat_4xxx.bin -> intel/qat/qat_4xxx.bin
 File: intel/qat/qat_4xxx_mmp.bin
 Link: qat_4xxx_mmp.bin -> intel/qat/qat_4xxx_mmp.bin
