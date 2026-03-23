@@ -4564,6 +4564,7 @@ Link: qat_402xx.bin -> intel/qat/qat_402xx.bin
 File: intel/qat/qat_402xx_mmp.bin
 Link: qat_402xx_mmp.bin -> intel/qat/qat_402xx_mmp.bin
 File: intel/qat/qat_420xx.bin
+Version: 1.0.0
 Link: qat_420xx.bin -> intel/qat/qat_420xx.bin
 File: intel/qat/qat_420xx_mmp.bin
 Link: qat_420xx_mmp.bin -> intel/qat/qat_420xx_mmp.bin
