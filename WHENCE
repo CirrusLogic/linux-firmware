@@ -4513,6 +4513,10 @@ File: moxa/moxa-1613.fw
 File: moxa/moxa-1618.fw
 File: moxa/moxa-1653.fw
 File: moxa/moxa-1658.fw
+File: moxa/moxa-pf-mux50u.fw
+Version: v2.0.9
+File: moxa/moxa-up-mux50u.fw
+Version: v2.0.3
 
 License: Redistributable. See LICENCE.moxa for details
 
