@@ -6997,7 +6997,7 @@ RawFile: qcom/glymur/adsps.jsn
 RawFile: qcom/glymur/adspua.jsn
 File: qcom/glymur/cdsp.mbn
 File: qcom/glymur/cdsp_dtb.mbn
-Version: CDSP.HT.3.3-00302-GLYMUR-1
+Version: CDSP.HT.3.3-00311-GLYMUR-1
 RawFile: qcom/glymur/cdspr.jsn
 File: qcom/kaanapali/adsp.mbn
 File: qcom/kaanapali/adsp_dtb.mbn
