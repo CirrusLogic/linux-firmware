@@ -9452,6 +9452,7 @@ License: Redistributable. See LICENSE.powervr for details
 --------------------------------------------------------------------------
 
 Driver: Qualcomm ASoC tplg Firmware
+File: qcom/glymur/GLYMUR-CRD-tplg.bin
 File: qcom/kaanapali/Kaanapali-MTP-tplg.bin
 File: qcom/qcm6490/QCM6490-IDP-tplg.bin
 File: qcom/qcs615/TALOS-EVK-tplg.bin
@@ -9461,6 +9462,7 @@ File: qcom/qcs6490/Thundercomm/RubikPi3/QCS6490-Thundercomm-RubikPi3-tplg.bin
 Link: qcom/qcs6490/QCS6490-Thundercomm-RubikPi3-tplg.bin -> Thundercomm/RubikPi3/QCS6490-Thundercomm-RubikPi3-tplg.bin
 File: qcom/qcs6490/QCS6490-RB3Gen2-tplg.bin
 File: qcom/qcs8300/MONACO-EVK-tplg.bin
+File: qcom/qcs8300/arduino-monza-tplg.bin
 Link: qcom/qcs9100/LEMANS-EVK-tplg.bin -> ../sa8775p/LEMANS-EVK-tplg.bin
 File: qcom/sa8775p/LEMANS-EVK-tplg.bin
 File: qcom/sc8280xp/LENOVO/21BX/audioreach-tplg.bin
@@ -9496,8 +9498,8 @@ Link: qcom/x1e80100/X1E80100-Dell-XPS-13-9345-tplg.bin -> dell/xps13-9345/X1E801
 File: qcom/x1e80100/hp/omnibook-x14/X1E80100-HP-OMNIBOOK-X14-tplg.bin
 Link: qcom/x1e80100/X1E80100-HP-OMNIBOOK-X14-tplg.bin -> hp/omnibook-x14/X1E80100-HP-OMNIBOOK-X14-tplg.bin
 
-Version: v1.0.2
-Info: DATE=28.02.2026
+Version: v1.0.3
+Info: DATE=07.04.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
