@@ -8397,6 +8397,7 @@ File: cirrus/cs35l56/CS35L56_Rev3.13.3R.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.13.4.wmfw
 File: cirrus/cs35l56/CS35L56_Rev4.5.3.wmfw
 File: cirrus/cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l56/CS35L56_Rev4.7.2.wmfw
 File: cirrus/cs35l63/CS35L63_Rev2.5.4.wmfw
 File: cirrus/cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
@@ -9086,6 +9087,12 @@ File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid1-l1u0.bin
 File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid1-l1u1.bin
 File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid1-l2u2.bin
 File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid1-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-17aa235c.wmfw -> cs35l56/CS35L56_Rev4.7.2.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-17aa235c-l2u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa235c-l2u4.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-17aa235d.wmfw -> cs35l56/CS35L56_Rev4.7.2.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-17aa235d-l2u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa235d-l2u4.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa3806-spkid0.wmfw -> cs35l56/CS35L56_Rev3.13.3.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa3806-spkid0-l0u0.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa3806-spkid0-l0u1.bin
