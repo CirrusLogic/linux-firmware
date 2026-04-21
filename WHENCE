@@ -4077,6 +4077,7 @@ File: ath12k/IPQ5424/hw1.0/q6_fw1.mbn
 File: ath12k/IPQ5424/hw1.0/qdsp6sw_dtb.mbn
 Version: WLAN.WBE.1.6-01275-QCAHKSWPL_SILICONZ-1
 File: ath12k/IPQ5424/hw1.0/Notice.txt
+File: ath12k/QCC2072/hw1.0/board-2.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
