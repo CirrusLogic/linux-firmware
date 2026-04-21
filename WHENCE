@@ -4071,6 +4071,12 @@ File: ath12k/QCN9274/hw2.0/firmware-2.bin
 Version: WLAN.WBE.1.6-01243-QCAHKSWPL_SILICONZ-1
 File: ath12k/QCN9274/hw2.0/Notice.txt
 File: ath12k/IPQ5424/hw1.0/board-2.bin
+File: ath12k/IPQ5424/hw1.0/iu_fw.mbn
+File: ath12k/IPQ5424/hw1.0/q6_fw0.mbn
+File: ath12k/IPQ5424/hw1.0/q6_fw1.mbn
+File: ath12k/IPQ5424/hw1.0/qdsp6sw_dtb.mbn
+Version: WLAN.WBE.1.6-01275-QCAHKSWPL_SILICONZ-1
+File: ath12k/IPQ5424/hw1.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
