@@ -7033,6 +7033,7 @@ Version: DSP.AT.1.0.1-00196-LEMANS-2
 RawFile: qcom/qcs8300/cdspr.jsn
 File: qcom/qcs8300/gpdsp0.mbn
 Version: DSP.AT.1.0.1-00196-LEMANS-2
+RawFile: qcom/qcs8300/gpdspr.jsn
 File: qcom/sa8775p/adsp.mbn
 Version: DSP.AT.1.0.1-00196-LEMANS-2
 RawFile: qcom/sa8775p/adspr.jsn
