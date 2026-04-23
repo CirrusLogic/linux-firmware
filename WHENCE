@@ -4382,7 +4382,7 @@ Version: BT_Scorpius_S_REL85926_24.40.26135.85926
 File: intel/ibt-00a0-0041-iml.sfi
 File: intel/ibt-00a0-0041-pci.ddc
 File: intel/ibt-00a0-0041-pci.sfi
-Version: BT_ScorpiusGfp_S_REL281_24.00.26071.281
+Version: BT_ScorpiusGfp_S_REL291_24.00.26134.291
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
