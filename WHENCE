@@ -4339,22 +4339,20 @@ Version: BT_Magnetar_REL103882_23.50.25205.103882
 
 File: intel/ibt-0190-0291.sfi
 File: intel/ibt-0190-0291.ddc
-File: intel/ibt-0190-0041.sfi
+Version: BT_BlazariGfp_S_REL233_24.00.26071.233
+
+#Below fw files are for BlazarIW for WCL
+File: intel/ibt-1190-0041-iml.sfi
 File: intel/ibt-0190-0041-iml.sfi
-File: intel/ibt-0190-0041.ddc
 File: intel/ibt-0190-0041-pci.ddc
 File: intel/ibt-0190-0041-pci.sfi
 File: intel/ibt-0190-0041-usb.ddc
 File: intel/ibt-0190-0041-usb.sfi
-Version: BT_BlazariGfp_S_REL233_24.00.26071.233
-
-#below fw files are for BlazarIW for WCL
-File: intel/ibt-1190-0041-iml.sfi
 File: intel/ibt-1190-0041-pci.ddc
 File: intel/ibt-1190-0041-pci.sfi
 File: intel/ibt-1190-0041-usb.sfi
 File: intel/ibt-1190-0041-usb.ddc
-Version: BT_BlazariGfp_S_REL182_24.00.25515.182
+Version: BT_BlazariGfp_S_REL244_24.00.26134.244
 
 File: intel/ibt-0190-0291-iml.sfi
 File: intel/ibt-0190-0291-usb.ddc
