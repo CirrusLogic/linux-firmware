@@ -6398,6 +6398,17 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
+Driver: mt7927 - MediaTek MT7927 Wireless MACs
+
+File: mediatek/mt7927/WIFI_MT6639_PATCH_MCU_2_1_hdr.bin
+Version: 20260414133750a
+File: mediatek/mt7927/WIFI_RAM_CODE_MT6639_2_1.bin
+Version: 20260414134255
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
 Driver: mtk-2p5ge - MediaTek MT798x Internal 2.5G Ethernet Phy
 
 File: mediatek/mt7988/i2p5ge-phy-pmb.bin
