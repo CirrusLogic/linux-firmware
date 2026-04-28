@@ -7017,7 +7017,7 @@ RawFile: qcom/kaanapali/adspua.jsn
 RawFile: qcom/kaanapali/adspuo.jsn
 File: qcom/kaanapali/cdsp.mbn
 File: qcom/kaanapali/cdsp_dtb.mbn
-Version: CDSP.HT.3.2-00726.1-KAANAPALI-1
+Version: CDSP.HT.3.2.c1-00001-KAANAPALI-3
 RawFile: qcom/kaanapali/cdspr.jsn
 File: qcom/kaanapali/soccp.mbn
 File: qcom/kaanapali/soccp_dtb.mbn
