@@ -7061,7 +7061,7 @@ Version: CDSP.HT.3.1-00889-PAKALA-1
 RawFile: qcom/sm8750/cdspr.jsn
 File: qcom/x1e80100/adsp.mbn
 File: qcom/x1e80100/adsp_dtb.mbn
-Version: ADSP.HT.5.9-00828-HAMOA-1
+Version: ADSP.HT.5.9-00837-HAMOA-1
 RawFile: qcom/x1e80100/adspr.jsn
 RawFile: qcom/x1e80100/adsps.jsn
 RawFile: qcom/x1e80100/adspua.jsn
