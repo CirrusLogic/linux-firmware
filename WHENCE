@@ -9999,3 +9999,15 @@ Driver: pcie-rcar-gen4 - Renesas R-Car Gen4 PCIe controller
 File: rcar_gen4_pcie.bin
 
 Licence: Redistributable. See LICENCE.r8a779g_pcie_phy for details.
+--------------------------------------------------------------------------
+
+Driver: PCM6240 - Texas Instruments PCM6240 Family Audio ADC/DAC Device
+
+File: ti/pcm6240/pcm6240-i2c-1-2dev.bin
+
+Version: 1.0
+
+Licence: Redistributable. See LICENCE.ti-tspa for details.
+
+Info:
+Firmware file generated via https://git.ti.com/cgit/lpaa-android-drivers/tasdevice-linux-driver/tree/json/tool/Non_Integrated_Bin_Tool_v1.4.1 and branch-master.
