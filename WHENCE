@@ -9902,6 +9902,9 @@ File: HP/ish/ish_lnlm_12128606_f9751b71.bin
 Link: intel/ish/ish_lnlm_12128606_f9751b71.bin -> ../../HP/ish/ish_lnlm_12128606_f9751b71.bin
 Version: 5.8.200.7720_1029
 
+File: HP/ish/ish_ptl_12128606_581.7779.0.bin
+Version: 5.8.1.7779
+
 License: Redistributable. See LICENCE.HP for details
 
 File: dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
