@@ -6398,6 +6398,17 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
+Driver: mt7927 - MediaTek MT7927 Wireless MACs
+
+File: mediatek/mt7927/WIFI_MT6639_PATCH_MCU_2_1_hdr.bin
+Version: 20260414133750a
+File: mediatek/mt7927/WIFI_RAM_CODE_MT6639_2_1.bin
+Version: 20260414134255
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
 Driver: mtk-2p5ge - MediaTek MT798x Internal 2.5G Ethernet Phy
 
 File: mediatek/mt7988/i2p5ge-phy-pmb.bin
@@ -9778,30 +9789,283 @@ File: ti/audio/tas2783/8EXX-X-C.bin
 File: ti/audio/tas2783/8EXX-X-D.bin
 File: ti/audio/tas2783/8EF6-X-9.bin
 File: ti/audio/tas2783/8EF6-X-C.bin
+File: ti/audio/tas2783/1534-2-0x8.bin
+File: ti/audio/tas2783/1534-2-0xB.bin
+File: ti/audio/tas2783/16F4-1-0x9.bin
+File: ti/audio/tas2783/16F4-1-0xC.bin
+File: ti/audio/tas2783/1714-1-0x8.bin
+File: ti/audio/tas2783/1714-1-0xB.bin
+File: ti/audio/tas2783/1954-0-0-0x8.bin
+File: ti/audio/tas2783/1954-0-0-0xB.bin
+File: ti/audio/tas2783/1954-0-1-0x8.bin
+File: ti/audio/tas2783/1954-0-1-0xB.bin
+File: ti/audio/tas2783/1954-1-0-0x8.bin
+File: ti/audio/tas2783/1954-1-0-0xB.bin
+File: ti/audio/tas2783/1954-1-1-0x8.bin
+File: ti/audio/tas2783/1954-1-1-0xB.bin
+File: ti/audio/tas2783/1964-0-0-0x8.bin
+File: ti/audio/tas2783/1964-0-0-0xB.bin
+File: ti/audio/tas2783/1964-0-1-0x8.bin
+File: ti/audio/tas2783/1964-0-1-0xB.bin
+File: ti/audio/tas2783/1964-1-0-0x8.bin
+File: ti/audio/tas2783/1964-1-0-0xB.bin
+File: ti/audio/tas2783/1964-1-1-0x8.bin
+File: ti/audio/tas2783/1964-1-1-0xB.bin
+File: ti/audio/tas2783/1994-0-2-0xB.bin
+File: ti/audio/tas2783/1994-0-2-0xC.bin
+File: ti/audio/tas2783/1994-1-2-0xB.bin
+File: ti/audio/tas2783/1994-1-2-0xC.bin
+File: ti/audio/tas2783/1AC4-0-0-0x8.bin
+File: ti/audio/tas2783/1AC4-0-0-0xB.bin
+File: ti/audio/tas2783/1AC4-1-0-0x8.bin
+File: ti/audio/tas2783/1AC4-1-0-0xB.bin
+File: ti/audio/tas2783/1AD4-0-2-0xB.bin
+File: ti/audio/tas2783/1AD4-0-2-0xC.bin
+File: ti/audio/tas2783/1AD4-1-2-0xB.bin
+File: ti/audio/tas2783/1AD4-1-2-0xC.bin
+File: ti/audio/tas2783/1AD4-2-2-0xB.bin
+File: ti/audio/tas2783/1AD4-2-2-0xC.bin
+File: ti/audio/tas2783/1AD4-3-2-0xB.bin
+File: ti/audio/tas2783/1AD4-3-2-0xC.bin
+File: ti/audio/tas2783/1B04-0-2-0x8.bin
+File: ti/audio/tas2783/1B04-0-2-0xB.bin
+File: ti/audio/tas2783/1B04-1-2-0x8.bin
+File: ti/audio/tas2783/1B04-1-2-0xB.bin
+File: ti/audio/tas2783/1B94-0-0-0xB.bin
+File: ti/audio/tas2783/1B94-0-0-0xC.bin
+File: ti/audio/tas2783/1B94-1-0-0xB.bin
+File: ti/audio/tas2783/1B94-1-0-0xC.bin
+File: ti/audio/tas2783/1B94-2-0-0xB.bin
+File: ti/audio/tas2783/1B94-2-0-0xC.bin
+File: ti/audio/tas2783/1B94-3-0-0xB.bin
+File: ti/audio/tas2783/1B94-3-0-0xC.bin
+File: ti/audio/tas2783/3431-2-0x8.bin
+File: ti/audio/tas2783/3431-2-0xB.bin
+File: ti/audio/tas2783/35C1-1-0x9.bin
+File: ti/audio/tas2783/35C1-1-0xC.bin
+File: ti/audio/tas2783/35D1-1-0x9.bin
+File: ti/audio/tas2783/35D1-1-0xC.bin
+File: ti/audio/tas2783/35E1-1-0x9.bin
+File: ti/audio/tas2783/35E1-1-0xC.bin
+File: ti/audio/tas2783/36A1-1-0x9.bin
+File: ti/audio/tas2783/36A1-1-0xC.bin
+File: ti/audio/tas2783/36B1-1-0x9.bin
+File: ti/audio/tas2783/36B1-1-0xC.bin
+File: ti/audio/tas2783/8E86-1-0x9.bin
+File: ti/audio/tas2783/8E86-1-0xA.bin
+File: ti/audio/tas2783/8E86-1-0xC.bin
+File: ti/audio/tas2783/8E86-1-0xD.bin
+File: ti/audio/tas2783/8E86-2-0x9.bin
+File: ti/audio/tas2783/8E86-2-0xA.bin
+File: ti/audio/tas2783/8E86-2-0xC.bin
+File: ti/audio/tas2783/8E86-2-0xD.bin
+File: ti/audio/tas2783/8E87-1-0x9.bin
+File: ti/audio/tas2783/8E87-1-0xA.bin
+File: ti/audio/tas2783/8E87-1-0xC.bin
+File: ti/audio/tas2783/8E87-1-0xD.bin
+File: ti/audio/tas2783/8E87-2-0x9.bin
+File: ti/audio/tas2783/8E87-2-0xA.bin
+File: ti/audio/tas2783/8E87-2-0xC.bin
+File: ti/audio/tas2783/8E87-2-0xD.bin
+File: ti/audio/tas2783/8EA1-0-0-0x9.bin
+File: ti/audio/tas2783/8EA1-0-0-0xC.bin
+File: ti/audio/tas2783/8EA1-1-0-0x9.bin
+File: ti/audio/tas2783/8EA1-1-0-0xC.bin
+File: ti/audio/tas2783/8EA2-0-0-0x9.bin
+File: ti/audio/tas2783/8EA2-0-0-0xC.bin
+File: ti/audio/tas2783/8EA2-1-0-0x9.bin
+File: ti/audio/tas2783/8EA2-1-0-0xC.bin
+File: ti/audio/tas2783/8EA4-0-2-0x9.bin
+File: ti/audio/tas2783/8EA4-0-2-0xC.bin
+File: ti/audio/tas2783/8EA4-1-2-0x9.bin
+File: ti/audio/tas2783/8EA4-1-2-0xC.bin
+File: ti/audio/tas2783/8EA5-0-2-0x9.bin
+File: ti/audio/tas2783/8EA5-0-2-0xC.bin
+File: ti/audio/tas2783/8EA5-1-2-0x9.bin
+File: ti/audio/tas2783/8EA5-1-2-0xC.bin
+File: ti/audio/tas2783/8EA6-0-2-0x9.bin
+File: ti/audio/tas2783/8EA6-0-2-0xC.bin
+File: ti/audio/tas2783/8EA6-1-2-0x9.bin
+File: ti/audio/tas2783/8EA6-1-2-0xC.bin
+File: ti/audio/tas2783/8EA7-0-2-0x9.bin
+File: ti/audio/tas2783/8EA7-0-2-0xC.bin
+File: ti/audio/tas2783/8EA7-1-2-0x9.bin
+File: ti/audio/tas2783/8EA7-1-2-0xC.bin
+File: ti/audio/tas2783/8EA8-0-2-0x9.bin
+File: ti/audio/tas2783/8EA8-0-2-0xC.bin
+File: ti/audio/tas2783/8EA8-1-2-0x9.bin
+File: ti/audio/tas2783/8EA8-1-2-0xC.bin
+File: ti/audio/tas2783/8EB4-1-0xA.bin
+File: ti/audio/tas2783/8EB4-1-0xD.bin
+File: ti/audio/tas2783/8EB4-2-0x9.bin
+File: ti/audio/tas2783/8EB4-2-0xC.bin
+File: ti/audio/tas2783/8ED0-1-0xC.bin
+File: ti/audio/tas2783/8ED0-2-0x9.bin
+File: ti/audio/tas2783/8EF5-0-0x9.bin
+File: ti/audio/tas2783/8EF5-0-0xA.bin
+File: ti/audio/tas2783/8EF5-0-0xC.bin
+File: ti/audio/tas2783/8EF5-0-0xD.bin
+File: ti/audio/tas2783/8EF6-2-0x9.bin
+File: ti/audio/tas2783/8EF6-2-0xC.bin
+File: ti/audio/tas2783/8F6D-0-0x9.bin
+File: ti/audio/tas2783/8F6D-0-0xA.bin
+File: ti/audio/tas2783/8F6D-0-0xC.bin
+File: ti/audio/tas2783/8F6D-0-0xD.bin
+File: ti/audio/tas2783/8F7B-1-0x9.bin
+File: ti/audio/tas2783/8F7B-1-0xA.bin
+File: ti/audio/tas2783/8F7B-1-0xC.bin
+File: ti/audio/tas2783/8F7B-1-0xD.bin
+File: ti/audio/tas2783/8F7B-2-0x9.bin
+File: ti/audio/tas2783/8F7B-2-0xA.bin
+File: ti/audio/tas2783/8F7B-2-0xC.bin
+File: ti/audio/tas2783/8F7B-2-0xD.bin
+File: ti/audio/tas2783/8FA4-0-0x9.bin
+File: ti/audio/tas2783/8FA4-0-0xA.bin
+File: ti/audio/tas2783/8FA4-0-0xC.bin
+File: ti/audio/tas2783/8FA4-0-0xD.bin
+File: ti/audio/tas2783/8FA5-0-0x9.bin
+File: ti/audio/tas2783/8FA5-0-0xA.bin
+File: ti/audio/tas2783/8FA5-0-0xC.bin
+File: ti/audio/tas2783/8FA5-0-0xD.bin
 
-Link: 8E86-1-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
-Link: 8E86-1-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
-Link: 8E86-1-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
-Link: 8E86-1-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
-Link: 8E86-2-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
-Link: 8E86-2-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
-Link: 8E86-2-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
-Link: 8E86-2-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
-Link: 8E87-1-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
-Link: 8E87-1-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
-Link: 8E87-1-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
-Link: 8E87-1-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
-Link: 8E87-2-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
-Link: 8E87-2-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
-Link: 8E87-2-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
-Link: 8E87-2-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
-Link: 8EF5-0-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
-Link: 8EF5-0-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
-Link: 8EF5-0-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
-Link: 8EF5-0-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
-Link: 8EF6-2-9.bin -> ti/audio/tas2783/8EF6-X-9.bin
-Link: 8EF6-2-C.bin -> ti/audio/tas2783/8EF6-X-C.bin
-
+Link: 1534-2-0x8.bin -> ti/audio/tas2783/1534-2-0x8.bin
+Link: 1534-2-0xB.bin -> ti/audio/tas2783/1534-2-0xB.bin
+Link: 16F4-1-0x9.bin -> ti/audio/tas2783/16F4-1-0x9.bin
+Link: 16F4-1-0xC.bin -> ti/audio/tas2783/16F4-1-0xC.bin
+Link: 1714-1-0x8.bin -> ti/audio/tas2783/1714-1-0x8.bin
+Link: 1714-1-0xB.bin -> ti/audio/tas2783/1714-1-0xB.bin
+Link: 1954-0-0-0x8.bin -> ti/audio/tas2783/1954-0-0-0x8.bin
+Link: 1954-0-0-0xB.bin -> ti/audio/tas2783/1954-0-0-0xB.bin
+Link: 1954-0-1-0x8.bin -> ti/audio/tas2783/1954-0-1-0x8.bin
+Link: 1954-0-1-0xB.bin -> ti/audio/tas2783/1954-0-1-0xB.bin
+Link: 1954-1-0-0x8.bin -> ti/audio/tas2783/1954-1-0-0x8.bin
+Link: 1954-1-0-0xB.bin -> ti/audio/tas2783/1954-1-0-0xB.bin
+Link: 1954-1-1-0x8.bin -> ti/audio/tas2783/1954-1-1-0x8.bin
+Link: 1954-1-1-0xB.bin -> ti/audio/tas2783/1954-1-1-0xB.bin
+Link: 1964-0-0-0x8.bin -> ti/audio/tas2783/1964-0-0-0x8.bin
+Link: 1964-0-0-0xB.bin -> ti/audio/tas2783/1964-0-0-0xB.bin
+Link: 1964-0-1-0x8.bin -> ti/audio/tas2783/1964-0-1-0x8.bin
+Link: 1964-0-1-0xB.bin -> ti/audio/tas2783/1964-0-1-0xB.bin
+Link: 1964-1-0-0x8.bin -> ti/audio/tas2783/1964-1-0-0x8.bin
+Link: 1964-1-0-0xB.bin -> ti/audio/tas2783/1964-1-0-0xB.bin
+Link: 1964-1-1-0x8.bin -> ti/audio/tas2783/1964-1-1-0x8.bin
+Link: 1964-1-1-0xB.bin -> ti/audio/tas2783/1964-1-1-0xB.bin
+Link: 1994-0-2-0xB.bin -> ti/audio/tas2783/1994-0-2-0xB.bin
+Link: 1994-0-2-0xC.bin -> ti/audio/tas2783/1994-0-2-0xC.bin
+Link: 1994-1-2-0xB.bin -> ti/audio/tas2783/1994-1-2-0xB.bin
+Link: 1994-1-2-0xC.bin -> ti/audio/tas2783/1994-1-2-0xC.bin
+Link: 1AC4-0-0-0x8.bin -> ti/audio/tas2783/1AC4-0-0-0x8.bin
+Link: 1AC4-0-0-0xB.bin -> ti/audio/tas2783/1AC4-0-0-0xB.bin
+Link: 1AC4-1-0-0x8.bin -> ti/audio/tas2783/1AC4-1-0-0x8.bin
+Link: 1AC4-1-0-0xB.bin -> ti/audio/tas2783/1AC4-1-0-0xB.bin
+Link: 1AD4-0-2-0xB.bin -> ti/audio/tas2783/1AD4-0-2-0xB.bin
+Link: 1AD4-0-2-0xC.bin -> ti/audio/tas2783/1AD4-0-2-0xC.bin
+Link: 1AD4-1-2-0xB.bin -> ti/audio/tas2783/1AD4-1-2-0xB.bin
+Link: 1AD4-1-2-0xC.bin -> ti/audio/tas2783/1AD4-1-2-0xC.bin
+Link: 1AD4-2-2-0xB.bin -> ti/audio/tas2783/1AD4-2-2-0xB.bin
+Link: 1AD4-2-2-0xC.bin -> ti/audio/tas2783/1AD4-2-2-0xC.bin
+Link: 1AD4-3-2-0xB.bin -> ti/audio/tas2783/1AD4-3-2-0xB.bin
+Link: 1AD4-3-2-0xC.bin -> ti/audio/tas2783/1AD4-3-2-0xC.bin
+Link: 1B04-0-2-0x8.bin -> ti/audio/tas2783/1B04-0-2-0x8.bin
+Link: 1B04-0-2-0xB.bin -> ti/audio/tas2783/1B04-0-2-0xB.bin
+Link: 1B04-1-2-0x8.bin -> ti/audio/tas2783/1B04-1-2-0x8.bin
+Link: 1B04-1-2-0xB.bin -> ti/audio/tas2783/1B04-1-2-0xB.bin
+Link: 1B94-0-0-0xB.bin -> ti/audio/tas2783/1B94-0-0-0xB.bin
+Link: 1B94-0-0-0xC.bin -> ti/audio/tas2783/1B94-0-0-0xC.bin
+Link: 1B94-1-0-0xB.bin -> ti/audio/tas2783/1B94-1-0-0xB.bin
+Link: 1B94-1-0-0xC.bin -> ti/audio/tas2783/1B94-1-0-0xC.bin
+Link: 1B94-2-0-0xB.bin -> ti/audio/tas2783/1B94-2-0-0xB.bin
+Link: 1B94-2-0-0xC.bin -> ti/audio/tas2783/1B94-2-0-0xC.bin
+Link: 1B94-3-0-0xB.bin -> ti/audio/tas2783/1B94-3-0-0xB.bin
+Link: 1B94-3-0-0xC.bin -> ti/audio/tas2783/1B94-3-0-0xC.bin
+Link: 3431-2-0x8.bin -> ti/audio/tas2783/3431-2-0x8.bin
+Link: 3431-2-0xB.bin -> ti/audio/tas2783/3431-2-0xB.bin
+Link: 35C1-1-0x9.bin -> ti/audio/tas2783/35C1-1-0x9.bin
+Link: 35C1-1-0xC.bin -> ti/audio/tas2783/35C1-1-0xC.bin
+Link: 35D1-1-0x9.bin -> ti/audio/tas2783/35D1-1-0x9.bin
+Link: 35D1-1-0xC.bin -> ti/audio/tas2783/35D1-1-0xC.bin
+Link: 35E1-1-0x9.bin -> ti/audio/tas2783/35E1-1-0x9.bin
+Link: 35E1-1-0xC.bin -> ti/audio/tas2783/35E1-1-0xC.bin
+Link: 36A1-1-0x9.bin -> ti/audio/tas2783/36A1-1-0x9.bin
+Link: 36A1-1-0xC.bin -> ti/audio/tas2783/36A1-1-0xC.bin
+Link: 36B1-1-0x9.bin -> ti/audio/tas2783/36B1-1-0x9.bin
+Link: 36B1-1-0xC.bin -> ti/audio/tas2783/36B1-1-0xC.bin
+Link: 8E86-1-0x9.bin -> ti/audio/tas2783/8E86-1-0x9.bin
+Link: 8E86-1-0xA.bin -> ti/audio/tas2783/8E86-1-0xA.bin
+Link: 8E86-1-0xC.bin -> ti/audio/tas2783/8E86-1-0xC.bin
+Link: 8E86-1-0xD.bin -> ti/audio/tas2783/8E86-1-0xD.bin
+Link: 8E86-2-0x9.bin -> ti/audio/tas2783/8E86-2-0x9.bin
+Link: 8E86-2-0xA.bin -> ti/audio/tas2783/8E86-2-0xA.bin
+Link: 8E86-2-0xC.bin -> ti/audio/tas2783/8E86-2-0xC.bin
+Link: 8E86-2-0xD.bin -> ti/audio/tas2783/8E86-2-0xD.bin
+Link: 8E87-1-0x9.bin -> ti/audio/tas2783/8E87-1-0x9.bin
+Link: 8E87-1-0xA.bin -> ti/audio/tas2783/8E87-1-0xA.bin
+Link: 8E87-1-0xC.bin -> ti/audio/tas2783/8E87-1-0xC.bin
+Link: 8E87-1-0xD.bin -> ti/audio/tas2783/8E87-1-0xD.bin
+Link: 8E87-2-0x9.bin -> ti/audio/tas2783/8E87-2-0x9.bin
+Link: 8E87-2-0xA.bin -> ti/audio/tas2783/8E87-2-0xA.bin
+Link: 8E87-2-0xC.bin -> ti/audio/tas2783/8E87-2-0xC.bin
+Link: 8E87-2-0xD.bin -> ti/audio/tas2783/8E87-2-0xD.bin
+Link: 8EA1-0-0-0x9.bin -> ti/audio/tas2783/8EA1-0-0-0x9.bin
+Link: 8EA1-0-0-0xC.bin -> ti/audio/tas2783/8EA1-0-0-0xC.bin
+Link: 8EA1-1-0-0x9.bin -> ti/audio/tas2783/8EA1-1-0-0x9.bin
+Link: 8EA1-1-0-0xC.bin -> ti/audio/tas2783/8EA1-1-0-0xC.bin
+Link: 8EA2-0-0-0x9.bin -> ti/audio/tas2783/8EA2-0-0-0x9.bin
+Link: 8EA2-0-0-0xC.bin -> ti/audio/tas2783/8EA2-0-0-0xC.bin
+Link: 8EA2-1-0-0x9.bin -> ti/audio/tas2783/8EA2-1-0-0x9.bin
+Link: 8EA2-1-0-0xC.bin -> ti/audio/tas2783/8EA2-1-0-0xC.bin
+Link: 8EA4-0-2-0x9.bin -> ti/audio/tas2783/8EA4-0-2-0x9.bin
+Link: 8EA4-0-2-0xC.bin -> ti/audio/tas2783/8EA4-0-2-0xC.bin
+Link: 8EA4-1-2-0x9.bin -> ti/audio/tas2783/8EA4-1-2-0x9.bin
+Link: 8EA4-1-2-0xC.bin -> ti/audio/tas2783/8EA4-1-2-0xC.bin
+Link: 8EA5-0-2-0x9.bin -> ti/audio/tas2783/8EA5-0-2-0x9.bin
+Link: 8EA5-0-2-0xC.bin -> ti/audio/tas2783/8EA5-0-2-0xC.bin
+Link: 8EA5-1-2-0x9.bin -> ti/audio/tas2783/8EA5-1-2-0x9.bin
+Link: 8EA5-1-2-0xC.bin -> ti/audio/tas2783/8EA5-1-2-0xC.bin
+Link: 8EA6-0-2-0x9.bin -> ti/audio/tas2783/8EA6-0-2-0x9.bin
+Link: 8EA6-0-2-0xC.bin -> ti/audio/tas2783/8EA6-0-2-0xC.bin
+Link: 8EA6-1-2-0x9.bin -> ti/audio/tas2783/8EA6-1-2-0x9.bin
+Link: 8EA6-1-2-0xC.bin -> ti/audio/tas2783/8EA6-1-2-0xC.bin
+Link: 8EA7-0-2-0x9.bin -> ti/audio/tas2783/8EA7-0-2-0x9.bin
+Link: 8EA7-0-2-0xC.bin -> ti/audio/tas2783/8EA7-0-2-0xC.bin
+Link: 8EA7-1-2-0x9.bin -> ti/audio/tas2783/8EA7-1-2-0x9.bin
+Link: 8EA7-1-2-0xC.bin -> ti/audio/tas2783/8EA7-1-2-0xC.bin
+Link: 8EA8-0-2-0x9.bin -> ti/audio/tas2783/8EA8-0-2-0x9.bin
+Link: 8EA8-0-2-0xC.bin -> ti/audio/tas2783/8EA8-0-2-0xC.bin
+Link: 8EA8-1-2-0x9.bin -> ti/audio/tas2783/8EA8-1-2-0x9.bin
+Link: 8EA8-1-2-0xC.bin -> ti/audio/tas2783/8EA8-1-2-0xC.bin
+Link: 8EB4-1-0xA.bin -> ti/audio/tas2783/8EB4-1-0xA.bin
+Link: 8EB4-1-0xD.bin -> ti/audio/tas2783/8EB4-1-0xD.bin
+Link: 8EB4-2-0x9.bin -> ti/audio/tas2783/8EB4-2-0x9.bin
+Link: 8EB4-2-0xC.bin -> ti/audio/tas2783/8EB4-2-0xC.bin
+Link: 8ED0-1-0xC.bin -> ti/audio/tas2783/8ED0-1-0xC.bin
+Link: 8ED0-2-0x9.bin -> ti/audio/tas2783/8ED0-2-0x9.bin
+Link: 8EF5-0-0x9.bin -> ti/audio/tas2783/8EF5-0-0x9.bin
+Link: 8EF5-0-0xA.bin -> ti/audio/tas2783/8EF5-0-0xA.bin
+Link: 8EF5-0-0xC.bin -> ti/audio/tas2783/8EF5-0-0xC.bin
+Link: 8EF5-0-0xD.bin -> ti/audio/tas2783/8EF5-0-0xD.bin
+Link: 8EF6-2-0x9.bin -> ti/audio/tas2783/8EF6-2-0x9.bin
+Link: 8EF6-2-0xC.bin -> ti/audio/tas2783/8EF6-2-0xC.bin
+Link: 8F6D-0-0x9.bin -> ti/audio/tas2783/8F6D-0-0x9.bin
+Link: 8F6D-0-0xA.bin -> ti/audio/tas2783/8F6D-0-0xA.bin
+Link: 8F6D-0-0xC.bin -> ti/audio/tas2783/8F6D-0-0xC.bin
+Link: 8F6D-0-0xD.bin -> ti/audio/tas2783/8F6D-0-0xD.bin
+Link: 8F7B-1-0x9.bin -> ti/audio/tas2783/8F7B-1-0x9.bin
+Link: 8F7B-1-0xA.bin -> ti/audio/tas2783/8F7B-1-0xA.bin
+Link: 8F7B-1-0xC.bin -> ti/audio/tas2783/8F7B-1-0xC.bin
+Link: 8F7B-1-0xD.bin -> ti/audio/tas2783/8F7B-1-0xD.bin
+Link: 8F7B-2-0x9.bin -> ti/audio/tas2783/8F7B-2-0x9.bin
+Link: 8F7B-2-0xA.bin -> ti/audio/tas2783/8F7B-2-0xA.bin
+Link: 8F7B-2-0xC.bin -> ti/audio/tas2783/8F7B-2-0xC.bin
+Link: 8F7B-2-0xD.bin -> ti/audio/tas2783/8F7B-2-0xD.bin
+Link: 8FA4-0-0x9.bin -> ti/audio/tas2783/8FA4-0-0x9.bin
+Link: 8FA4-0-0xA.bin -> ti/audio/tas2783/8FA4-0-0xA.bin
+Link: 8FA4-0-0xC.bin -> ti/audio/tas2783/8FA4-0-0xC.bin
+Link: 8FA4-0-0xD.bin -> ti/audio/tas2783/8FA4-0-0xD.bin
+Link: 8FA5-0-0x9.bin -> ti/audio/tas2783/8FA5-0-0x9.bin
+Link: 8FA5-0-0xA.bin -> ti/audio/tas2783/8FA5-0-0xA.bin
+Link: 8FA5-0-0xC.bin -> ti/audio/tas2783/8FA5-0-0xC.bin
+Link: 8FA5-0-0xD.bin -> ti/audio/tas2783/8FA5-0-0xD.bin
 Licence: Redistributable. LICENCE.ti-tspa for details. Marked:
 	 Copyright (C) 2026 Texas Instruments
 
