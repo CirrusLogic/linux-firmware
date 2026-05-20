@@ -4941,8 +4941,9 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: btqca - Qualcomm Atheros Bluetooth support for QCA_QCC2072 chip
 
 File: qca/ornbtfw11.tlv
-Version: BTFW.ORNE.1.1.0-00202-PATCH-2_DEF
+Version: BTFW.ORNE.1.1.0-00295-PATCHZ-1
 File: qca/ornnv11.bin
+Version: BTFW.ORNE.1.1.0-00295-PATCHZ-1
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
