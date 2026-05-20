@@ -4944,6 +4944,8 @@ File: qca/ornbtfw11.tlv
 Version: BTFW.ORNE.1.1.0-00295-PATCHZ-1
 File: qca/ornnv11.bin
 Version: BTFW.ORNE.1.1.0-00295-PATCHZ-1
+File: qca/ornbcscal11.bin
+Version: BTFW.ORNE.1.1.0-00295-PATCHZ-1
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
