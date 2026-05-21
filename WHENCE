@@ -6772,8 +6772,10 @@ File: qcom/sa8775p/a663_zap.mbn
 Version: v0.09
 File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/a702_sqe.fw
-Version: v0.47
+Version: v0.49
 File: qcom/qcm2290/a702_zap.mbn
+File: qcom/shikra/a704_zap.mbn
+Version: v0.05
 File: qcom/a730_sqe.fw
 Version: v1.81
 File: qcom/gmu_gen70000.bin
