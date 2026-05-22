@@ -5520,7 +5520,7 @@ File: i915/xe3lpd_3002_dmc.bin
 Version: DMC API/APB ver 2 release 29 for Xe3LPD_3002
 
 File: i915/xe3p_lpd_dmc.bin
-Version: DMC API/APB ver 2 release 33 for Xe3p_LPD
+Version: DMC API/APB ver 2 release 37 for Xe3p_LPD
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
