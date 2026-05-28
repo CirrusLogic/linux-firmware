@@ -3735,6 +3735,9 @@ Version: 0.0.5
 File: rtl_nic/rtl8127a-1.fw
 Version: 0.0.5
 
+File: rtl_nic/rtl8261c.bin
+Version: 0.0.1
+
 Licence: Redistributable. See LICENSE.r8169 for details.
 
 --------------------------------------------------------------------------
