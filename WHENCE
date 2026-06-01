@@ -9138,6 +9138,9 @@ File: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid0-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431c74.wmfw -> cs35l56/CS35L56_Rev3.13.4.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10431c74-l2u0.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431c74-l2u1.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-10431df3.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10431df3-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431df3-amp2.bin
