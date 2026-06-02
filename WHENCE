@@ -9660,6 +9660,11 @@ Originates from https://github.com/linux-msm/audioreach-topology.git
 
 --------------------------------------------------------------------------
 Driver: ti-tas2781 - tas2781 firmware
+File: ti/audio/tas257x/tas2572-1-1amp-reg.bin
+File: ti/audio/tas257x/tas2572-2-1amp-reg.bin
+File: ti/audio/tas257x/tas2572-3-1amp-reg.bin
+File: ti/audio/tas257x/tas2572-3amp-reg.bin
+File: ti/audio/tas257x/tas257x-1amp-reg.bin
 File: ti/audio/tas2781/TAS2XXX0C94.bin
 File: ti/audio/tas2781/TAS2XXX0C95.bin
 File: ti/audio/tas2781/TAS2XXX0C96.bin
@@ -9750,6 +9755,11 @@ File: ti/audio/tas2781/TXNW2781RCA0.bin
 File: ti/audio/tas2781/TXNW2781RCA1.bin
 File: ti/audio/tas2781/TIAS2781RCA2.bin
 File: ti/audio/tas2781/TIAS2781RCA4.bin
+Link: tas2572-1-1amp-reg.bin -> ti/audio/tas257x/tas2572-1-1amp-reg.bin
+Link: tas2572-2-1amp-reg.bin -> ti/audio/tas257x/tas2572-2-1amp-reg.bin
+Link: tas2572-3-1amp-reg.bin -> ti/audio/tas257x/tas2572-3-1amp-reg.bin
+Link: tas2572-3amp-reg.bin -> ti/audio/tas257x/tas2572-3amp-reg.bin
+Link: tas257x-1amp-reg.bin -> ti/audio/tas257x/tas257x-1amp-reg.bin
 Link: TAS2XXX0C94.bin -> ti/audio/tas2781/TAS2XXX0C94.bin
 Link: TAS2XXX0C95.bin -> ti/audio/tas2781/TAS2XXX0C95.bin
 Link: TAS2XXX0C96.bin -> ti/audio/tas2781/TAS2XXX0C96.bin
@@ -9873,7 +9883,7 @@ Link: TXNW2781RCA2.bin -> ti/audio/tas2781/TIAS2781RCA2.bin
 Link: TXNW2781RCA4.bin -> ti/audio/tas2781/TIAS2781RCA4.bin
 
 Licence: Redistributable. See LICENCE.ti-tspa for details. Marked:
-	 Copyright (C) 2023 - 2025 Texas Instruments
+	 Copyright (C) 2023 - 2026 Texas Instruments
 
 --------------------------------------------------------------------------
 
