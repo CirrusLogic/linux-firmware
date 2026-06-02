@@ -131,7 +131,7 @@ Source: keyspan_pda/xircom_pgs.S
 
 Source: keyspan_pda/Makefile
 
-Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
+Licence: GPLv2 or later. See GPL-2.0 for details.
 
 Compiled from original 8051 source into Intel HEX, used in our binary ihex form.
 
@@ -310,7 +310,7 @@ Source: dsp56k/bootstrap.asm
 Source: dsp56k/Makefile
 Source: dsp56k/concat-bootstrap.pl
 
-Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
+Licence: GPLv2 or later. See GPL-2.0 for details.
 
 DSP56001 assembler, buildable with a56 from
 http://www.zdomain.com/a56.html
@@ -1731,7 +1731,7 @@ File: av7110/bootcode.bin
 Source: av7110/Boot.S
 Source: av7110/Makefile
 
-Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
+Licence: GPLv2 or later. See GPL-2.0 for details.
 
 ARM assembly source code from https://linuxtv.org/downloads/firmware/Boot.S
 
@@ -1835,7 +1835,7 @@ File: usbduxfast_firmware.bin
 File: usbduxsigma_firmware.bin
 Source: usbdux/
 
-Licence: GPLv2 or later. See GPL-2 for details.
+Licence: GPLv2 or later. See GPL-2.0 for details.
 Provided from the author, Bernd Porr <BerndPorr@f2s.com>
 
 --------------------------------------------------------------------------
@@ -3192,7 +3192,7 @@ Link: brcm/brcmfmac43455-sdio.pine64,soquartz-model-a.txt -> brcmfmac43455-sdio.
 Link: brcm/brcmfmac43455-sdio.pine64,soquartz-cm4io.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 Link: brcm/brcmfmac43455-sdio.pine64,soquartz-blade.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 
-Licence: GPLv2. See GPL-2 for details.
+Licence: GPLv2. See GPL-2.0 for details.
 
 --------------------------------------------------------------------------
 
@@ -4157,7 +4157,7 @@ Driver: isci - Intel C600 SAS controller driver
 File: isci/isci_firmware.bin
 Source: isci/
 
-Licence: GPLv2. See GPL-2 for details.
+Licence: GPLv2. See GPL-2.0 for details.
 
 --------------------------------------------------------------------------
 
@@ -4190,7 +4190,7 @@ Source: carl9170fw/
 
 Downloaded from http://linuxwireless.org/en/users/Drivers/carl9170
 
-Licence: GPLv2 or later. Some build scripts use the New BSD (3-clause) licence. See GPL-2 for details.
+Licence: GPLv2 or later. Some build scripts use the New BSD (3-clause) licence. See GPL-2.0 for details.
 
 --------------------------------------------------------------------------
 
@@ -4851,7 +4851,7 @@ File: atusb/rzusb-0.3.bin
 Version: 0.3
 Info: atusb/ChangeLog
 
-Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
+Licence: GPLv2 or later. See GPL-2.0 for details.
 
 --------------------------------------------------------------------------
 
