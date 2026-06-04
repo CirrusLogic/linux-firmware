@@ -6973,7 +6973,7 @@ Version: vfw-3.1:rel0085-070fa3311d9ef968015fee7fea07198d7eb208a1
 RawFile: qcom/x1e80100/LENOVO/21N1/adspua.jsn
 File: qcom/x1e80100/cdsp.mbn
 File: qcom/x1e80100/cdsp_dtb.mbn
-Version: CDSP.HT.2.9.c1-00069-HAMOA-1
+Version: CDSP.HT.2.9.c1-00082-HAMOA-1
 RawFile: qcom/x1e80100/cdspr.jsn
 File: qcom/x1e80100/LENOVO/21N1/qcadsp8380.mbn
 Version: ADSP.HT.5.9-00787.2-HAMOA-1
