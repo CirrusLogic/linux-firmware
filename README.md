@@ -47,10 +47,15 @@ clearly state the license under which the firmware is available, and
 that it is redistributable. Being redistributable includes ensuring
 the firmware license provided includes an implicit or explicit
 patent grant to end users to ensure full functionality of device
-operation with the firmware. If the license is long and involved, it's
-permitted to include it in a separate file and refer to it from the
-`WHENCE` file (IE _'See `LICENSE.foo` for details.'_).
-And if it were possible, a changelog of the firmware itself.
+operation with the firmware. If the license is long and involved, the
+license text may be kept in a separate file rather than inline in `WHENCE`.
+Any such separate license file **must** be placed in the `LICENSES/`
+directory and referenced from the `WHENCE` file (IE _'See `LICENSE.foo` for
+details.'_).
+
+Where possible, the commit message should also include a changelog of the
+firmware itself — what changed in this revision — since for binary firmware
+the commit message is frequently the only human-readable record of the change.
 
 To maintain consistent quality on the repository, please run the following
 before submitting a patch:

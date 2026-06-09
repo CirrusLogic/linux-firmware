@@ -24,12 +24,18 @@ Upstream lives at <https://gitlab.com/kernel-firmware/linux-firmware.git>.
 
 1. **Every file in git must be accounted for** — *almost always* by a `WHENCE`
    entry. Adding a firmware blob without one breaks the build; removing or
-   renaming one without updating `WHENCE` does too. **The exception is
-   repository tooling/metadata** (this file, `README.md`, `check_whence.py`,
-   etc.), which is registered in the `known_files` allowlist *inside*
-   `check_whence.py`. If `make check` reports a non-firmware file is
-   unaccounted for, add it to that allowlist — **never to `WHENCE`** (see
-   "Things to leave alone").
+   renaming one without updating `WHENCE` does too. There are two kinds of
+   exception:
+   - **Repository tooling/metadata** (this file, `README.md`,
+     `check_whence.py`, etc.) is registered in the `known_files` allowlist
+     *inside* `check_whence.py`.
+   - **License texts** live in the `LICENSES/` directory and are accounted for
+     by being referenced from a `Licence:` line in `WHENCE` (e.g.
+     `See LICENCE.foo for details.`) — not by a `File:` entry.
+
+   If `make check` reports a file is unaccounted for, place it in the right
+   bucket above. **Don't add tooling or license files to `WHENCE` as `File:`
+   entries** to silence a check (see "Things to leave alone").
 2. **Never invent license information.** The license and the redistributability
    of a blob are facts that come from the firmware's owner — usually conveyed in
    the submitter's commit and `Signed-off-by`. If you don't have it, don't guess.
@@ -48,9 +54,11 @@ Upstream lives at <https://gitlab.com/kernel-firmware/linux-firmware.git>.
 2. Add a stanza to `WHENCE` (see "WHENCE format" below) declaring the file and
    its license. Group it with related entries; keep the file roughly ordered as
    the surrounding content is.
-3. If the firmware needs a new license, add a `LICENSE.<vendor>` (or
-   `LICENCE.<vendor>` — both spellings exist) file and reference it from
-   `WHENCE` with `See LICENSE.<vendor> for details.`
+3. If the firmware needs a new license, the license text **must** go in the
+   `LICENSES/` directory as `LICENSES/LICENSE.<vendor>` (or
+   `LICENSES/LICENCE.<vendor>` — both spellings exist in the tree). Reference
+   it from `WHENCE` with `See LICENSE.<vendor> for details.` using the bare
+   filename; `check_whence.py` resolves it under `LICENSES/`.
 4. Run `make check`.
 5. Commit with a `Signed-off-by` from someone authoritative on the license,
    and — if an agent helped produce the change — a trailer noting AI
@@ -71,7 +79,9 @@ keywords that matter:
 - `Version:` / `Info:` — optional metadata lines.
 - `Licence:` / `License:` — the license terms. Either name an inline word
   (e.g. `Redistributable`, `GPLv2`) or refer out with
-  `See <LICENSE-file> for details.` The referenced file must exist in the tree.
+  `See <LICENSE-file> for details.` Referenced license files live in the
+  `LICENSES/` directory and are cited by bare filename (the checker resolves
+  the path); the file must exist there.
 
 Spaces in paths are backslash-escaped (e.g. `foo\ bar.bin`).
 
@@ -115,6 +125,10 @@ check and it reports a phantom mismatch.
   authority over the firmware's licensing (typically from within the owning
   company). CI (`ci-fairy check-commits --signed-off-by`) rejects commits
   without it. Do not add one yourself — ask the user.
+- **Include a firmware changelog in the commit message where possible** — what
+  changed in this firmware revision (fixes, new device support, version bumps).
+  For binary blobs the commit message is often the only human-readable record
+  of the change, so capture whatever the vendor provides.
 - If an AI agent assisted in producing the commit, record it with a trailer
   such as `Assisted-by: <tool/model>` (an equivalent `Co-developed-by:` /
   `Co-Authored-By:` is fine). The exact tag isn't critical; surfacing that AI
