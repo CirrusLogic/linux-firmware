@@ -76,6 +76,7 @@ def main():
     whence_links = list(zip(*links_list))[0]
     known_files = set(name for name in whence_list if not name.endswith("/")) | set(
         [
+            "AGENTS.md",
             ".codespell.cfg",
             ".editorconfig",
             ".gitignore",
