@@ -17,43 +17,6 @@ Licence: Redistributable. See LICENCE.cypress for details.
 
 --------------------------------------------------------------------------
 
-Driver: snd-korg1212 - Korg 1212 IO audio device
-
-File: korg/k1212.dsp
-
-Licence: Unknown
-
-Found in alsa-firmware package in hex form; no licensing information.
-
---------------------------------------------------------------------------
-
-Driver: snd-maestro3 - ESS Allegro Maestro3 audio device
-
-File: ess/maestro3_assp_kernel.fw
-File: ess/maestro3_assp_minisrc.fw
-
-Licence: Unknown
-
-Found in alsa-firmware package in hex form with a comment claiming to
-be GPLv2+, but without source - and with another comment saying "ESS
-drops binary dsp code images on our heads, but we don't get to see
-specs on the dsp."
-
---------------------------------------------------------------------------
-
-Driver: snd-ymfpci - Yamaha YMF724/740/744/754 audio devices
-
-File: yamaha/ds1_ctrl.fw
-File: yamaha/ds1_dsp.fw
-File: yamaha/ds1e_ctrl.fw
-
-Licence: Unknown
-
-Found alsa-firmware package in hex form, with the following comment:
-   Copyright (c) 1997-1999 Yamaha Corporation. All Rights Reserved.
-
---------------------------------------------------------------------------
-
 Driver: advansys - AdvanSys SCSI
 
 File: advansys/mcode.bin
@@ -85,16 +48,6 @@ File: kaweth/trigger_code.bin
 File: kaweth/trigger_code_fix.bin
 
 Licence: Redistributable. See LICENCE.kaweth for details
-
-Found in hex form in the kernel source.
-
---------------------------------------------------------------------------
-
-Driver: dvb-ttusb-budget - Technotrend/Hauppauge Nova-USB devices
-
-File: ttusb-budget/dspbootcode.bin
-
-Licence: Unknown
 
 Found in hex form in the kernel source.
 
@@ -155,30 +108,6 @@ Licence: Redistributable. See LICENCE.emi26 for details
 
 --------------------------------------------------------------------------
 
-Driver: emi62 - EMI 6|2m USB Audio interface
-
-File: emi62/bitstream.fw
-Version: 1.0.0.191
-Info: DATE= 2002oct28
-
-File: emi62/loader.fw
-Version: 1.0.2.002
-Info: DATE=10.01.2002
-
-File: emi62/midi.fw
-Version: 1.04.062
-Info: DATE=16.10.2002
-
-File: emi62/spdif.fw
-Version: 1.04.062
-Info: DATE=16.10.2002
-
-Converted from Intel HEX files, used in our binary representation of ihex.
-
-Licence: Unknown
-
---------------------------------------------------------------------------
-
 Driver: ti_usb_3410_5052 - USB TI 3410/5052 serial device
 
 File: ti_3410.fw
@@ -205,15 +134,6 @@ Licence: Redistributable. See LICENCE.multitech for details
 Copyright (C) 2005 Multi-Tech Systems, Inc.
 
 Found in hex form in ftp://ftp.multitech.com/wireless/wireless_linux.zip
-
---------------------------------------------------------------------------
-
-Driver: ti_usb_3410_5052 - Multi-Tech USB fax modems
-
-File: mts_mt9234mu.fw
-File: mts_mt9234zba.fw
-
-Licence: Unknown
 
 --------------------------------------------------------------------------
 
@@ -256,16 +176,6 @@ File: dabusb/firmware.fw
 File: dabusb/bitstream.bin
 
 Licence: Redistributable. See LICENCE.dabusb for details
-
---------------------------------------------------------------------------
-
-Driver: vicam - USB 3com HomeConnect (aka vicam)
-
-File: vicam/firmware.fw
-
-Licence: Unknown
-
-Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
@@ -397,16 +307,6 @@ Licence: Free software. See LICENCE.open-ath9k-htc-firmware for details
 
 --------------------------------------------------------------------------
 
-Driver: cassini - Sun Cassini
-
-File: sun/cassini.bin
-
-Licence: Unknown
-
-Found in hex form in kernel source.
-
---------------------------------------------------------------------------
-
 Driver: slicoss - Alacritech IS-NIC products
 
 File: slicoss/gbdownload.sys
@@ -492,18 +392,6 @@ File: e100/d101s_ucode.bin
 File: e100/d102e_ucode.bin
 
 Licence: Redistributable. See LICENCE.e100 for details
-
---------------------------------------------------------------------------
-
-Driver: acenic - Alteon AceNIC Gigabit Ethernet card
-
-File: acenic/tg1.bin
-File: acenic/tg2.bin
-
-Licence: Unknown
-
-Found in hex form in kernel source, but source allegedly available at
-http://alteon.shareable.org/
 
 --------------------------------------------------------------------------
 
@@ -1541,18 +1429,6 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
-Driver: yam - YAM driver for AX.25
-
-File: yam/1200.bin
-File: yam/9600.bin
-
-Licence: Unknown
-(C) F6FBB 1998
-
-Found in hex form in kernel source.
-
---------------------------------------------------------------------------
-
 Driver: pcnet_cs - NE2000 compatible PCMCIA adapter
 
 File: cis/LA-PCM.cis
@@ -1656,26 +1532,6 @@ Driver: cx23840 - Conexant sideport Broadcast A/V decoder
 File: v4l-cx25840.fw
 
 Licence: Redistributable. See LICENSE.conexant for details.
-
---------------------------------------------------------------------------
-
-Driver: qlogicpti - PTI Qlogic, ISP Driver
-
-File: qlogic/isp1000.bin
-
-Licence: Unknown
-
-Found in hex form in kernel source.
-
---------------------------------------------------------------------------
-
-Driver: myri_sbus - MyriCOM Gigabit Ethernet
-
-File: myricom/lanai.bin
-
-Licence: Unknown
-
-Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
@@ -2940,14 +2796,6 @@ File: f2255usb.bin
 Version: 1.2.8
 
 Licence: Redistributable. See LICENCE.sensoray for details.
-
---------------------------------------------------------------------------
-
-Driver: lgs8gxx - Legend Silicon GB20600 demodulator driver
-
-File: lgs8g75.fw
-
-Licence: Unknown
 
 --------------------------------------------------------------------------
 
