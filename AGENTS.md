@@ -9,9 +9,10 @@ restates the contribution rules in the operational order an agent needs them.
 This is **linux-firmware**, the upstream collection of binary firmware images
 loaded by the Linux kernel at runtime. It is *not* a normal software project:
 
-- The payload is **binary blobs**, not source you compile here. A few entries
-  ship buildable source (see `keyspan_pda/`), but the overwhelming majority are
-  redistributed binaries.
+- The payload is **normally binary blobs** rather than source you build here —
+  though contributors *may* provide source, and it's welcome where the firmware
+  owner permits it (see `keyspan_pda/` for a built-from-source example). The
+  large majority are redistributed binaries.
 - The most important file is **`WHENCE`** — a hand-maintained manifest that
   records the origin, license, and redistribution terms of *every* file.
 - The repository's core value is **licensing provenance**, not code. Most of
@@ -21,9 +22,14 @@ Upstream lives at <https://gitlab.com/kernel-firmware/linux-firmware.git>.
 
 ## Golden rules (read before any change)
 
-1. **Every file in git must be accounted for in `WHENCE`.** Adding a firmware
-   blob without a matching `WHENCE` entry breaks the build. Removing or renaming
-   a file without updating `WHENCE` does too.
+1. **Every file in git must be accounted for** — *almost always* by a `WHENCE`
+   entry. Adding a firmware blob without one breaks the build; removing or
+   renaming one without updating `WHENCE` does too. **The exception is
+   repository tooling/metadata** (this file, `README.md`, `check_whence.py`,
+   etc.), which is registered in the `known_files` allowlist *inside*
+   `check_whence.py`. If `make check` reports a non-firmware file is
+   unaccounted for, add it to that allowlist — **never to `WHENCE`** (see
+   "Things to leave alone").
 2. **Never invent license information.** The license and the redistributability
    of a blob are facts that come from the firmware's owner — usually conveyed in
    the submitter's commit and `Signed-off-by`. If you don't have it, don't guess.
@@ -46,8 +52,9 @@ Upstream lives at <https://gitlab.com/kernel-firmware/linux-firmware.git>.
    `LICENCE.<vendor>` — both spellings exist) file and reference it from
    `WHENCE` with `See LICENSE.<vendor> for details.`
 4. Run `make check`.
-5. Commit with a `Signed-off-by` from someone authoritative on the license (see
-   "Commit conventions").
+5. Commit with a `Signed-off-by` from someone authoritative on the license,
+   and — if an agent helped produce the change — a trailer noting AI
+   involvement (e.g. `Assisted-by:`). See "Commit conventions".
 
 ## WHENCE format
 
@@ -66,28 +73,38 @@ keywords that matter:
   (e.g. `Redistributable`, `GPLv2`) or refer out with
   `See <LICENSE-file> for details.` The referenced file must exist in the tree.
 
-Paths with spaces are escaped as `\` in `WHENCE`. Study a few existing stanzas
-in `WHENCE` before writing a new one — matching an existing pattern is the
-safest approach.
+Spaces in paths are backslash-escaped (e.g. `foo\ bar.bin`).
+
+**Block structure.** `WHENCE` is a series of blocks separated by a delimiter
+line of dashes. A block opens with one or more `Driver:` lines, then one or
+more *sections* separated by blank lines. A section is a group of
+`File:`/`RawFile:` entries, optionally annotated, closed by a `Licence:` line.
+By convention:
+
+- If a `Driver:` block for your device already exists, **add your files to it**
+  instead of starting a duplicate block.
+- A `Version:`/`Info:` line annotates the `File:` directly above it.
+- A `Licence:` line applies to the files in its section. This grouping is a
+  convention for human readers — `check_whence.py` does not enforce which files
+  a `Licence:` covers — so keep each section's license unambiguous. A
+  license/section may precede its firmware files if that reads more naturally.
+
+Study a few existing stanzas in `WHENCE` before writing a new one — matching an
+existing pattern is the safest approach.
 
 ## Validation: `make check`
 
-`make check` runs `pre-commit run --all-files`, which is the same gate CI
-enforces. It includes:
+Run **`make check`** before considering any change complete. It runs
+`pre-commit run --all-files` — the same gate CI enforces — covering the
+`WHENCE`↔tree check plus shell, Python, and Markdown linting. **Treat
+`make check` as the single source of truth; don't invoke the individual
+checkers directly**, so the rule set can grow without this doc going stale.
 
-- **`check_whence.py`** — the critical check. It cross-references `WHENCE`
-  against `git ls-files` and fails if: a tracked file isn't listed, a listed
-  file doesn't exist, a `File:` entry is actually a symlink, a `Link:` target is
-  missing, duplicate entries exist, or execute bits are wrong (blobs must *not*
-  be executable; the listed scripts must be).
-- **shellcheck** on shell scripts, **black** on Python, **markdownlint** on
-  Markdown, plus symlink and YAML sanity checks.
+If `pre-commit` isn't installed: `pip install pre-commit`.
 
-If `pre-commit` isn't installed: `pip install pre-commit`. You can run the
-manifest check alone with `./check_whence.py` from the repo root.
-
-Note: `check_whence.py` uses `git ls-files`, so **stage new files** (`git add`)
-before running it, or it won't see them and will report a phantom mismatch.
+Note: the `WHENCE` check reads `git ls-files`, so **stage new files
+(`git add`) before running `make check`** — otherwise they're invisible to the
+check and it reports a phantom mismatch.
 
 ## Commit conventions
 
@@ -98,6 +115,10 @@ before running it, or it won't see them and will report a phantom mismatch.
   authority over the firmware's licensing (typically from within the owning
   company). CI (`ci-fairy check-commits --signed-off-by`) rejects commits
   without it. Do not add one yourself — ask the user.
+- If an AI agent assisted in producing the commit, record it with a trailer
+  such as `Assisted-by: <tool/model>` (an equivalent `Co-developed-by:` /
+  `Co-Authored-By:` is fine). The exact tag isn't critical; surfacing that AI
+  was involved is.
 - Never include a `CONFIDENTIALITY STATEMENT` anywhere in the commit or MR;
   per README that causes the firmware to be rejected outright.
 - New work goes on a branch and is submitted as a GitLab MR, an emailed git
