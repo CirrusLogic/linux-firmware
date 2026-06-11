@@ -6936,7 +6936,7 @@ RawFile: qcom/x1e80100/adsps.jsn
 RawFile: qcom/x1e80100/adspua.jsn
 RawFile: qcom/x1e80100/battmgr.jsn
 File: qcom/shikra/cdsp.mbn
-Version: CDSP.VT.2.4.3-00076-SHIKRA-1
+Version: CDSP.VT.2.4.3-00088-SHIKRA-1
 RawFile: qcom/shikra/cdspr.jsn
 
 Licence: Redistributable. See LICENSE.qcom-2 and NOTICE.qcom for details
