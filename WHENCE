@@ -4210,6 +4210,8 @@ File: intel/ibt-0190-0291-usb.ddc
 File: intel/ibt-0190-0291-usb.sfi
 File: intel/ibt-0190-0291-pci.ddc
 File: intel/ibt-0190-0291-pci.sfi
+Version: BT_BlazarI_S_REL120290_24.50.26182.120290
+
 File: intel/ibt-1190-01a1-iml.sfi
 File: intel/ibt-1190-01a1-pci.ddc
 File: intel/ibt-1190-01a1-pci.sfi
