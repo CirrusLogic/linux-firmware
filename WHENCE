@@ -6763,7 +6763,7 @@ RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adspr.jsn
 RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adsps.jsn
 RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adspua.jsn
 File: qcom/qcs615/adsp.mbn
-Version: ADSP.VT.5.2.c6-00059-SM6150-1
+Version: ADSP.VT.5.2.c6-00073-SM6150-1
 RawFile: qcom/qcs615/adspr.jsn
 RawFile: qcom/qcs615/adsps.jsn
 RawFile: qcom/qcs615/adspua.jsn
