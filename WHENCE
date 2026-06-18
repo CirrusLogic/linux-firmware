@@ -6145,11 +6145,13 @@ File: mediatek/mt7986_eeprom_mt7975_dual.bin
 Version: 20220208
 
 File: mediatek/mt7981_wm.bin
-Version: 20240823
+Version: 20260515
 File: mediatek/mt7981_wa.bin
-Version: 20240823
+Version: 20260515
 File: mediatek/mt7981_rom_patch.bin
-Version: 20240823
+Version: 20260515
+File: mediatek/mt7981_eeprom_mt7976_dbdc.bin
+Version: 20260515
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
