@@ -6332,9 +6332,11 @@ File: mediatek/mt7996/mt7992_eeprom_23_2i5i.bin
 Version: 20230811
 
 File: mediatek/mt7996/mt7990_wm.bin
-Version: 20251112210146
+Version: 20260310181622
+File: mediatek/mt7996/mt7990_wm_tm.bin
+Version: 20260310181622
 File: mediatek/mt7996/mt7990_rom_patch.bin
-Version: 20251112210058a
+Version: 20260310181840a
 File: mediatek/mt7996/mt7990_eeprom.bin
 Version: 20240910
 File: mediatek/mt7996/mt7990_eeprom_2i5i.bin
