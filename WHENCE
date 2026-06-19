@@ -6953,6 +6953,8 @@ RawFile: qcom/x1e80100/battmgr.jsn
 File: qcom/shikra/cdsp.mbn
 Version: CDSP.VT.2.4.3-00088-SHIKRA-1
 RawFile: qcom/shikra/cdspr.jsn
+File: qcom/shikra/cqs/qdsp6sw.mbn
+Version: MPSS.JO.4.0-00194-SHIKRA_LWG_PACK-1
 
 Licence: Redistributable. See LICENSE.qcom-2 and NOTICE.qcom for details
 
