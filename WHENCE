@@ -9454,6 +9454,17 @@ Licence: Redistributable. See LICENSE.nxp for details
 Originates from https://github.com/NXP/uwb-NXPUWB-FW.git
 --------------------------------------------------------------------------
 
+Driver: nxpwifi - NXP wireless LAN driver.
+
+File: nxp/sd_w61x_v1.bin.se
+Version: 18.99.3.p26.7
+
+Licence: Redistributable. See LICENSE.nxp for details
+
+Originates from https://github.com/nxp-imx/imx-firmware/tree/lf-6.12.34_2.1.0
+
+--------------------------------------------------------------------------
+
 Driver: btnxpuart - NXP BT UART driver
 
 File: nxp/uartuart8997_bt_v4.bin
