@@ -4345,6 +4345,7 @@ File: amd/amd_sev_fam19h_modelaxh.sbin
 Version: 2025-2-20
 File: amd/amd_sev_fam1ah_model0xh.sbin
 Version: 2025-2-20
+File: amd/README.md
 
 License: Redistributable. See LICENSE.amd-sev for details
 
