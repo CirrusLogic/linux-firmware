@@ -3,6 +3,9 @@
 Guidance for AI coding agents (Claude Code, Codex, etc.) working in this
 repository. Humans should start with [README.md](README.md); this file
 restates the contribution rules in the operational order an agent needs them.
+License-acceptability questions — whether a particular license text is
+acceptable for inclusion — are governed by
+[LICENSE-CRITERIA.md](LICENSE-CRITERIA.md).
 
 ## What this repository is
 
@@ -39,7 +42,10 @@ Upstream lives at <https://gitlab.com/kernel-firmware/linux-firmware.git>.
 2. **Never invent license information.** The license and the redistributability
    of a blob are facts that come from the firmware's owner — usually conveyed in
    the submitter's commit and `Signed-off-by`. If you don't have it, don't guess.
-   Surface the gap to the user instead.
+   Surface the gap to the user instead. When evaluating whether a license *text*
+   is acceptable, apply the criteria in
+   [LICENSE-CRITERIA.md](LICENSE-CRITERIA.md) sections 5.1–5.3 — do not guess
+   at acceptability, and do not fabricate the underlying license facts.
 3. **Always run `make check` before considering a change complete** (see below).
 4. **Preserve the `Signed-off-by` line.** It is a legal attestation of the right
    to redistribute. Never add, fabricate, or alter one on someone's behalf.
@@ -55,10 +61,13 @@ Upstream lives at <https://gitlab.com/kernel-firmware/linux-firmware.git>.
    its license. Group it with related entries; keep the file roughly ordered as
    the surrounding content is.
 3. If the firmware needs a new license, the license text **must** go in the
-   `LICENSES/` directory as `LICENSES/LICENSE.<vendor>` (or
-   `LICENSES/LICENCE.<vendor>` — both spellings exist in the tree). Reference
-   it from `WHENCE` with `See LICENSE.<vendor> for details.` using the bare
-   filename; `check_whence.py` resolves it under `LICENSES/`.
+   `LICENSES/` directory. Prefer `LICENSES/LICENSE.<vendor>` for new files
+   (`LICENSES/LICENCE.<vendor>` also exists in the tree and is still accepted,
+   but new files should use the `LICENSE.<vendor>` spelling). Reference it from
+   `WHENCE` with `See LICENSE.<vendor> for details.` using the bare filename;
+   `check_whence.py` resolves it under `LICENSES/`. The license text must meet
+   the criteria in [LICENSE-CRITERIA.md](LICENSE-CRITERIA.md) section 5; new
+   license texts require maintainer review (see section 7).
 4. Run `make check`.
 5. Commit with a `Signed-off-by` from someone authoritative on the license,
    and — if an agent helped produce the change — a trailer noting AI
