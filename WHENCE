@@ -9661,6 +9661,8 @@ File: ti/audio/tas2781/TAS2XXX8F40.bin
 File: ti/audio/tas2781/TAS2XXX8F41.bin
 File: ti/audio/tas2781/TAS2XXX8F42.bin
 File: ti/audio/tas2781/TAS2XXX8F62.bin
+File: ti/audio/tas2781/TAS2XXX8F94.bin
+File: ti/audio/tas2781/TAS2XXX8F95.bin
 File: ti/audio/tas2781/TXNW2781RCA0.bin
 File: ti/audio/tas2781/TXNW2781RCA1.bin
 File: ti/audio/tas2781/TIAS2781RCA2.bin
@@ -9785,6 +9787,8 @@ Link: TAS2XXX8F40.bin -> ti/audio/tas2781/TAS2XXX8F40.bin
 Link: TAS2XXX8F41.bin -> ti/audio/tas2781/TAS2XXX8F41.bin
 Link: TAS2XXX8F42.bin -> ti/audio/tas2781/TAS2XXX8F42.bin
 Link: TAS2XXX8F62.bin -> ti/audio/tas2781/TAS2XXX8F62.bin
+Link: TAS2XXX8F94.bin -> ti/audio/tas2781/TAS2XXX8F94.bin
+Link: TAS2XXX8F95.bin -> ti/audio/tas2781/TAS2XXX8F95.bin
 Link: TIAS2781RCA2.bin -> ti/audio/tas2781/TIAS2781RCA2.bin
 Link: TIAS2781RCA4.bin -> ti/audio/tas2781/TIAS2781RCA4.bin
 Link: TXNW2781RCA1.bin -> ti/audio/tas2781/TXNW2781RCA0.bin
