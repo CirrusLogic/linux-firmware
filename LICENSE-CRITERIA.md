@@ -1,10 +1,8 @@
-# Firmware License Requirements for linux-firmware Submissions
+# License Requirements for linux-firmware Submissions
 
 This document describes the licensing requirements for firmware submitted to the
-linux-firmware repository. It is written for hardware vendors and their legal
-teams preparing a first submission or drafting a new license text. It explains
-which licenses the project accepts, the criteria a license must meet, and how
-new license texts are reviewed.
+linux-firmware repository. It explains which licenses the project accepts, the
+criteria a license must meet, and how new license texts are reviewed.
 
 These requirements will be used to evaluate new firmware license submissions
 or materially changed license terms.  Firmware licenses included before this
@@ -17,76 +15,34 @@ linux-firmware project.
 
 ---
 
-## 1. Why licensing is strict here
+## 1. Purpose and scope of this repository
 
-The purpose of this repository is unrestricted redistribution. Anyone may copy
-the firmware onward to anyone else — recipients who have no relationship with
-your company and have signed nothing. This is not specific to operating systems
-or any class of redistributor.
+The purpose of this repository is to provide standalone firmware images and
+related device data files that:
 
-A license therefore has to grant its rights to *everyone*, automatically, with
-no signatures, registration, click-through, or payment. A license that works
-for your direct customers but not for an arbitrary downstream recipient cannot
-be accepted. This document describes the bar the project applies to keep that
-unrestricted redistribution intact.
+- is loaded by the Linux kernel, a kernel driver, or a device the kernel
+supports. The firmware should be necessary for hardware support, device
+operation, or boot, in service of an open source kernel or driver
+functionality. Submissions to this repository must be a standalone firmware
+image or device-data file — not a host application, shared library, kernel
+driver, or other userspace or operating-system component. Firmware may be
+binary-only. Source is welcome whenever the firmware's owner can provide it,
+but a binary-only image is acceptable as long as its license meets the
+criteria.
 
-## 2. Firmware covered by this policy
+- is provided under a license that allows unrestricted redistribution by
+everyone, with no signatures, registration, click-through, or payment required.
+Anyone may copy the firmware onward to anyone else — recipients who have no
+relationship with a company and have signed nothing. This is not specific to
+operating systems or any class of redistributor.
 
-This policy covers firmware images and related device data loaded by the
-Linux kernel, a kernel driver, or a device the kernel supports. A submission
-should be necessary for hardware support, device operation, or boot, in
-service of open-source kernel or driver functionality.
+A license that works for your direct customers but not for an arbitrary
+downstream recipient cannot be accepted. This document describes the bar the
+project applies to keep that unrestricted redistribution intact.
 
-A submission must be a standalone firmware image or device-data file — not a
-host application, shared library, kernel driver, or other userspace or
-operating-system component. Those carry their own licensing in their own
-projects; this repository is only for the firmware that hardware needs to
-function.
+## 2. Licenses the project accepts
 
-Firmware may be binary-only. Source is welcome whenever the firmware's owner
-can provide it, but a binary-only image is acceptable as long as its license
-meets the criteria in section 5.
-
-If firmware is offered under a license requiring source availability — a member
-of the GPL family, for example — the submission must satisfy that license's
-source-code obligations. Do not label a binary-only image as GPL, or under any
-other license requiring source availability, unless the corresponding source is
-included (see section 4).
-
-## 3. Quick checklist for vendors
-
-Before you submit, confirm all of the following:
-
-- [ ] The license grants **royalty-free redistribution** of the firmware files
-      by anyone, whether or not they incorporate the files into a product,
-      with no further permission required.
-- [ ] The license grants **royalty-free use** of the firmware with the
-      associated hardware.
-- [ ] The license includes an **explicit or implicit patent grant** sufficient
-      for end users to operate the device with full functionality.
-- [ ] The license text is **self-contained** — it does not reference or depend
-      on a purchase agreement, EULA, NDA, support contract, or any document not
-      included in the repository.
-- [ ] There are **no confidentiality terms** anywhere in the license, the
-      commit, the merge request, or the email used to submit it.
-- [ ] There are **no fees, royalties, registration, click-acceptance, audit
-      rights, or reporting obligations** imposed on redistributors or users.
-- [ ] If the firmware is under the **GPL or another copyleft license, the
-      corresponding source code is included** in the submission.
-- [ ] You are **reusing your company's existing license file** in `LICENSES/`
-      if one exists, rather than introducing a new variant.
-- [ ] The commit carries a **Signed-off-by from someone with authority over
-      the firmware's licensing** (typically within the company that owns or
-      controls the firmware).
-- [ ] The `WHENCE` entry states the license and that the files are
-      redistributable, and `make check` passes.
-
-If every box is checked, your submission is routine. If a new or modified
-license text is involved, read section 7.
-
-## 4. Licenses the project accepts
-
-### 4.1 Existing license texts already in the repository (preferred)
+### 2.1 Existing license texts already in the repository (preferred)
 
 The `LICENSES/` directory contains every license text currently in use, both
 standard open-source licenses (e.g. `Apache-2.0`, `GPL-2.0`, `GPL-3.0-only`)
@@ -99,7 +55,7 @@ their `WHENCE` entry. Do not submit per-product or per-file license variants;
 proliferation of near-identical texts multiplies review burden for everyone
 who has to evaluate them.
 
-### 4.2 Standard open-source licenses
+### 2.2 Standard open-source licenses
 
 Firmware offered under a well-known OSI/FSF license (MIT, BSD-2/3-Clause,
 Apache-2.0, GPL-2.0, etc.) is welcome and is the easiest path through review.
@@ -107,15 +63,15 @@ Apache-2.0, GPL-2.0, etc.) is welcome and is the easiest path through review.
 One important caveat: **copyleft licenses carry source code obligations**, and
 a submission under such a license should include the corresponding source code.
 
-### 4.3 Proprietary redistributable firmware licenses
+### 2.3 Proprietary redistributable firmware licenses
 
 Most firmware in the repository is under vendor-specific proprietary licenses.
-These are acceptable when they grant the rights in section 5 and confine their
-restrictions to those in section 5.2.
+These are acceptable when they grant the rights in section 3 and confine their
+restrictions to those in section 3.2.
 
-## 5. Criteria a license must meet
+## 3. Criteria a license must meet
 
-### 5.1 Required grants
+### 3.1 Required grants
 
 A firmware license must, at minimum:
 
@@ -144,7 +100,7 @@ A firmware license must, at minimum:
    and released distribution image retroactively non-compliant and is not
    acceptable.
 
-### 5.2 Restrictions that are acceptable
+### 3.2 Restrictions that are acceptable
 
 The project accepts the following restrictions in firmware licenses:
 
@@ -162,7 +118,7 @@ The project accepts the following restrictions in firmware licenses:
   compliance into an affirmative certification, reporting, or indemnification
   obligation on redistributors are not.
 
-### 5.3 Terms that will cause rejection
+### 3.3 Terms that will cause rejection
 
 A license containing any of the following will not be accepted:
 
@@ -170,7 +126,7 @@ A license containing any of the following will not be accepted:
   redistribution.
 - Redistribution grants scoped to "as part of" a product, operating system,
   or distribution. Older license files in the tree contain such language; new
-  licenses must permit redistribution by anyone, product or not (see 5.1).
+  licenses must permit redistribution by anyone, product or not (see 3.1).
 - Fees, royalties, or per-unit accounting of any kind.
 - **Confidentiality or non-disclosure terms.** Note that this applies to the
   submission as well as the license: per the project README, a submission
@@ -190,12 +146,12 @@ A license containing any of the following will not be accepted:
 - Choice-of-law/venue or arbitration clauses that impose affirmative
   obligations on passive recipients. (A simple governing-law statement is
   usually tolerated; mandatory arbitration with fee-shifting is not.)
-- Copyleft-licensed binaries without corresponding source (see 4.2).
+- Copyleft-licensed binaries without corresponding source (see 2.2).
 - Terms that attempt to bind the linux-firmware project or kernel.org to any
   obligation. The repository is a conduit; it cannot accept duties on your
   behalf.
 
-## 6. Mechanics: where license information lives in a submission
+## 4. Mechanics: where license information lives in a submission
 
 Every submission must encode its licensing in the repository's standard
 structures so that automated tooling and downstream packagers can consume it.
@@ -253,7 +209,7 @@ addition to the Signed-off-by.
 **Submission paths.** Open a merge request on the upstream GitLab project, or
 send a git binary diff or pull request to `linux-firmware@kernel.org`.
 
-## 7. How new license texts are reviewed
+## 5. How new license texts are reviewed
 
 This process applies when a submission introduces a license text not already
 present in `LICENSES/`, or modifies an existing one.
@@ -264,7 +220,7 @@ present in `LICENSES/`, or modifies an existing one.
 2. **Submit the complete text** as a `LICENSES/LICENSE.<vendor>` file in the
    same MR as the firmware it covers, referenced from the `WHENCE` entries.
    The text must unambiguously identify the copyright holder and licensor.
-3. **Maintainer review.** Maintainers review the text against section 5. They
+3. **Maintainer review.** Maintainers review the text against section 3. They
    are applying project policy, not giving your company legal advice; the
    burden of ensuring the license says what you intend rests with your counsel.
 4. **Outside consultation.** For novel terms, maintainers may seek additional
@@ -278,10 +234,10 @@ present in `LICENSES/`, or modifies an existing one.
    reusing it verbatim need no license review.
 6. **Relicensing existing firmware.** The firmware is the submitter's
    intellectual property, and the project does not control its licensing
-   beyond applying the section 5 criteria. A vendor may relicense their own
+   beyond applying the section 3 criteria. A vendor may relicense their own
    firmware whenever their existing license permits, submitting the new text
    as they would any license change; the project's only requirement is that
-   the replacement still meets section 5. Two mechanical consequences are
+   the replacement still meets section 3. Two mechanical consequences are
    worth being deliberate about:
 
    - **One license file governs every firmware that references it.** A

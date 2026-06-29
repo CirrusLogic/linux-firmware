@@ -18,7 +18,7 @@ royalty-free, without restrictions beyond those listed in
 a submission — it describes the grants a license must provide, the restrictions
 the project accepts, and how new license texts are reviewed. Vendors with an
 existing license file in `LICENSES/` should reuse it; new license texts require
-explicit maintainer review as described in `LICENSE-CRITERIA.md` section 7.
+explicit maintainer review as described in `LICENSE-CRITERIA.md` section 5.
 
 ### Submission paths
 
