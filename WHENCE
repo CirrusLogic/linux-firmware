@@ -9524,6 +9524,7 @@ File: qcom/qcs6490/radxa/dragon-q6a/QCS6490-Radxa-Dragon-Q6A-tplg.bin
 Link: qcom/qcs6490/QCS6490-Radxa-Dragon-Q6A-tplg.bin -> radxa/dragon-q6a/QCS6490-Radxa-Dragon-Q6A-tplg.bin
 File: qcom/qcs6490/Thundercomm/RubikPi3/QCS6490-Thundercomm-RubikPi3-tplg.bin
 Link: qcom/qcs6490/QCS6490-Thundercomm-RubikPi3-tplg.bin -> Thundercomm/RubikPi3/QCS6490-Thundercomm-RubikPi3-tplg.bin
+File: qcom/qcs6490/QCS6490-RB3Gen2-Industrial-Mezz-tplg.bin
 File: qcom/qcs6490/QCS6490-RB3Gen2-tplg.bin
 File: qcom/qcs8300/MONACO-EVK-tplg.bin
 File: qcom/qcs8300/arduino-monza-tplg.bin
@@ -9534,6 +9535,8 @@ Link: qcom/sc8280xp/SC8280XP-LENOVO-X13S-tplg.bin -> LENOVO/21BX/audioreach-tplg
 File: qcom/sm8450/SM8450-HDK-tplg.bin
 File: qcom/sm8550/SM8550-HDK-tplg.bin
 File: qcom/sm8550/SM8550-QRD-tplg.bin
+File: qcom/sm8650/ayaneo/ps2/SM8650-APS2-tplg.bin
+File: qcom/sm8650/SM8650-HDK-tplg.bin
 File: qcom/sm8650/SM8650-QRD-tplg.bin
 File: qcom/sm8650/SM8650-MTP-tplg.bin
 File: qcom/sm8750/SM8750-MTP-tplg.bin
@@ -9561,9 +9564,10 @@ File: qcom/x1e80100/dell/xps13-9345/X1E80100-Dell-XPS-13-9345-tplg.bin
 Link: qcom/x1e80100/X1E80100-Dell-XPS-13-9345-tplg.bin -> dell/xps13-9345/X1E80100-Dell-XPS-13-9345-tplg.bin
 File: qcom/x1e80100/hp/omnibook-x14/X1E80100-HP-OMNIBOOK-X14-tplg.bin
 Link: qcom/x1e80100/X1E80100-HP-OMNIBOOK-X14-tplg.bin -> hp/omnibook-x14/X1E80100-HP-OMNIBOOK-X14-tplg.bin
+File: qcom/x1e80100/X1P42100-Microsoft-Surface-Pro-12in-tplg.bin
 
-Version: v1.0.3
-Info: DATE=07.04.2026
+Version: v1.0.4
+Info: DATE=05.06.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
