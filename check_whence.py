@@ -77,6 +77,7 @@ def main():
     known_files = set(name for name in whence_list if not name.endswith("/")) | set(
         [
             "AGENTS.md",
+            "LICENSE-CRITERIA.md",
             ".codespell.cfg",
             ".editorconfig",
             ".gitignore",
