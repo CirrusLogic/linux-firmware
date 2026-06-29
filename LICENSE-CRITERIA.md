@@ -6,10 +6,11 @@ teams preparing a first submission or drafting a new license text. It explains
 which licenses the project accepts, the criteria a license must meet, and how
 new license texts are reviewed.
 
-These requirements apply to new firmware submissions and to newly introduced
-or materially changed license terms. They are not a retroactive judgment on
-firmware already in the repository: existing files, and the license texts
-already in `LICENSES/`, are unaffected.
+These requirements will be used to evaluate new firmware license submissions
+or materially changed license terms.  Firmware licenses included before this
+requirement document was introduced may not fully adhere to the requirements
+and will be considered an exception at this time.  The project may choose to
+work with vendors to address existing license inconsistencies.
 
 Nothing in this document is legal advice. It describes the policy of the
 linux-firmware project.
