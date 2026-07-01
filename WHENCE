@@ -9256,6 +9256,16 @@ Link: sdca/1fa/1028/dba/2.bin -> ../db3/2.bin
 Link: sdca/1fa/1028/dba/3.bin -> ../db3/3.bin
 Link: sdca/1fa/1028/dba/4.bin -> ../db3/4.bin
 Link: sdca/1fa/1028/dba/42450005.bin -> ../db3/42450005.bin
+Link: sdca/1fa/1028/e13/1.bin -> ../db3/1.bin
+Link: sdca/1fa/1028/e13/2.bin -> ../db3/2.bin
+Link: sdca/1fa/1028/e13/3.bin -> ../db3/3.bin
+Link: sdca/1fa/1028/e13/4.bin -> ../db3/4.bin
+Link: sdca/1fa/1028/e13/42450005.bin -> ../db3/42450005.bin
+Link: sdca/1fa/1028/e14/1.bin -> ../db3/1.bin
+Link: sdca/1fa/1028/e14/2.bin -> ../db3/2.bin
+Link: sdca/1fa/1028/e14/3.bin -> ../db3/3.bin
+Link: sdca/1fa/1028/e14/4.bin -> ../db3/4.bin
+Link: sdca/1fa/1028/e14/42450005.bin -> ../db3/42450005.bin
 File: sdca/1fa/1028/e1a/1.bin
 File: sdca/1fa/1028/e1a/2.bin
 File: sdca/1fa/1028/e1a/3.bin
