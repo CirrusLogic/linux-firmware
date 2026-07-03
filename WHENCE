@@ -4880,6 +4880,10 @@ File: qca/wcnhpnv21g.baa
 File: qca/wcnhpnv21g.bb8
 File: qca/wcnhpnv21g.b10c
 File: qca/wcnhpnv21g.b111
+File: qca/wcnhpbtfw10.tlv
+Version: BTFM.HSP.1.0.0-00978-QCAHSPROMZ-2
+File: qca/wcnhpnv10.bin
+File: qca/wcnhpnv10.b06
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and NOTICE.qca for details
 
