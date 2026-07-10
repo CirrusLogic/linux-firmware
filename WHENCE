@@ -9532,6 +9532,7 @@ Licence: Redistributable. See LICENSE.amlogic for details
 Driver: powervr - Imagination Technologies PowerVR graphics driver
 
 File: powervr/rogue_33.15.11.3_v1.fw
+File: powervr/rogue_36.52.104.182_v1.fw
 File: powervr/rogue_36.53.104.796_v1.fw
 Version: 1.1.OS@6976702
 
