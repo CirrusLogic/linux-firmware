@@ -6894,6 +6894,13 @@ File: qcom/glymur/cdsp.mbn
 File: qcom/glymur/cdsp_dtb.mbn
 Version: CDSP.HT.3.3-00315-GLYMUR-1
 RawFile: qcom/glymur/cdspr.jsn
+File: qcom/hawi/adsp.mbn
+File: qcom/hawi/adsp_dtb.mbn
+Version: LPAIDSP.HT.1.6-00701.4-HAWI-2
+RawFile: qcom/hawi/adspr.jsn
+RawFile: qcom/hawi/adsps.jsn
+RawFile: qcom/hawi/adspua.jsn
+RawFile: qcom/hawi/adspuo.jsn
 File: qcom/kaanapali/adsp.mbn
 File: qcom/kaanapali/adsp_dtb.mbn
 Version: LPAIDSP.HT.1.6.1-00035-KAANAPALI-1
