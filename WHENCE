@@ -4574,7 +4574,7 @@ Driver: snd_soc_avs - Intel AudioDSP driver for cAVS platforms
 
 File: intel/avs/skl/dsp_basefw.bin
 File: intel/avs/skl/dsp_mod_7CAD0808-AB10-CD23-EF45-12AB34CD56EF.bin
-Version: 9.21.00.4899
+Version: 9.21.00.5020
 Link: intel/dsp_fw_release.bin -> avs/skl/dsp_basefw.bin
 Link: intel/dsp_fw_kbl.bin -> avs/skl/dsp_basefw.bin
 File: intel/avs/apl/dsp_basefw.bin
