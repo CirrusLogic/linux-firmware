@@ -6969,7 +6969,7 @@ File: qcom/shikra/lpaicp_dtb.mbn
 Version: LPAICP.FW.1.2-00135-SHIKRA_LPAICP_PACK-1
 RawFile: qcom/shikra/lpaicpr.jsn
 File: qcom/shikra/cqs/qdsp6sw.mbn
-Version: MPSS.JO.4.0-00194-SHIKRA_LWG_PACK-1
+Version: MPSS.JO.4.0-00194.2-SHIKRA_LWG_PACK-1
 
 Licence: Redistributable. See LICENSE.qcom-2 and NOTICE.qcom for details
 
