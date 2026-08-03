@@ -9053,12 +9053,12 @@ Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid2-05-l1u3.bin -> cs35l63-a1-dsp1
 Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3-05-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3-05-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u3.bin
-Link: cirrus/cs35l56-b0-dsp1-misc-103c8c52.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+Link: cirrus/cs35l56-b0-dsp1-misc-103c8c52.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp3.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp4.bin
-Link: cirrus/cs35l56-b0-dsp1-misc-103c8c53.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+Link: cirrus/cs35l56-b0-dsp1-misc-103c8c53.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp3.bin
@@ -9073,12 +9073,12 @@ File: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp1.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp2.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp3.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp4.bin
-Link: cirrus/cs35l54-b0-dsp1-misc-103c8d85.wmfw -> cs35l56/CS35L56_Rev3.11.11.1.wmfw
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d85.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d85-amp1.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d85-amp2.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d85-amp3.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d85-amp4.bin
-Link: cirrus/cs35l54-b0-dsp1-misc-103c8d86.wmfw -> cs35l56/CS35L56_Rev3.11.11.1.wmfw
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d86.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d86-amp1.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d86-amp2.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d86-amp3.bin
