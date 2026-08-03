@@ -6685,6 +6685,12 @@ File: qcom/gen71500_sqe.fw
 Version: v1.81
 File: qcom/x1p42100/gen71500_zap.mbn
 Version: v0.13
+File: qcom/gen71700_gmu.bin
+Version: v4.09.00
+File: qcom/gen71700_sqe.fw
+Version: v1.82
+File: qcom/eliza/gen71700_zap.mbn
+Version: v0.15
 File: qcom/gen80000_aqe.fw
 Version: v0.14
 File: qcom/gen80000_gmu.bin
