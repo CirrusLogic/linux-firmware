@@ -2095,7 +2095,9 @@ Licence: Redistributable. See LICENSE.airoha for details.
 Driver: airoha-npu-7583 - Airoha Network Processor Unit driver for AN7583 SoC
 
 File: airoha/an7583_npu_data.bin
+Version: 0.5
 File: airoha/an7583_npu_rv32.bin
+Version: 0.5
 
 Licence: Redistributable. See LICENSE.airoha for details.
 
