@@ -10484,3 +10484,17 @@ Licence: Redistributable. See LICENCE.ti-tspa for details.
 
 Info:
 Firmware file generated via https://git.ti.com/cgit/lpaa-android-drivers/tasdevice-linux-driver/tree/json/tool/Non_Integrated_Bin_Tool_v1.4.1 and branch-master.
+---------------------------------------------------------------------------
+
+Driver: mm81x - Morse Micro mm81x Wi-Fi HaLow driver.
+
+File: morsemicro/mm81x/v56/mm8108.bin
+File: morsemicro/mm81x/v56/bcf_mm8108_mf15457.bin
+File: morsemicro/mm81x/v56/bcf_aw_hm677.bin
+Link: morsemicro/mm81x/v56/bcf_boardtype_0804.bin -> bcf_mm8108_mf15457.bin
+Link: morsemicro/mm81x/v56/bcf_boardtype_0807.bin -> bcf_mm8108_mf15457.bin
+Link: morsemicro/mm81x/v56/bcf_boardtype_0a02.bin -> bcf_aw_hm677.bin
+
+Version: 56
+
+License: Redistributable. See LICENCE.morsemicro for details.
