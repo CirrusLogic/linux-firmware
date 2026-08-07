@@ -6655,7 +6655,6 @@ File: qcom/a663_gmu.bin
 Version: v3.05.01
 File: qcom/sa8775p/a663_zap.mbn
 Version: v0.09
-File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/a702_sqe.fw
 Version: v0.49
 File: qcom/qcm2290/a702_zap.mbn
@@ -6728,6 +6727,18 @@ Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 
 Binary files supplied originally from
 https://developer.qualcomm.com/hardware/dragonboard-410c/tools
+
+# Adreno ZAP shaders for Dell
+File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
+
+Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
+
+# Adreno ZAP shaders for Lenovo
+File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
+File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
+File: qcom/x1e80100/LENOVO/83ED/qcdxkmsuc8380.mbn
+
+Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 
 --------------------------------------------------------------------------
 
@@ -6890,7 +6901,6 @@ RawFile: qcom/x1e80100/LENOVO/21N1/adsps.jsn
 File: qcom/x1e80100/LENOVO/21N1/qccdsp8380.mbn
 Version: CDSP.HT.2.9-00447-HAMOA-2
 RawFile: qcom/x1e80100/LENOVO/21N1/cdspr.jsn
-File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
 RawFile: qcom/x1e80100/LENOVO/21N1/battmgr.jsn
 
 # Lenovo Yoga Slim 7x
@@ -6906,7 +6916,6 @@ File: qcom/x1e80100/LENOVO/83ED/qcav1e8380.mbn
 Version: CDSP.HT.2.9.c2-00051-HAMOA-1
 File: qcom/x1e80100/LENOVO/83ED/qccdsp8380.mbn
 Version: CDSP.HT.2.9.c2-00051-HAMOA-1
-File: qcom/x1e80100/LENOVO/83ED/qcdxkmsuc8380.mbn
 File: qcom/x1e80100/LENOVO/83ED/qcvss8380.mbn
 Version: video-firmware.3.1-e5aea20c64cb6df9a1c9be99e206053b36424939
 
@@ -7045,7 +7054,6 @@ File: qcom/x1e80100/dell/xps13-9345/cdsp_dtbs.elf
 RawFile: qcom/x1e80100/dell/xps13-9345/cdspr.jsn
 File: qcom/x1e80100/dell/xps13-9345/qcadsp8380.mbn
 File: qcom/x1e80100/dell/xps13-9345/qccdsp8380.mbn
-File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 
