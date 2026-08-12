@@ -6563,6 +6563,10 @@ File: qcom/vpu/vpu30_p4_s6_16mb.mbn
 
 Version: VIDEO.VPU.3.1-0093
 
+File: qcom/vpu/vpu33_p2_s7.mbn
+
+Version: VIDEO.VPU.3.4-0062
+
 File: qcom/vpu/vpu33_p4_s7.mbn
 Link: qcom/vpu/vpu33_p4.mbn -> vpu33_p4_s7.mbn
 
