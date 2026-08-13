@@ -6972,6 +6972,10 @@ File: qcom/sm8750/cdsp.mbn
 File: qcom/sm8750/cdsp_dtb.mbn
 Version: CDSP.HT.3.1-00889-PAKALA-1
 RawFile: qcom/sm8750/cdspr.jsn
+File: qcom/eliza/cdsp.mbn
+File: qcom/eliza/cdsp_dtb.mbn
+Version: CDSP.HT.3.1-00889-PAKALA-1
+RawFile: qcom/eliza/cdspr.jsn
 File: qcom/x1e80100/adsp.mbn
 File: qcom/x1e80100/adsp_dtb.mbn
 Version: ADSP.HT.5.9-00839-HAMOA-1
