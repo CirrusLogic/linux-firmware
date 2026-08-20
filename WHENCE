@@ -7003,6 +7003,12 @@ Version: DSP.AT.1.0.1-00204-LEMANS-1
 RawFile: qcom/sa8775p/gpdsp1r.jsn
 RawFile: qcom/sa8775p/gpdspr.jsn
 
+# qcom/nord
+File: qcom/nord/cdsp.mbn
+File: qcom/nord/cdsp_dtb.mbn
+Version: NSP.AT.1.0-00579-NORD-1
+RawFile: qcom/nord/cdspr.jsn
+
 # qcom/sm8750
 File: qcom/sm8750/adsp.mbn
 File: qcom/sm8750/adsp_dtb.mbn
