@@ -2693,6 +2693,13 @@ File: amdgpu/gc_11_5_3_mes1.bin
 File: amdgpu/gc_11_5_3_mes_2.bin
 File: amdgpu/gc_11_5_3_pfp.bin
 File: amdgpu/gc_11_5_3_rlc.bin
+File: amdgpu/gc_11_7_0_imu.bin
+File: amdgpu/gc_11_7_0_me.bin
+File: amdgpu/gc_11_7_0_mec.bin
+File: amdgpu/gc_11_7_0_mes1.bin
+File: amdgpu/gc_11_7_0_mes_2.bin
+File: amdgpu/gc_11_7_0_pfp.bin
+File: amdgpu/gc_11_7_0_rlc.bin
 File: amdgpu/gc_12_0_0_imu.bin
 File: amdgpu/gc_12_0_0_me.bin
 File: amdgpu/gc_12_0_0_mec.bin
