@@ -53,7 +53,9 @@ while test $# -gt 0; do
             num_jobs=$(echo "$1" | sed 's/-j//')
             num_jobs=${num_jobs:-1}
             if [ "$num_jobs" -gt 1 ] && ! has_gnu_parallel; then
-                    err "the GNU parallel command is required to use -j"
+                    warn "the GNU parallel command is required to use -j"
+                    warn "running without parallel compression"
+                    num_jobs=1
             fi
             parallel_args_file=$(mktemp)
             trap 'rm -f $parallel_args_file' EXIT INT QUIT TERM
