@@ -4219,7 +4219,7 @@ File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
 File: intel/ibt-0093-0291.sfi
 File: intel/ibt-0093-0291.ddc
-Version: BT_BlazarU_S_REL117936_24.60.26262.117936
+Version: BT_BlazarU_S_REL120611_24.70.26293.120611
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4256,19 +4256,15 @@ Version: BT_BlazarI_S_REL125325_24.60.26262.125325
 File: intel/ibt-1190-01a1-iml.sfi
 File: intel/ibt-1190-01a1-pci.ddc
 File: intel/ibt-1190-01a1-pci.sfi
-Version: BT_BlazarI_S_REL125325_24.60.26262.125325
+Version: BT_BlazarI_S_REL127988_24.70.26293.127988
 
 File: intel/ibt-00a0-01a1-iml.sfi
 File: intel/ibt-00a0-01a1-pci.ddc
 File: intel/ibt-00a0-01a1-pci.sfi
-File: intel/ibt-00a0-01a1-usb.ddc
-File: intel/ibt-00a0-01a1-usb.sfi
 File: intel/ibt-00a0-0291-iml.sfi
 File: intel/ibt-00a0-0291-pci.ddc
 File: intel/ibt-00a0-0291-pci.sfi
-File: intel/ibt-00a0-0291-usb.ddc
-File: intel/ibt-00a0-0291-usb.sfi
-Version: BT_Scorpius_S_REL94250_24.60.26262.94250
+Version: BT_Scorpius_S_REL96982_24.70.26293.96982
 
 File: intel/ibt-00a0-0041-iml.sfi
 File: intel/ibt-00a0-0041-pci.ddc
