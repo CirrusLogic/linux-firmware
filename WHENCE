@@ -4261,14 +4261,10 @@ Version: BT_BlazarI_S_REL125325_24.60.26262.125325
 File: intel/ibt-00a0-01a1-iml.sfi
 File: intel/ibt-00a0-01a1-pci.ddc
 File: intel/ibt-00a0-01a1-pci.sfi
-File: intel/ibt-00a0-01a1-usb.ddc
-File: intel/ibt-00a0-01a1-usb.sfi
 File: intel/ibt-00a0-0291-iml.sfi
 File: intel/ibt-00a0-0291-pci.ddc
 File: intel/ibt-00a0-0291-pci.sfi
-File: intel/ibt-00a0-0291-usb.ddc
-File: intel/ibt-00a0-0291-usb.sfi
-Version: BT_Scorpius_S_REL94250_24.60.26262.94250
+Version: BT_Scorpius_S_REL96982_24.70.26293.96982
 
 File: intel/ibt-00a0-0041-iml.sfi
 File: intel/ibt-00a0-0041-pci.ddc
