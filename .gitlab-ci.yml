@@ -25,6 +25,18 @@ pre-commit:
   script:
     - pre-commit run --all-files
 
+amdgpu-version-diff:
+  stage: test
+  image: registry.gitlab.com/kernel-firmware/linux-firmware
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+      changes:
+        paths:
+          - amdgpu/
+        compare_to: main
+  script:
+    - python3 contrib/amdgpu_fw_version_diff.py --diff-from-base
+
 deb-release:
   stage: deploy
   image: debian
