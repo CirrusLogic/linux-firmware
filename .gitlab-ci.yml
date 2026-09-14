@@ -32,7 +32,7 @@ amdgpu-version-diff:
     - if: $CI_MERGE_REQUEST_ID
       changes:
         paths:
-          - amdgpu/
+          - amdgpu/**/*
         compare_to: main
   script:
     - python3 contrib/amdgpu_fw_version_diff.py --diff-from-base
