@@ -159,9 +159,10 @@ def post_mr_comment(project_id, pipeline_id, summary, table_rows):
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
             result = json.loads(resp.read().decode())
+            discussion_id = result.get("id", "unknown")
             print(
                 f"Posted new MR comment: {api_url}/projects/{project}/"
-                f"merge_requests/{mr_iid}/discussions/{result[0]['id']}"
+                f"merge_requests/{mr_iid}#note_{discussion_id}"
             )
     except urllib.error.HTTPError as e:
         print(
