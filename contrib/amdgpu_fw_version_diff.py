@@ -133,7 +133,7 @@ def post_mr_comment(project_id, pipeline_id, summary, table_rows):
     api_url = os.environ["CI_API_V4_URL"]
     project = os.environ["CI_PROJECT_ID"]
     mr_iid = os.environ["CI_MERGE_REQUEST_IID"]
-    token = os.environ.get("CI_JOB_TOKEN", "")
+    token = os.environ.get("MR_COMMENT_TOKEN", "")
 
     body = f"## AMDGPU firmware version changes\n\n"
     if summary:
