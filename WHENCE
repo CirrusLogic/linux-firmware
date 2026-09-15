@@ -6607,6 +6607,10 @@ Link: qcom/vpu/vpu20_p1_gen2.mbn -> vpu20_p1_gen2_s6.mbn
 
 Version: VIDEO.VPU.3.4-0059
 
+File: qcom/vpu/vpu20_p4_gen2_s6.mbn
+
+Version: video-firmware.2.4.2-39cc47c1d64195c749014787e6ab938cc34a4071
+
 File: qcom/vpu/vpu20_p4_sm8450_s7.mbn
 
 Version: VIDEO.VPU.2.4-0096
