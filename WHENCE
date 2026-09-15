@@ -6692,7 +6692,7 @@ File: qcom/apq8096/a530_zap.mbn
 Link: qcom/a530_zap.mdt -> apq8096/a530_zap.mbn
 File: qcom/qrb4210/a610_zap.mbn
 File: qcom/qcs615/a612_zap.mbn
-Version: v0.19
+Version: v0.21
 File: qcom/a612_rgmu.bin
 Version: v2.11
 File: qcom/a623_gmu.bin
