@@ -3817,6 +3817,7 @@ File: ath10k/WCN3990/hw1.0/board-2.bin
 File: ath10k/WCN3990/hw1.0/firmware-5.bin
 File: ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Link: qcom/sdm845/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/wlanmdsp.mbn
+Link: qcom/sdm845/SHIFT/axolotl/wlanmdsp.mbn -> ../../../../ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Version: WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
 File: ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
 File: ath10k/WCN3990/hw1.0/shikra/firmware-5.bin
@@ -7140,6 +7141,7 @@ Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
 
 File: qcom/sdm845/mba.mbn
+Link: qcom/sdm845/SHIFT/axolotl/mba.mbn -> ../../mba.mbn
 File: qcom/sdm845/modem_nm.mbn
 RawFile: qcom/sdm845/modemuw.jsn
 Link: qcom/sdm845/modem.mbn -> modem_nm.mbn
