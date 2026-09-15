@@ -76,6 +76,45 @@ def _compact_version(fw_path):
     return base
 
 
+def _version_tuple(fw_path):
+    """Return a comparable (ip_major, ip_minor, ucode_version, ...) tuple
+    for a firmware file, or None on parse error.
+
+    This is used to classify changes as upgrades vs. downgrades.
+    """
+    header = get_header(fw_path)
+    if len(header) != HEADER_SIZE:
+        return None
+
+    common_vers = get_common_version(header)
+    ucode_vers = None
+
+    for parser in PARSERS:
+        if re.match(parser["regex"], fw_path.name):
+            if parser["ucode_parser"] is not None:
+                ucode_vers = parser["ucode_parser"](common_vers.ucode_version)
+            break
+
+    parts = [common_vers.ip_major, common_vers.ip_minor, common_vers.ucode_version]
+    if ucode_vers is not None:
+        for v in ucode_vers._asdict().values():
+            parts.append(v)
+
+    return tuple(parts)
+
+
+def _classify_change(before_tuple, after_tuple):
+    """Classify the relationship between two version tuples.
+
+    Returns 'upgrade' | 'downgrade' | 'equal'.
+    """
+    if before_tuple == after_tuple:
+        return "equal"
+    if after_tuple > before_tuple:
+        return "upgrade"
+    return "downgrade"
+
+
 def _get_changed_firmware(base_ref, target_ref):
     """Return list of amdgpu .bin files changed between base_ref and target_ref."""
     out = subprocess.run(
@@ -209,6 +248,7 @@ def main():
 
     # Dump versions from the base commit
     base_versions = {}
+    base_tuples = {}
     for rel in changed:
         name = os.path.basename(rel)
         result = subprocess.run(
@@ -219,30 +259,48 @@ def main():
             tmp = Path(f"/tmp/_amdgpu_fw_{name}")
             tmp.write_bytes(result.stdout)
             base_versions[name] = _compact_version(tmp)
+            base_tuples[name] = _version_tuple(tmp)
             tmp.unlink()
         else:
             base_versions[name] = None
+            base_tuples[name] = None
 
     # Dump versions from working tree
     current_versions = {}
+    current_tuples = {}
     for rel in changed:
         name = os.path.basename(rel)
         current_versions[name] = _compact_version(Path(rel))
+        current_tuples[name] = _version_tuple(Path(rel))
 
     # Build diff table (only rows where before != after)
     all_names = sorted(set(base_versions) | set(current_versions))
     rows = []
+    upgrades = []
+    downgrades = []
+
     for name in all_names:
         b = base_versions.get(name, None)
         a = current_versions.get(name, None)
+        b_tup = base_tuples.get(name, None)
+        a_tup = current_tuples.get(name, None)
+
         if b != a:
             rows.append(_table_row(name, b, a))
+
+            # Classify as upgrade or downgrade (only when both versions parse)
+            if b_tup is not None and a_tup is not None:
+                classification = _classify_change(b_tup, a_tup)
+                if classification == "upgrade":
+                    upgrades.append((name, b, a))
+                elif classification == "downgrade":
+                    downgrades.append((name, b, a))
 
     if not rows:
         print("No version changes detected in changed files.")
         return
 
-    # Count truly new / removed vs merely changed
+    # Count truly new / removed vs. changed
     new_files = sum(
         1
         for n in current_versions
@@ -254,19 +312,43 @@ def main():
         if n not in current_versions or current_versions.get(n) is None
     )
 
-    if new_files or removed_files:
-        summary = f"**{new_files} new / {removed_files} removed** firmware file(s)."
+    # Build summary with explicit downgrade call-out
+    parts = []
+    if new_files:
+        parts.append(f"**{new_files} new**")
+    if removed_files:
+        parts.append(f"**{removed_files} removed**")
+    parts.append(f"**{len(upgrades)} upgraded**")
+    if downgrades:
+        parts.append(f"**{len(downgrades)} downgraded**")
+
+    if parts:
+        summary = " | ".join(parts) + "."
     else:
         summary = f"**{len(rows)}** firmware file(s) changed."
 
+    # Print the standard table
     print(summary)
     print()
     print("| File | Before | After |")
     print("|------|--------|-------|")
     print("\n".join(rows))
 
+    # Explicitly list downgrades
+    if downgrades:
+        print()
+        print("### ⚠️ Downgrades detected")
+        print()
+        print(
+            "The following firmware files have version regressions (went to an older version):"
+        )
+        print()
+        for name, before, after in downgrades:
+            print(f"- `{name}`: {before} → {after}")
+
     # Post MR comment (only in GitLab CI)
     if mr_iid:
+        # Build table rows for the comment (same as stdout)
         post_mr_comment(
             os.environ["CI_PROJECT_ID"],
             os.environ["CI_PIPELINE_ID"],
