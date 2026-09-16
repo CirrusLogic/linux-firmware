@@ -7047,6 +7047,15 @@ File: qcom/kaanapali/soccp_dtb.mbn
 Version: SOCCP.FW.2.1-00204-KAANAPALI_SOCCP_PACK-1
 RawFile: qcom/kaanapali/soccpr.jsn
 
+# qcom/maili
+File: qcom/maili/adsp.mbn
+File: qcom/maili/adsp_dtb.mbn
+Version: LPAIDSP.HT.1.6-00701.4-HAWI-3
+RawFile: qcom/maili/adspr.jsn
+RawFile: qcom/maili/adsps.jsn
+RawFile: qcom/maili/adspua.jsn
+RawFile: qcom/maili/adspuo.jsn
+
 # qcom/qcs8300
 Link: qcom/qcs8300/adsp.mbn -> ../sa8775p/adsp.mbn
 Link: qcom/qcs8300/adspr.jsn -> ../sa8775p/adspr.jsn
