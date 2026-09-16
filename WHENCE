@@ -10795,15 +10795,18 @@ License: Redistributable. See LICENSE.dell for details
 
 Driver: qdu100 - Qualcomm DU firmware image files
 File: qcom/qdu100/xbl_s.melf
+Version: BOOT.MXF.2.3.3-00044.1-LASSEN-1
 File: qcom/qdu100/abl_userdebug.elf
 File: qcom/qdu100/aop_devcfg.mbn
 File: qcom/qdu100/aop.mbn
+Version: AOP.CSM.1.0-00105-LASSEN_E-2
 File: qcom/qdu100/cpucp.elf
 File: qcom/qdu100/efs1.bin
 File: qcom/qdu100/efs2.bin
 File: qcom/qdu100/efs3.bin
 File: qcom/qdu100/fw_csm_gsi_3.0.elf
 File: qcom/qdu100/hypvm.mbn
+Version: TZ.XF.5.26-00043-LASSENAAAAANAZT-4
 File: qcom/qdu100/mdmddr.mbn
 File: qcom/qdu100/multi_image.mbn
 File: qcom/qdu100/multi_image_qti.mbn
@@ -10811,9 +10814,12 @@ File: qcom/qdu100/qdsp6sw_dtbs.elf
 File: qcom/qdu100/qupv3fw.elf
 File: qcom/qdu100/shrm.elf
 File: qcom/qdu100/tz.mbn
+Version: TZ.XF.5.26-00043-LASSENAAAAANAZT-4
 File: qcom/qdu100/uefi.elf
+Version: BOOT.MXF.2.3.3-00044.1-LASSEN-1
 File: qcom/qdu100/xbl_config.elf
 File: qcom/qdu100/xbl_ramdump.elf
+Version: BOOT.MXF.2.3.3-00044.1-LASSEN-1
 File: qcom/qdu100/zeros_1sector.bin
 File: qcom/qdu100/qdsp6sw.mbn.xz
 
