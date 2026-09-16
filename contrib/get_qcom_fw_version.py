@@ -7,8 +7,9 @@ Get the version of Qualcomm firmware images.
 
 The version is taken from the QC_IMAGE_VERSION_STRING= marker embedded in the
 image, from the header of Adreno SQE and AQE microcode (*_sqe.fw, *_aqe.fw) and
-ZAP shaders (*_zap.mbn) or from Adreno RGMU firmware (*_rgmu.bin). xz and zstd
-compressed files (as installed by copy-firmware.sh) are decompressed first.
+ZAP shaders (*_zap.mbn) or from Adreno GMU and RGMU firmware (*_gmu.bin,
+gmu_*.bin, *_rgmu.bin). xz and zstd compressed files (as installed by copy-
+firmware.sh) are decompressed first.
 """
 
 import argparse
@@ -36,6 +37,14 @@ VFW_VERSION_RE = re.compile(
 SQE_NAME_RE = re.compile(r"_[as]qe\.fw")
 ZAP_NAME_RE = re.compile(r"_zap\.mbn")
 RGMU_NAME_RE = re.compile(r"_rgmu\.bin")
+GMU_NAME_RE = re.compile(r"(^|[/_])gmu(_\w+)?\.bin")
+
+# Address of GMU_CORE_FW_VERSION in the GMU memory of the older GPUs, which
+# keep the version in the lowest 12 bits, like the microcode does
+GMU_LEGACY_CORE_VER_ADDR = 0x00043FE0
+# Address of GMU_CORE_FW_VERSION in the GMU memory of a650 and newer, split
+# into the major, minor and step fields
+GMU_CORE_VER_ADDR = 0x10007FE0
 
 # The RGMU firmware writes its version to GMU_GENERAL_0 (register 0x1f9c5),
 # where the downstream kgsl driver reads it from once the firmware has booted
@@ -79,6 +88,42 @@ def get_sqe_versions(data):
         return [_version(major, minor, patched & 0xFF)]
 
     return [_ucode_version(ucode)]
+
+
+def _block_word(data, start, addr, size, word_addr):
+    """Return the word loaded at word_addr by the block, or None."""
+    if addr > word_addr or word_addr + 4 > addr + size:
+        return None
+
+    (word,) = struct.unpack_from("<I", data, start + word_addr - addr)
+    return word
+
+
+def get_gmu_versions(data):
+    """Return the core version of Adreno GMU firmware.
+
+    The firmware is a list of blocks loaded at the given addresses, see
+    a6xx_gmu_fw_load(). Look for the block initializing the version. Legacy
+    GMU firmware is a plain image and carries no version.
+    """
+    off = 0
+    while off + 16 <= len(data):
+        addr, size = struct.unpack_from("<2I", data, off)
+        start = off + 16
+        if start + size > len(data):
+            break
+
+        ver = _block_word(data, start, addr, size, GMU_LEGACY_CORE_VER_ADDR)
+        if ver is not None:
+            return [_ucode_version(ver)]
+
+        ver = _block_word(data, start, addr, size, GMU_CORE_VER_ADDR)
+        if ver is not None:
+            return [_version(ver >> 28, (ver >> 16) & 0xFFF, ver & 0xFFFF)]
+
+        off = start + size
+
+    return []
 
 
 def get_zap_versions(data):
@@ -133,6 +178,9 @@ def get_versions(data, name=""):
 
     if RGMU_NAME_RE.search(name):
         return get_rgmu_versions(data)
+
+    if GMU_NAME_RE.search(name):
+        return get_gmu_versions(data)
 
     versions = []
     for m in VERSION_RE.finditer(data):
