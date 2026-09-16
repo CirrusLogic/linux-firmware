@@ -12,6 +12,7 @@ decompressed first.
 
 import argparse
 import re
+import struct
 import sys
 from pathlib import Path
 
@@ -26,6 +27,11 @@ except ModuleNotFoundError:
 
 # Restrict the charset, so that the version can be safely embedded in Markdown
 VERSION_RE = re.compile(rb"QC_IMAGE_VERSION_STRING=([A-Za-z0-9._:+~-]+)")
+# Iris video firmware version, e.g. "vfw-3.1:rel0093-<sha1>", listed in WHENCE
+# as VIDEO.VPU.3.1-0093
+VFW_VERSION_RE = re.compile(
+    r"vfw-(?P<version>[0-9]+(?:\.[0-9]+)+):rel(?P<release>[0-9]+)-[0-9a-f]{40}"
+)
 
 
 def get_versions(data):
@@ -38,6 +44,9 @@ def get_versions(data):
         if v == "ENGG.FW":
             continue
 
+        vfw = VFW_VERSION_RE.fullmatch(v)
+        if vfw:
+            v = f"VIDEO.VPU.{vfw['version']}-{int(vfw['release']):04d}"
         if v not in versions:
             versions.append(v)
     return versions
