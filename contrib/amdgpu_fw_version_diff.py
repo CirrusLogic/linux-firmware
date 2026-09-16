@@ -8,10 +8,8 @@ Delegates all firmware-header parsing to get_amdgpu_fw_version.py by importing
 its functions directly (no subprocess, no duplication).
 """
 
-import json
 import os
 import re
-import subprocess
 import sys
 from pathlib import Path
 
@@ -19,6 +17,7 @@ from pathlib import Path
 #   python3 contrib/amdgpu_fw_version_diff.py
 #   python3 -c "...from contrib.amdgpu_fw_version_diff import ..."
 try:
+    from fw_helpers import get_changed_files, git_show_file, post_mr_comment
     from get_amdgpu_fw_version import (
         HEADER_SIZE,
         get_common_version,
@@ -30,6 +29,7 @@ try:
     )
 except ModuleNotFoundError:
     sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from fw_helpers import get_changed_files, git_show_file, post_mr_comment
     from get_amdgpu_fw_version import (
         HEADER_SIZE,
         get_common_version,
@@ -117,15 +117,8 @@ def _classify_change(before_tuple, after_tuple):
 
 def _get_changed_firmware(base_ref, target_ref):
     """Return list of amdgpu .bin files changed between base_ref and target_ref."""
-    out = subprocess.run(
-        ["git", "diff", "--name-only", base_ref, target_ref, "--", "amdgpu/"],
-        capture_output=True,
-        text=True,
-        check=False,
-    )
-    if out.returncode not in (0, 1):
-        return []
-    return [p for p in out.stdout.strip().splitlines() if p.endswith(".bin")]
+    changed = get_changed_files(base_ref, target_ref, ["amdgpu/"])
+    return [p for p in changed if p.endswith(".bin")]
 
 
 def _dump_versions(directory):
@@ -150,30 +143,8 @@ def _table_row(name, before, after):
 # ── GitLab MR comment ───────────────────────────────────────────────────────
 
 
-def post_mr_comment(project_id, pipeline_id, summary, table_rows):
-    """Post a comment on the current MR via the GitLab API."""
-    if not all(
-        [
-            os.environ.get("CI_PROJECT_ID"),
-            os.environ.get("CI_PIPELINE_ID"),
-            os.environ.get("CI_MERGE_REQUEST_IID", ""),
-            os.environ.get("CI_API_V4_URL"),
-        ]
-    ):
-        print(
-            "WARNING: Missing GitLab CI environment variables; skipping comment",
-            file=sys.stderr,
-        )
-        return
-
-    import urllib.request
-    import urllib.error
-
-    api_url = os.environ["CI_API_V4_URL"]
-    project = os.environ["CI_PROJECT_ID"]
-    mr_iid = os.environ["CI_MERGE_REQUEST_IID"]
-    token = os.environ.get("MR_COMMENT_TOKEN", "")
-
+def comment_body(summary, table_rows):
+    """Return the Markdown body of the MR comment."""
     body = f"## AMDGPU firmware version changes\n\n"
     if summary:
         body += f"{summary}\n\n"
@@ -185,28 +156,7 @@ def post_mr_comment(project_id, pipeline_id, summary, table_rows):
         "Parsed by [contrib/get_amdgpu_fw_version.py](contrib/get_amdgpu_fw_version.py)"
         "_\n"
     )
-
-    data = json.dumps({"body": body}).encode()
-    req = urllib.request.Request(
-        f"{api_url}/projects/{project}/merge_requests/{mr_iid}/discussions",
-        data=data,
-        headers={
-            "PRIVATE-TOKEN": token,
-            "Content-Type": "application/json",
-        },
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            result = json.loads(resp.read().decode())
-            discussion_id = result.get("id", "unknown")
-            print(
-                f"Posted new MR comment: {api_url}/projects/{project}/"
-                f"merge_requests/{mr_iid}#note_{discussion_id}"
-            )
-    except urllib.error.HTTPError as e:
-        print(
-            f"WARNING: Failed to post MR comment: {e.read().decode()}", file=sys.stderr
-        )
+    return body
 
 
 # ── CLI ─────────────────────────────────────────────────────────────────────
@@ -251,13 +201,10 @@ def main():
     base_tuples = {}
     for rel in changed:
         name = os.path.basename(rel)
-        result = subprocess.run(
-            ["git", "show", f"{base_ref}:{rel}"],
-            capture_output=True,
-        )
-        if result.returncode == 0:
+        data = git_show_file(base_ref, rel)
+        if data is not None:
             tmp = Path(f"/tmp/_amdgpu_fw_{name}")
-            tmp.write_bytes(result.stdout)
+            tmp.write_bytes(data)
             base_versions[name] = _compact_version(tmp)
             base_tuples[name] = _version_tuple(tmp)
             tmp.unlink()
@@ -349,12 +296,7 @@ def main():
     # Post MR comment (only in GitLab CI)
     if mr_iid:
         # Build table rows for the comment (same as stdout)
-        post_mr_comment(
-            os.environ["CI_PROJECT_ID"],
-            os.environ["CI_PIPELINE_ID"],
-            summary,
-            rows,
-        )
+        post_mr_comment(comment_body(summary, rows))
 
 
 if __name__ == "__main__":

@@ -93,6 +93,7 @@ def main():
             "contrib/process_linux_firmware.py",
             "contrib/get_amdgpu_fw_version.py",
             "contrib/amdgpu_fw_version_diff.py",
+            "contrib/fw_helpers.py",
             "contrib/templates/debian.changelog",
             "contrib/templates/debian.control",
             "contrib/templates/debian.copyright",
