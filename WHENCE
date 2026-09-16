@@ -7159,7 +7159,9 @@ RawFile: qcom/x1e80100/dell/xps13-9345/battmgr.jsn
 File: qcom/x1e80100/dell/xps13-9345/cdsp_dtbs.elf
 RawFile: qcom/x1e80100/dell/xps13-9345/cdspr.jsn
 File: qcom/x1e80100/dell/xps13-9345/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00810-HAMOA-1
 File: qcom/x1e80100/dell/xps13-9345/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00046-HAMOA-1
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 
