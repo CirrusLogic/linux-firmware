@@ -94,6 +94,8 @@ def main():
             "contrib/get_amdgpu_fw_version.py",
             "contrib/amdgpu_fw_version_diff.py",
             "contrib/fw_helpers.py",
+            "contrib/get_qcom_fw_version.py",
+            "contrib/qcom_fw_version_diff.py",
             "contrib/templates/debian.changelog",
             "contrib/templates/debian.control",
             "contrib/templates/debian.copyright",
@@ -113,6 +115,8 @@ def main():
             "contrib/process_linux_firmware.py",
             "contrib/get_amdgpu_fw_version.py",
             "contrib/amdgpu_fw_version_diff.py",
+            "contrib/get_qcom_fw_version.py",
+            "contrib/qcom_fw_version_diff.py",
             "copy-firmware.sh",
             "dedup-firmware.sh",
         ]
