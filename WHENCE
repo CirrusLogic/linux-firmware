@@ -6713,7 +6713,7 @@ File: qcom/a650_sqe.fw
 Version: v1.12
 File: qcom/sm8250/a650_zap.mbn
 File: qcom/a660_gmu.bin
-Version: v3.01.0B
+Version: v3.01.0A
 File: qcom/a660_sqe.fw
 Version: v1.12
 File: qcom/qcm6490/a660_zap.mbn
