@@ -6,7 +6,8 @@
 Get the version of Qualcomm firmware images.
 
 The version is taken from the QC_IMAGE_VERSION_STRING= marker embedded in the
-image. xz and zstd compressed files (as installed by copy-firmware.sh) are
+image or from the header of Adreno SQE and AQE microcode (*_sqe.fw, *_aqe.fw).
+xz and zstd compressed files (as installed by copy-firmware.sh) are
 decompressed first.
 """
 
@@ -32,10 +33,52 @@ VERSION_RE = re.compile(rb"QC_IMAGE_VERSION_STRING=([A-Za-z0-9._:+~-]+)")
 VFW_VERSION_RE = re.compile(
     r"vfw-(?P<version>[0-9]+(?:\.[0-9]+)+):rel(?P<release>[0-9]+)-[0-9a-f]{40}"
 )
+SQE_NAME_RE = re.compile(r"_[as]qe\.fw")
 
 
-def get_versions(data):
-    """Return the unique version strings in the image, in order of appearance."""
+def _version(major, minor, patch=None):
+    """Format an Adreno firmware version, e.g. v2.07 or v1.89.01."""
+    version = f"v{major:X}.{minor:02X}"
+    return version if patch is None else f"{version}.{patch:02X}"
+
+
+def _ucode_version(ucode):
+    """Return the version kept in the lowest 12 bits of an Adreno header."""
+    return _version((ucode >> 8) & 0xF, ucode & 0xFF)
+
+
+def get_sqe_versions(data):
+    """Return the version of Adreno SQE or AQE microcode.
+
+    AQE microcode uses the same header as the SQE one.
+    See a6xx_ucode_check_version() in drivers/gpu/drm/msm/adreno/a6xx_gpu.c.
+    The kernel drops the first dword of the file, so its buf[0] and buf[2]
+    are dwords 1 and 3 of the file.
+    """
+    if len(data) < 16:
+        return []
+
+    zero, ucode, _, patched = struct.unpack_from("<4I", data)
+    if zero != 0:
+        return []
+
+    # The lowest nibble 0xa marks patched a630 microcode, the actual version
+    # (with the patch level) is in dword 3
+    if (ucode & 0xF) == 0xA:
+        major, minor = (patched >> 20) & 0xF, (patched >> 12) & 0xFF
+        return [_version(major, minor, patched & 0xFF)]
+
+    return [_ucode_version(ucode)]
+
+
+def get_versions(data, name=""):
+    """Return the unique version strings in the image, in order of appearance.
+
+    The format is selected by the firmware file name.
+    """
+    if SQE_NAME_RE.search(name):
+        return get_sqe_versions(data)
+
     versions = []
     for m in VERSION_RE.finditer(data):
         v = m.group(1).decode("ascii")
@@ -54,7 +97,7 @@ def get_versions(data):
 
 def get_fw_versions(fw_path: Path):
     with open_firmware(fw_path) as f:
-        return get_versions(f.read())
+        return get_versions(f.read(), fw_path.name)
 
 
 def format_versions(versions):

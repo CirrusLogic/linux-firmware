@@ -34,6 +34,7 @@ QC_VERSION_RE = re.compile(
     r"^(?P<branch>.+?)-(?P<build>\d+(?:\.\d+)*)(?:-(?P<rest>.*))?$"
 )
 REVISION_RE = re.compile(r"\d+(?:\.\d+)*")
+ADRENO_VERSION_RE = re.compile(r"v\d")
 
 CHANGE_LABELS = {
     "new": "new",
@@ -58,6 +59,12 @@ def _parse_version(version):
     masked) can be ordered.
     """
     version = GIT_HASH_RE.sub("", version)
+
+    # Adreno versions are hex numbers with a varying number of components,
+    # e.g. the patched "v1.89.01" and the plain "v2.07" SQE microcode. Keep
+    # them in one family, so that such two versions can still be compared.
+    if ADRENO_VERSION_RE.match(version):
+        return "v#", tuple(int(n, 16) for n in version[1:].split(".")), "", ()
 
     m = QC_VERSION_RE.match(version)
     if m is None:
@@ -132,13 +139,13 @@ def get_changed_firmware(base_ref, target_ref):
 def get_base_versions(base_ref, path):
     """Return the versions of path at base_ref, or None if it did not exist."""
     data = git_show_file(base_ref, path)
-    return None if data is None else get_versions(data)
+    return None if data is None else get_versions(data, path)
 
 
 def get_current_versions(path):
     """Return the versions of path in the working tree, or None if it is gone."""
     path = Path(path)
-    return get_versions(path.read_bytes()) if path.is_file() else None
+    return get_versions(path.read_bytes(), path.name) if path.is_file() else None
 
 
 # ── Report ──────────────────────────────────────────────────────────────────
@@ -228,7 +235,7 @@ def dump_versions():
         for f in sorted(Path(d).rglob("*")):
             if f.is_symlink() or not f.is_file():
                 continue
-            versions = get_versions(f.read_bytes())
+            versions = get_versions(f.read_bytes(), f.name)
             if versions:
                 print(f"{f}: {format_versions(versions)}")
 
