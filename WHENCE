@@ -10729,9 +10729,12 @@ Driver: qaic - Qualcomm Cloud AI accelerators
 File: qcom/aic100/fw1.bin
 File: qcom/aic100/fw10.bin
 File: qcom/aic100/fw2.bin
+Version: NSP.AIC.1.20.2.0
 File: qcom/aic100/fw5.bin
 File: qcom/aic100/fw9.bin
+Version: NSP.AIC.1.20.2.0
 File: qcom/aic100/sbl.bin
+Version: SBL.AIC.1.20.2.1
 
 License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 
