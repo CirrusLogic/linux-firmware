@@ -10878,6 +10878,7 @@ License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 
 Driver: sdx35 - Qualcomm SDX35 firmware image file for Foxconn vendor
 File: qcom/sdx35/foxconn/xbl_s_devprg_ns.melf
+Version: BOOT.MXF.2.3-00430-KUNO_E-1
 
 License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 --------------------------------------------------------------------------
