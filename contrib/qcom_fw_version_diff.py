@@ -5,8 +5,8 @@
 """
 Show Qualcomm firmware versions, or compare them across an MR diff.
 
-All files below ath10k/, ath11k/, ath12k/ and qcom/ are considered. Version
-extraction is delegated to get_qcom_fw_version.py.
+All files below ath10k/, ath11k/, ath12k/, qca/ and qcom/ are considered.
+Version extraction is delegated to get_qcom_fw_version.py.
 """
 
 import argparse
@@ -26,7 +26,7 @@ except ModuleNotFoundError:
     from fw_helpers import get_changed_files, git_show_file, post_mr_comment
     from get_qcom_fw_version import format_versions, get_versions
 
-FW_DIRS = ["ath10k/", "ath11k/", "ath12k/", "qcom/"]
+FW_DIRS = ["ath10k/", "ath11k/", "ath12k/", "qca/", "qcom/"]
 # Trailing git hash, as used by e.g. "video-firmware.3.4-<sha1>"
 GIT_HASH_RE = re.compile(r"-[0-9a-f]{40}$")
 # "<branch>-<build>[-<variant>-<revision>]", e.g. "ADSP.HT.5.3.c2-00082-SM8250-1"
@@ -145,7 +145,7 @@ def get_base_versions(base_ref, path):
 def get_current_versions(path):
     """Return the versions of path in the working tree, or None if it is gone."""
     path = Path(path)
-    return get_versions(path.read_bytes(), path.name) if path.is_file() else None
+    return get_versions(path.read_bytes(), str(path)) if path.is_file() else None
 
 
 # ── Report ──────────────────────────────────────────────────────────────────
@@ -235,7 +235,7 @@ def dump_versions():
         for f in sorted(Path(d).rglob("*")):
             if f.is_symlink() or not f.is_file():
                 continue
-            versions = get_versions(f.read_bytes(), f.name)
+            versions = get_versions(f.read_bytes(), str(f))
             if versions:
                 print(f"{f}: {format_versions(versions)}")
 

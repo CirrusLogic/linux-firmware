@@ -7,9 +7,9 @@ Get the version of Qualcomm firmware images.
 
 The version is taken from the QC_IMAGE_VERSION_STRING= marker embedded in the
 image, from the header of Adreno SQE and AQE microcode (*_sqe.fw, *_aqe.fw) and
-ZAP shaders (*_zap.mbn) or from Adreno GMU and RGMU firmware (*_gmu.bin,
-gmu_*.bin, *_rgmu.bin). xz and zstd compressed files (as installed by copy-
-firmware.sh) are decompressed first.
+ZAP shaders (*_zap.mbn), from Adreno GMU and RGMU firmware (*_gmu.bin,
+gmu_*.bin, *_rgmu.bin) or from the Bluetooth firmware in qca/. xz and zstd
+compressed files (as installed by copy-firmware.sh) are decompressed first.
 """
 
 import argparse
@@ -31,6 +31,11 @@ except ModuleNotFoundError:
 VERSION_RE = re.compile(rb"QC_IMAGE_VERSION_STRING=([A-Za-z0-9._:+~-]+)")
 # Iris video firmware version, e.g. "vfw-3.1:rel0093-<sha1>", listed in WHENCE
 # as VIDEO.VPU.3.1-0093
+# Qualcomm Bluetooth firmware, e.g. "BTFW.HSP.2.1.0-00669-USB_UART_PATCHZ-1"
+QCA_NAME_RE = re.compile(r"(^|/)qca/")
+QCA_VERSION_RE = re.compile(
+    rb"(?:BTF[MW]|QCA)[A-Za-z0-9_]*(?:\.[A-Za-z0-9_]+)+(?:-[A-Za-z0-9._]+)*"
+)
 VFW_VERSION_RE = re.compile(
     r"vfw-(?P<version>[0-9]+(?:\.[0-9]+)+):rel(?P<release>[0-9]+)-[0-9a-f]{40}"
 )
@@ -165,6 +170,20 @@ def get_rgmu_versions(data):
     return []
 
 
+def get_qca_versions(data):
+    """Return the version of Qualcomm Bluetooth firmware.
+
+    The ROM patches and the NVM data embed the version of the firmware
+    they belong to, without the QC_IMAGE_VERSION_STRING marker.
+    """
+    versions = []
+    for m in QCA_VERSION_RE.finditer(data):
+        v = m.group(0).decode("ascii")
+        if v not in versions:
+            versions.append(v)
+    return versions
+
+
 def get_versions(data, name=""):
     """Return the unique version strings in the image, in order of appearance.
 
@@ -178,6 +197,9 @@ def get_versions(data, name=""):
 
     if RGMU_NAME_RE.search(name):
         return get_rgmu_versions(data)
+
+    if QCA_NAME_RE.search(name):
+        return get_qca_versions(data)
 
     if GMU_NAME_RE.search(name):
         return get_gmu_versions(data)
