@@ -6961,7 +6961,7 @@ Version: ADSP.HT.5.6.c2-00037-MAKENA-1
 
 # Lenovo T14s
 File: qcom/x1e80100/LENOVO/21N1/qcvss8380.mbn
-Version: vfw-3.1:rel0085-070fa3311d9ef968015fee7fea07198d7eb208a1
+Version: VIDEO.VPU.3.1-0085
 RawFile: qcom/x1e80100/LENOVO/21N1/adspua.jsn
 File: qcom/x1e80100/cdsp.mbn
 File: qcom/x1e80100/cdsp_dtb.mbn
