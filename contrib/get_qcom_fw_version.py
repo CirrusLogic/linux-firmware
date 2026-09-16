@@ -6,9 +6,9 @@
 Get the version of Qualcomm firmware images.
 
 The version is taken from the QC_IMAGE_VERSION_STRING= marker embedded in the
-image or from the header of Adreno SQE and AQE microcode (*_sqe.fw, *_aqe.fw).
-xz and zstd compressed files (as installed by copy-firmware.sh) are
-decompressed first.
+image or from the header of Adreno SQE and AQE microcode (*_sqe.fw, *_aqe.fw)
+and ZAP shaders (*_zap.mbn). xz and zstd compressed files (as installed by
+copy-firmware.sh) are decompressed first.
 """
 
 import argparse
@@ -34,6 +34,9 @@ VFW_VERSION_RE = re.compile(
     r"vfw-(?P<version>[0-9]+(?:\.[0-9]+)+):rel(?P<release>[0-9]+)-[0-9a-f]{40}"
 )
 SQE_NAME_RE = re.compile(r"_[as]qe\.fw")
+ZAP_NAME_RE = re.compile(r"_zap\.mbn")
+
+PT_LOAD = 1
 
 
 def _version(major, minor, patch=None):
@@ -71,6 +74,32 @@ def get_sqe_versions(data):
     return [_ucode_version(ucode)]
 
 
+def get_zap_versions(data):
+    """Return the version of an Adreno ZAP shader.
+
+    The ZAP shader is a 32-bit ELF image, whose first loadable segment starts
+    with the same header dword as the SQE microcode.
+    """
+    if len(data) < 52 or data[:6] != b"\x7fELF\x01\x01":
+        return []
+
+    (phoff,) = struct.unpack_from("<I", data, 28)
+    phentsize, phnum = struct.unpack_from("<HH", data, 42)
+    for i in range(phnum):
+        entry = phoff + i * phentsize
+        if entry + 20 > len(data):
+            break
+
+        p_type, offset, _, _, filesz = struct.unpack_from("<5I", data, entry)
+        if p_type != PT_LOAD or filesz < 4 or offset + 4 > len(data):
+            continue
+
+        (ucode,) = struct.unpack_from("<I", data, offset)
+        return [_ucode_version(ucode)]
+
+    return []
+
+
 def get_versions(data, name=""):
     """Return the unique version strings in the image, in order of appearance.
 
@@ -78,6 +107,9 @@ def get_versions(data, name=""):
     """
     if SQE_NAME_RE.search(name):
         return get_sqe_versions(data)
+
+    if ZAP_NAME_RE.search(name):
+        return get_zap_versions(data)
 
     versions = []
     for m in VERSION_RE.finditer(data):
