@@ -6,9 +6,9 @@
 Get the version of Qualcomm firmware images.
 
 The version is taken from the QC_IMAGE_VERSION_STRING= marker embedded in the
-image or from the header of Adreno SQE and AQE microcode (*_sqe.fw, *_aqe.fw)
-and ZAP shaders (*_zap.mbn). xz and zstd compressed files (as installed by
-copy-firmware.sh) are decompressed first.
+image, from the header of Adreno SQE and AQE microcode (*_sqe.fw, *_aqe.fw) and
+ZAP shaders (*_zap.mbn) or from Adreno RGMU firmware (*_rgmu.bin). xz and zstd
+compressed files (as installed by copy-firmware.sh) are decompressed first.
 """
 
 import argparse
@@ -35,6 +35,13 @@ VFW_VERSION_RE = re.compile(
 )
 SQE_NAME_RE = re.compile(r"_[as]qe\.fw")
 ZAP_NAME_RE = re.compile(r"_zap\.mbn")
+RGMU_NAME_RE = re.compile(r"_rgmu\.bin")
+
+# The RGMU firmware writes its version to GMU_GENERAL_0 (register 0x1f9c5),
+# where the downstream kgsl driver reads it from once the firmware has booted
+RGMU_VER_REG_ADDR = 0x1F9C5 * 4
+# Fixed-size records of the RGMU firmware image
+RGMU_RECORD = struct.Struct("<4I")
 
 PT_LOAD = 1
 
@@ -100,6 +107,19 @@ def get_zap_versions(data):
     return []
 
 
+def get_rgmu_versions(data):
+    """Return the version of Adreno RGMU firmware.
+
+    Look for the record writing the version to GMU_GENERAL_0.
+    """
+    for off in range(0, len(data) - RGMU_RECORD.size + 1, RGMU_RECORD.size):
+        value, _, addr, _ = RGMU_RECORD.unpack_from(data, off)
+        if addr & 0xFFFFF == RGMU_VER_REG_ADDR:
+            return [_version(value >> 16, value & 0xFF)]
+
+    return []
+
+
 def get_versions(data, name=""):
     """Return the unique version strings in the image, in order of appearance.
 
@@ -110,6 +130,9 @@ def get_versions(data, name=""):
 
     if ZAP_NAME_RE.search(name):
         return get_zap_versions(data)
+
+    if RGMU_NAME_RE.search(name):
+        return get_rgmu_versions(data)
 
     versions = []
     for m in VERSION_RE.finditer(data):
