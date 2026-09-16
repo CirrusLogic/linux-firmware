@@ -10872,6 +10872,7 @@ License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 
 Driver: sdx61 - Qualcomm SDX61 firmware image file for Foxconn vendor
 File: qcom/sdx61/foxconn/prog_firehose_lite.elf
+Version: BOOT.MXF.1.1.1-00277-Olympic-1
 
 License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 ---------------------------------------------------------------------------
