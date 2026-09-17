@@ -7029,6 +7029,10 @@ RawFile: qcom/hawi/adspr.jsn
 RawFile: qcom/hawi/adsps.jsn
 RawFile: qcom/hawi/adspua.jsn
 RawFile: qcom/hawi/adspuo.jsn
+File: qcom/hawi/cdsp.mbn
+File: qcom/hawi/cdsp_dtb.mbn
+Version: CDSP.HT.3.6-00501.6-HAWI-1
+RawFile: qcom/hawi/cdspr.jsn
 
 # qcom/kaanapali
 File: qcom/kaanapali/adsp.mbn
