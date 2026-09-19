@@ -4758,17 +4758,21 @@ Licence: GPLv2 or later. See GPL-2.0 for details.
 
 Driver: btqca - Qualcomm Atheros Bluetooth support for QCA61x4 USB chips
 
-File: qca/nvm_usb_00000201.bin
-File: qca/nvm_usb_00000200.bin
-File: qca/nvm_usb_00000300.bin
-File: qca/nvm_usb_00000302.bin
 File: qca/rampatch_usb_00000200.bin
+File: qca/nvm_usb_00000200.bin
+
 File: qca/rampatch_usb_00000201.bin
+File: qca/nvm_usb_00000201.bin
+
 File: qca/rampatch_usb_00000300.bin
 Version: BTFM.RM.2.2.c3-00031-QCABTFMSWP-1
+File: qca/nvm_usb_00000300.bin
+
 File: qca/rampatch_usb_00000302.bin
 Version: BTFM.RM.4.4.1-00028-QCABTFMSWP-1
+File: qca/nvm_usb_00000302.bin
 File: qca/nvm_usb_00000302_eu.bin
+
 File: qca/rampatch_usb_00130200.bin
 Version: BTFW.HSP.2.0.0-00609-USB_PATCHZ-1
 File: qca/nvm_usb_00130200.bin
@@ -4778,29 +4782,24 @@ File: qca/nvm_usb_00130200_0106.bin
 File: qca/nvm_usb_00130200_0107.bin
 File: qca/nvm_usb_00130200_0109.bin
 File: qca/nvm_usb_00130200_0110.bin
+
 File: qca/rampatch_usb_00130201.bin
 Version: BTFW.HSP.2.1.0-00669-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201.bin
-Version: BTFW.HSP.2.1.0-00669-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_010a.bin
-Version: BTFW.HSP.2.1.0-00669-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_010b.bin
-Version: BTFW.HSP.2.1.0-00669-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_0303.bin
-Version: BTFW.HSP.2.1.0-00669-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_gf.bin
-Version: BTFW.HSP.2.1.0-00669-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_gf_010a.bin
-Version: BTFW.HSP.2.1.0-00669-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_gf_010b.bin
-Version: BTFW.HSP.2.1.0-00669-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_gf_0303.bin
-Version: BTFW.HSP.2.1.0-00669-USB_UART_PATCHZ-1
-File: qca/rampatch_usb_00190200.bin
+
 File: qca/QCA2066/rampatch_usb_00130201.bin
 Version: BTFW.HSP.2.1.0-00653-VER_PATCHZ-3
 File: qca/QCA2066/nvm_usb_00130201_030a.bin
 File: qca/QCA2066/nvm_usb_00130201_gf_030a.bin
+
+File: qca/rampatch_usb_00190200.bin
 Version: BTFW.HAMILTON.2.0.0-00799-USB_PATCHZ-5
 File: qca/nvm_usb_00190200.bin
 File: qca/nvm_usb_00190200_0104.bin
@@ -4952,6 +4951,7 @@ File: qca/wcnhpnv21g.baa
 File: qca/wcnhpnv21g.bb8
 File: qca/wcnhpnv21g.b10c
 File: qca/wcnhpnv21g.b111
+
 File: qca/wcnhpbtfw10.tlv
 Version: BTFM.HSP.1.0.0-00978-QCAHSPROMZ-2
 File: qca/wcnhpnv10.bin
@@ -5030,7 +5030,7 @@ Licence: Redistributable. See LICENSE.qcom and NOTICE.qca for details
 Driver: qca - Qualcomm Atheros Bluetooth support for QCA6698AQ chips
 
 File: qca/QCA6698/hpbtfw21.tlv
-Version: BTFW.HSP.2.1.2-00072-PATCHZ-2
+Version: BTFW.HSP.2.1.2-00079-PATCH-1
 File: qca/QCA6698/hpnv21.b206
 File: qca/QCA6698/hpnv21.b207
 File: qca/QCA6698/hpnv21.bin
@@ -6689,10 +6689,12 @@ File: qcom/a530_pm4.fw
 File: qcom/a530v3_gpmu.fw2
 Version v2.04 (2015-08-31)
 File: qcom/apq8096/a530_zap.mbn
+Version: v0.09
 Link: qcom/a530_zap.mdt -> apq8096/a530_zap.mbn
 File: qcom/qrb4210/a610_zap.mbn
+Version: v0.20
 File: qcom/qcs615/a612_zap.mbn
-Version: v0.19
+Version: v0.21
 File: qcom/a612_rgmu.bin
 Version: v2.11
 File: qcom/a623_gmu.bin
@@ -6703,6 +6705,7 @@ File: qcom/a630_gmu.bin
 File: qcom/a630_sqe.fw
 Version: v2.07
 File: qcom/sdm845/a630_zap.mbn
+Version: v0.19
 File: qcom/a640_gmu.bin
 Version: v1.05
 File: qcom/sm8150/a640_zap.mbn
@@ -6712,8 +6715,9 @@ Version: v2.1.8
 File: qcom/a650_sqe.fw
 Version: v1.12
 File: qcom/sm8250/a650_zap.mbn
+Version: v0.10
 File: qcom/a660_gmu.bin
-Version: v3.01.0B
+Version: v3.01.0A
 File: qcom/a660_sqe.fw
 Version: v1.12
 File: qcom/qcm6490/a660_zap.mbn
@@ -6727,6 +6731,7 @@ Version: v0.09
 File: qcom/a702_sqe.fw
 Version: v0.49
 File: qcom/qcm2290/a702_zap.mbn
+Version: v0.05
 File: qcom/shikra/a704_zap.mbn
 Version: v0.05
 File: qcom/a730_sqe.fw
@@ -6764,7 +6769,7 @@ Version: v0.13
 File: qcom/gen71700_gmu.bin
 Version: v4.09.00
 File: qcom/gen71700_sqe.fw
-Version: v1.82
+Version: v1.79
 File: qcom/eliza/gen71700_zap.mbn
 Version: v0.15
 File: qcom/gen80000_aqe.fw
@@ -6926,6 +6931,7 @@ Version: SLPI.HY.1.0-00365-SDM845AZL-1
 RawFile: qcom/sdm845/Thundercomm/db845c/slpir.jsn
 RawFile: qcom/sdm845/Thundercomm/db845c/slpius.jsn
 File: qcom/sdm845/SHIFT/axolotl/a630_zap.mbn
+Version: v0.20
 Info: Extracted from the SHIFT6mq's vendor partition
 
 # qcom/sm8250
@@ -6961,7 +6967,7 @@ Version: ADSP.HT.5.6.c2-00037-MAKENA-1
 
 # Lenovo T14s
 File: qcom/x1e80100/LENOVO/21N1/qcvss8380.mbn
-Version: vfw-3.1:rel0085-070fa3311d9ef968015fee7fea07198d7eb208a1
+Version: VIDEO.VPU.3.1-0085
 RawFile: qcom/x1e80100/LENOVO/21N1/adspua.jsn
 File: qcom/x1e80100/cdsp.mbn
 File: qcom/x1e80100/cdsp_dtb.mbn
@@ -7153,7 +7159,9 @@ RawFile: qcom/x1e80100/dell/xps13-9345/battmgr.jsn
 File: qcom/x1e80100/dell/xps13-9345/cdsp_dtbs.elf
 RawFile: qcom/x1e80100/dell/xps13-9345/cdspr.jsn
 File: qcom/x1e80100/dell/xps13-9345/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00810-HAMOA-1
 File: qcom/x1e80100/dell/xps13-9345/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00046-HAMOA-1
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 
@@ -7164,6 +7172,7 @@ Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
 File: qcom/sdm845/mba.mbn
 Link: qcom/sdm845/SHIFT/axolotl/mba.mbn -> ../../mba.mbn
 File: qcom/sdm845/modem_nm.mbn
+Version: MPSS.AT.4.0.c2-01365-SDM845_GEN_PACK-1
 RawFile: qcom/sdm845/modemuw.jsn
 Link: qcom/sdm845/modem.mbn -> modem_nm.mbn
 
@@ -10720,9 +10729,12 @@ Driver: qaic - Qualcomm Cloud AI accelerators
 File: qcom/aic100/fw1.bin
 File: qcom/aic100/fw10.bin
 File: qcom/aic100/fw2.bin
+Version: NSP.AIC.1.20.2.0
 File: qcom/aic100/fw5.bin
 File: qcom/aic100/fw9.bin
+Version: NSP.AIC.1.20.2.0
 File: qcom/aic100/sbl.bin
+Version: SBL.AIC.1.20.2.1
 
 License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 
@@ -10786,15 +10798,18 @@ License: Redistributable. See LICENSE.dell for details
 
 Driver: qdu100 - Qualcomm DU firmware image files
 File: qcom/qdu100/xbl_s.melf
+Version: BOOT.MXF.2.3.3-00044.1-LASSEN-1
 File: qcom/qdu100/abl_userdebug.elf
 File: qcom/qdu100/aop_devcfg.mbn
 File: qcom/qdu100/aop.mbn
+Version: AOP.CSM.1.0-00105-LASSEN_E-2
 File: qcom/qdu100/cpucp.elf
 File: qcom/qdu100/efs1.bin
 File: qcom/qdu100/efs2.bin
 File: qcom/qdu100/efs3.bin
 File: qcom/qdu100/fw_csm_gsi_3.0.elf
 File: qcom/qdu100/hypvm.mbn
+Version: TZ.XF.5.26-00043-LASSENAAAAANAZT-4
 File: qcom/qdu100/mdmddr.mbn
 File: qcom/qdu100/multi_image.mbn
 File: qcom/qdu100/multi_image_qti.mbn
@@ -10802,9 +10817,12 @@ File: qcom/qdu100/qdsp6sw_dtbs.elf
 File: qcom/qdu100/qupv3fw.elf
 File: qcom/qdu100/shrm.elf
 File: qcom/qdu100/tz.mbn
+Version: TZ.XF.5.26-00043-LASSENAAAAANAZT-4
 File: qcom/qdu100/uefi.elf
+Version: BOOT.MXF.2.3.3-00044.1-LASSEN-1
 File: qcom/qdu100/xbl_config.elf
 File: qcom/qdu100/xbl_ramdump.elf
+Version: BOOT.MXF.2.3.3-00044.1-LASSEN-1
 File: qcom/qdu100/zeros_1sector.bin
 File: qcom/qdu100/qdsp6sw.mbn.xz
 
@@ -10854,12 +10872,14 @@ License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 
 Driver: sdx61 - Qualcomm SDX61 firmware image file for Foxconn vendor
 File: qcom/sdx61/foxconn/prog_firehose_lite.elf
+Version: BOOT.MXF.1.1.1-00277-Olympic-1
 
 License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 ---------------------------------------------------------------------------
 
 Driver: sdx35 - Qualcomm SDX35 firmware image file for Foxconn vendor
 File: qcom/sdx35/foxconn/xbl_s_devprg_ns.melf
+Version: BOOT.MXF.2.3-00430-KUNO_E-1
 
 License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 --------------------------------------------------------------------------

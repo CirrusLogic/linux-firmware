@@ -5,7 +5,17 @@ import argparse
 import collections
 import struct
 import re
+import sys
 from pathlib import Path
+
+# Import from sibling module — handle both:
+#   python3 contrib/get_amdgpu_fw_version.py
+#   python3 -c "...from contrib.get_amdgpu_fw_version import ..."
+try:
+    from fw_helpers import open_firmware
+except ModuleNotFoundError:
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from fw_helpers import open_firmware
 
 DESC = """
 Get the amdgpu firmware .bin version, and crc32 checksum.
@@ -138,44 +148,8 @@ def int_and_hex(val):
     return f"{val} ({hex(val)})"
 
 
-def is_xz_compressed(filepath):
-    xz_magic_number = b"\xfd\x37\x7a\x58\x5a\x00\x00"
-    with open(filepath, "rb") as file:
-        file_header = file.read(len(xz_magic_number))
-    return file_header.startswith(xz_magic_number)
-
-
-def is_zstd_compressed(filepath):
-    zstd_magic_number = b"\x28\xb5\x2f\xfd"
-    with open(filepath, "rb") as file:
-        file_header = file.read(len(zstd_magic_number))
-    return file_header == zstd_magic_number
-
-
 def get_header(fw_bin_path: Path):
-    if is_xz_compressed(fw_bin_path):
-        try:
-            import lzma
-
-            with lzma.open(fw_bin_path, "rb") as f:
-                return f.read(HEADER_SIZE)
-        except ModuleNotFoundError:
-            print("ERROR: lzma python module not found. Please install it.")
-            exit(1)
-
-    elif is_zstd_compressed(fw_bin_path):
-        try:
-            import zstandard as zstd
-
-            with open(fw_bin_path, "rb") as f:
-                ctx = zstd.ZstdDecompressor()
-                with ctx.stream_reader(f) as reader:
-                    return reader.read(HEADER_SIZE)
-        except ModuleNotFoundError:
-            print("ERROR: zstandard python module not found. Please install it.")
-            exit(1)
-
-    with open(fw_bin_path, "rb") as f:
+    with open_firmware(fw_bin_path) as f:
         return f.read(HEADER_SIZE)
 
 

@@ -37,6 +37,22 @@ amdgpu-version-diff:
   script:
     - python3 contrib/amdgpu_fw_version_diff.py --diff-from-base
 
+qcom-version-diff:
+  stage: test
+  image: registry.gitlab.com/kernel-firmware/linux-firmware
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+      changes:
+        paths:
+          - ath10k/**/*
+          - ath11k/**/*
+          - ath12k/**/*
+          - qca/**/*
+          - qcom/**/*
+        compare_to: main
+  script:
+    - python3 contrib/qcom_fw_version_diff.py --diff-from-base
+
 deb-release:
   stage: deploy
   image: debian
