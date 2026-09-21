@@ -9946,7 +9946,7 @@ Semiconductor Ltd. All Rights Reserved.
 
 ---------------------------------------------------------------------------
 
-Driver: cs42l45 - CS42L45 SDCA audio driver
+Driver: cs42l45 - CS42L45 SDCA audio driver family (includes cs42l49)
 
 File: sdca/1fa/cs42l45_primer1.bin
 File: sdca/1fa/cs42l45_primer2.bin
@@ -10177,6 +10177,18 @@ Link: sdca/1fa/1028/edc/2.bin -> ../../cs42l45_primer2.bin
 Link: sdca/1fa/1028/edc/3.bin -> ../../cs42l45_primer3.bin
 Link: sdca/1fa/1028/edc/4.bin -> ../../cs42l45_primer4.bin
 Link: sdca/1fa/1028/edc/42450005.bin -> ../cs42l45_v20260930.bin
+
+File: sdca/1fa/1028/cs42l49_v20260921.bin
+Link: sdca/1fa/1028/f01/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/f01/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/f01/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/f01/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/f01/42450005.bin -> ../cs42l49_v20260921.bin
+Link: sdca/1fa/1028/f04/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/f04/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/f04/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/f04/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/f04/42450005.bin -> ../cs42l49_v20260921.bin
 
 File: sdca/1fa/17aa/cs42l45_v20260522.bin
 Link: sdca/1fa/17aa/2352/1.bin -> ../../cs42l45_primer1.bin
