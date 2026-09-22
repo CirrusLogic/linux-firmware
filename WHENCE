@@ -6677,6 +6677,10 @@ File: qcom/vpu/vpu40_p1_s8.mbn
 
 Version: VIDEO.VPU.5.0-0039
 
+File: qcom/vpu/vpu50_p2_s8.mbn
+
+Version: VIDEO.VPU.5.0-0039
+
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 
 --------------------------------------------------------------------------
