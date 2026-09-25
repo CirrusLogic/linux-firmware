@@ -66,9 +66,14 @@ def git_show_file(ref, path):
 
 def post_mr_comment(body):
     """Post a comment on the current MR via the GitLab API."""
+    # The merge request belongs to the target project, which is not the
+    # project the pipeline runs in if the merge request comes from a fork
+    project = os.environ.get("CI_MERGE_REQUEST_PROJECT_ID") or os.environ.get(
+        "CI_PROJECT_ID"
+    )
     if not all(
         [
-            os.environ.get("CI_PROJECT_ID"),
+            project,
             os.environ.get("CI_PIPELINE_ID"),
             os.environ.get("CI_MERGE_REQUEST_IID", ""),
             os.environ.get("CI_API_V4_URL"),
@@ -84,7 +89,6 @@ def post_mr_comment(body):
     import urllib.error
 
     api_url = os.environ["CI_API_V4_URL"]
-    project = os.environ["CI_PROJECT_ID"]
     mr_iid = os.environ["CI_MERGE_REQUEST_IID"]
     token = os.environ.get("MR_COMMENT_TOKEN", "")
 
