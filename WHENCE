@@ -6823,6 +6823,16 @@ File: qcom/gen80100_sqe.fw
 Version: v1.00
 File: qcom/glymur/gen80100_zap.mbn
 Version: v0.03
+File: qcom/gen81100_aqe.fw
+Version: v0.36
+File: qcom/gen81100_gmu.bin
+Version: v5.06.17
+File: qcom/gen81100_sqe.fw
+Version: v1.09
+File: qcom/hawi/gen81100_zap.mbn
+Version: v0.05
+Link: qcom/gen81400_gmu.bin -> gen81100_gmu.bin
+Link: qcom/maili/gen81400_zap.mbn -> ../hawi/gen81100_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 
