@@ -7240,7 +7240,7 @@ File: qcom/x1e80100/cdsp_dtb.mbn
 Version: CDSP.HT.2.9.c1-00094-HAMOA-1
 RawFile: qcom/x1e80100/cdspr.jsn
 File: qcom/x1e80100/LENOVO/21N1/qcadsp8380.mbn
-Version: ADSP.HT.5.9-00787.2-HAMOA-1
+Version: ADSP.HT.5.9.c7-00004-HAMOA-1
 File: qcom/x1e80100/LENOVO/21N1/adsp_dtbs.elf
 RawFile: qcom/x1e80100/LENOVO/21N1/adspr.jsn
 File: qcom/x1e80100/LENOVO/21N1/cdsp_dtbs.elf
