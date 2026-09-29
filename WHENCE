@@ -7068,7 +7068,7 @@ RawFile: qcom/glymur/cdspr.jsn
 # qcom/hawi
 File: qcom/hawi/adsp.mbn
 File: qcom/hawi/adsp_dtb.mbn
-Version: LPAIDSP.HT.1.6-00701.4-HAWI-2
+Version: LPAIDSP.HT.1.6-00701.4-HAWI-3
 RawFile: qcom/hawi/adspr.jsn
 RawFile: qcom/hawi/adsps.jsn
 RawFile: qcom/hawi/adspua.jsn
