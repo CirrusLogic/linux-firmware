@@ -11115,6 +11115,8 @@ File: arm/mali/arch12.8/mali_csffw.bin
 Version: arch12.8
 File: arm/mali/arch13.8/mali_csffw.bin
 Version: arch13.8
+File: arm/mali/arch14.8/mali_csffw.bin
+Version: arch14.8
 
 License: Redistributable. See LICENCE.mali_csffw for details
 SPDX-License-Identifier: LicenseRef-LICENCE.mali_csffw
