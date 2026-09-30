@@ -10790,6 +10790,10 @@ File: intel/ish/ish_ptl.bin
 Version: 5.8.1.7778
 File: intel/ish/ish_wcl.bin
 Version: 5.8.4.7784
+File: intel/ish/ish_nvlh.bin
+Version: 5.8.2.7822
+File: intel/ish/ish_nvls.bin
+Version: 5.8.3.7819
 
 License: Redistributable. See LICENSE.intel for details
 
