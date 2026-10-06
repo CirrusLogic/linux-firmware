@@ -9516,6 +9516,18 @@ Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid2-05-l1u3.bin -> cs35l63-a1-dsp1
 Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3-05-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3-05-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280f01-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.11.wmfw
+File: cirrus/cs35l63-a1-dsp1-misc-10280f01-spkid0-00-l0u3.bin
+File: cirrus/cs35l63-a1-dsp1-misc-10280f01-spkid0-00-l3u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280f01-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.11.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280f01-spkid1-00-l0u3.bin -> cs35l63-a1-dsp1-misc-10280f01-spkid0-00-l0u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280f01-spkid1-00-l3u1.bin -> cs35l63-a1-dsp1-misc-10280f01-spkid0-00-l3u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280f04-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.11.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280f04-spkid0-00-l0u3.bin -> cs35l63-a1-dsp1-misc-10280f01-spkid0-00-l0u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280f04-spkid0-00-l3u1.bin -> cs35l63-a1-dsp1-misc-10280f01-spkid0-00-l3u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280f04-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.11.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280f04-spkid1-00-l0u3.bin -> cs35l63-a1-dsp1-misc-10280f01-spkid0-00-l0u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280f04-spkid1-00-l3u1.bin -> cs35l63-a1-dsp1-misc-10280f01-spkid0-00-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280f07-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280f07-spkid0-02-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid0-02-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280f07-spkid0-02-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid0-02-l3u3.bin
@@ -9946,7 +9958,7 @@ Semiconductor Ltd. All Rights Reserved.
 
 ---------------------------------------------------------------------------
 
-Driver: cs42l45 - CS42L45 SDCA audio driver
+Driver: cs42l45 - CS42L45 SDCA audio driver family (includes cs42l49)
 
 File: sdca/1fa/cs42l45_primer1.bin
 File: sdca/1fa/cs42l45_primer2.bin
@@ -10177,6 +10189,18 @@ Link: sdca/1fa/1028/edc/2.bin -> ../../cs42l45_primer2.bin
 Link: sdca/1fa/1028/edc/3.bin -> ../../cs42l45_primer3.bin
 Link: sdca/1fa/1028/edc/4.bin -> ../../cs42l45_primer4.bin
 Link: sdca/1fa/1028/edc/42450005.bin -> ../cs42l45_v20260930.bin
+
+File: sdca/1fa/1028/cs42l49_v20260921.bin
+Link: sdca/1fa/1028/f01/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/f01/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/f01/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/f01/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/f01/42450005.bin -> ../cs42l49_v20260921.bin
+Link: sdca/1fa/1028/f04/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/f04/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/f04/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/f04/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/f04/42450005.bin -> ../cs42l49_v20260921.bin
 
 File: sdca/1fa/17aa/cs42l45_v20260522.bin
 Link: sdca/1fa/17aa/2352/1.bin -> ../../cs42l45_primer1.bin
