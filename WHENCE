@@ -7286,7 +7286,7 @@ https://github.com/andersson/pil-squasher
 # qcom/glymur
 File: qcom/glymur/adsp.mbn
 File: qcom/glymur/adsp_dtb.mbn
-Version: LPAIDSP.HT.1.6.2-00020-GLYMUR-2
+Version: LPAIDSP.HT.1.6.2-00064-GLYMUR-1
 RawFile: qcom/glymur/adspr.jsn
 RawFile: qcom/glymur/adsps.jsn
 RawFile: qcom/glymur/adspua.jsn
