@@ -10743,6 +10743,18 @@ Link: sdca/1fa/17aa/236a/3.bin -> ../../cs42l45_primer3.bin
 Link: sdca/1fa/17aa/236a/4.bin -> ../../cs42l45_primer4.bin
 Link: sdca/1fa/17aa/236a/42450005.bin -> ../cs42l45_v20261007.bin
 
+File: sdca/1fa/17aa/cs42l45_v20261106.bin
+Link: sdca/1fa/17aa/236b/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/17aa/236b/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/17aa/236b/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/17aa/236b/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/17aa/236b/42450005.bin -> ../cs42l45_v20261106.bin
+Link: sdca/1fa/17aa/236c/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/17aa/236c/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/17aa/236c/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/17aa/236c/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/17aa/236c/42450005.bin -> ../cs42l45_v20261106.bin
+
 File: sdca/1fa/144d/cs42l45_v20260820.bin
 Link: sdca/1fa/144d/c1dc/1.bin -> ../../cs42l45_primer1.bin
 Link: sdca/1fa/144d/c1dc/2.bin -> ../../cs42l45_primer2.bin
