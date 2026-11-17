@@ -5244,7 +5244,7 @@ SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 Driver: btusb - Bluetooth USB driver for Qualcomm controllers
 
 File: qca/QCC2072/peripatch_usb_00220100.bin
-Version: BTFW.COLOGNE.1.0.0-00054-PATCHZ-1
+Version: BTFW.COLOGNE.1.0.0-00054-PATCH-1
 File: qca/QCC2072/perinvm_usb_00220100.bin
 Link: qca/QCC2072/perinvm_usb_00220100_0002.bin -> perinvm_usb_00220100.bin
 Link: qca/QCC2072/perinvm_usb_00220100_0006.bin -> perinvm_usb_00220100.bin
@@ -5263,7 +5263,7 @@ Link: qca/QCC2072/perinvm_usb_00220100_0605.bin -> perinvm_usb_00220100.bin
 Link: qca/QCC2072/perinvm_usb_00220100_0606.bin -> perinvm_usb_00220100.bin
 
 File: qca/QCC2072/rampatch_usb_00200101.bin
-Version: BTFW.ORNE.1.1.0.c1-00037-PATCHZ-1
+Version: BTFW.ORNE.1.1.0.c1-00038-PATCH-1
 File: qca/QCC2072/nvm_usb_00200101.bin
 File: qca/QCC2072/nvm_usb_00200101_0021.bin
 File: qca/QCC2072/nvm_usb_00200101_0022.bin
