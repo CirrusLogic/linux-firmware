@@ -11698,6 +11698,8 @@ Link: intel/ish/ish_lnlm_12128606_f9751b71.bin -> ../../HP/ish/ish_lnlm_12128606
 Version: 5.8.200.7720_1029
 
 File: HP/ish/ish_ptl_12128606_581.7779.0.bin
+Link: intel/ish/ish_ptl_12128606_93ec38f0.bin -> ../../HP/ish/ish_ptl_12128606_581.7779.0.bin
+Info: product_name - "HP ZBook 8 G2i 14 inch Mobile Workstation PC"
 Version: 5.8.1.7779
 
 License: Redistributable. See LICENCE.HP for details
