@@ -2835,18 +2835,46 @@ File: amdgpu/gc_11_5_3_mes_2.bin
 File: amdgpu/gc_11_5_3_pfp.bin
 File: amdgpu/gc_11_5_3_rlc.bin
 File: amdgpu/gc_11_7_0_imu_p.bin
+Link: amdgpu/gc_11_7_0_imu.bin -> gc_11_7_0_imu_p.bin
+Link: amdgpu/gc_11_7_0_imu_l.bin -> gc_11_7_0_imu_p.bin
+File: amdgpu/gc_11_7_0_me.bin
+File: amdgpu/gc_11_7_0_me_l.bin
 File: amdgpu/gc_11_7_0_me_p.bin
+File: amdgpu/gc_11_7_0_mec.bin
+File: amdgpu/gc_11_7_0_mec_l.bin
 File: amdgpu/gc_11_7_0_mec_p.bin
+File: amdgpu/gc_11_7_0_mes1.bin
+File: amdgpu/gc_11_7_0_mes1_l.bin
 File: amdgpu/gc_11_7_0_mes1_p.bin
+File: amdgpu/gc_11_7_0_mes_2.bin
+File: amdgpu/gc_11_7_0_mes_2_l.bin
 File: amdgpu/gc_11_7_0_mes_2_p.bin
+File: amdgpu/gc_11_7_0_pfp.bin
+File: amdgpu/gc_11_7_0_pfp_l.bin
 File: amdgpu/gc_11_7_0_pfp_p.bin
+File: amdgpu/gc_11_7_0_rlc.bin
+File: amdgpu/gc_11_7_0_rlc_l.bin
 File: amdgpu/gc_11_7_0_rlc_p.bin
 File: amdgpu/gc_11_7_1_imu_p.bin
+Link: amdgpu/gc_11_7_1_imu.bin -> gc_11_7_1_imu_p.bin
+Link: amdgpu/gc_11_7_1_imu_l.bin -> gc_11_7_1_imu_p.bin
+File: amdgpu/gc_11_7_1_me.bin
+File: amdgpu/gc_11_7_1_me_l.bin
 File: amdgpu/gc_11_7_1_me_p.bin
+File: amdgpu/gc_11_7_1_mec.bin
+File: amdgpu/gc_11_7_1_mec_l.bin
 File: amdgpu/gc_11_7_1_mec_p.bin
+File: amdgpu/gc_11_7_1_mes1.bin
+File: amdgpu/gc_11_7_1_mes1_l.bin
 File: amdgpu/gc_11_7_1_mes1_p.bin
+File: amdgpu/gc_11_7_1_mes_2.bin
+File: amdgpu/gc_11_7_1_mes_2_l.bin
 File: amdgpu/gc_11_7_1_mes_2_p.bin
+File: amdgpu/gc_11_7_1_pfp.bin
+File: amdgpu/gc_11_7_1_pfp_l.bin
 File: amdgpu/gc_11_7_1_pfp_p.bin
+File: amdgpu/gc_11_7_1_rlc.bin
+File: amdgpu/gc_11_7_1_rlc_l.bin
 File: amdgpu/gc_11_7_1_rlc_p.bin
 File: amdgpu/gc_12_0_0_imu.bin
 File: amdgpu/gc_12_0_0_me.bin
@@ -2877,6 +2905,8 @@ File: amdgpu/dcn_3_5_dmcub.bin
 File: amdgpu/dcn_3_5_1_dmcub.bin
 File: amdgpu/dcn_3_6_dmcub.bin
 File: amdgpu/dcn_4_0_1_dmcub.bin
+File: amdgpu/dcn_4_2_dmcub.bin
+File: amdgpu/dcn_4_2_dmcub_l.bin
 File: amdgpu/dcn_4_2_dmcub_p.bin
 File: amdgpu/psp_13_0_0_sos.bin
 File: amdgpu/psp_13_0_0_sos_kicker.bin
@@ -2918,9 +2948,17 @@ File: amdgpu/psp_14_0_4_ta.bin
 File: amdgpu/psp_14_0_4_toc.bin
 File: amdgpu/psp_14_0_5_ta.bin
 File: amdgpu/psp_14_0_5_toc.bin
+File: amdgpu/psp_15_0_0_ta.bin
+File: amdgpu/psp_15_0_0_ta_l.bin
 File: amdgpu/psp_15_0_0_ta_p.bin
+File: amdgpu/psp_15_0_0_toc.bin
+File: amdgpu/psp_15_0_0_toc_l.bin
 File: amdgpu/psp_15_0_0_toc_p.bin
+File: amdgpu/psp_15_0_9_ta.bin
+File: amdgpu/psp_15_0_9_ta_l.bin
 File: amdgpu/psp_15_0_9_ta_p.bin
+File: amdgpu/psp_15_0_9_toc.bin
+File: amdgpu/psp_15_0_9_toc_l.bin
 File: amdgpu/psp_15_0_9_toc_p.bin
 File: amdgpu/sdma_4_4_2.bin
 File: amdgpu/sdma_4_4_4.bin
@@ -2935,6 +2973,8 @@ File: amdgpu/sdma_6_1_0.bin
 File: amdgpu/sdma_6_1_1.bin
 File: amdgpu/sdma_6_1_2.bin
 File: amdgpu/sdma_6_1_3.bin
+File: amdgpu/sdma_6_1_4.bin
+File: amdgpu/sdma_6_1_4_l.bin
 File: amdgpu/sdma_6_1_4_p.bin
 File: amdgpu/sdma_7_0_0.bin
 File: amdgpu/sdma_7_0_1.bin
@@ -2959,7 +2999,11 @@ File: amdgpu/vcn_4_0_6.bin
 File: amdgpu/vcn_4_0_6_1.bin
 File: amdgpu/vcn_5_0_0.bin
 File: amdgpu/vcn_5_0_1.bin
+File: amdgpu/vcn_5_3_0.bin
+File: amdgpu/vcn_5_3_0_l.bin
 File: amdgpu/vcn_5_3_0_p.bin
+File: amdgpu/vpe_2_0_0.bin
+File: amdgpu/vpe_2_0_0_l.bin
 File: amdgpu/vpe_2_0_0_p.bin
 File: amdgpu/vpe_6_1_0.bin
 File: amdgpu/vpe_6_1_1.bin
