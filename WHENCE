@@ -4512,7 +4512,7 @@ Link: intel/ibt-0040-1050.sfi -> ibt-0040-0041.sfi
 Link: intel/ibt-0040-1050.ddc -> ibt-0040-0041.ddc
 Link: intel/ibt-1040-1050.sfi -> ibt-1040-0041.sfi
 Link: intel/ibt-1040-1050.ddc -> ibt-1040-0041.ddc
-Version: BT_Solar_REL82200_23.50.26292.82200
+Version: BT_Solar_REL82251_23.50.26393.82251
 
 File: intel/ibt-0040-1020.sfi
 File: intel/ibt-0040-1020.ddc
