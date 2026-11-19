@@ -4512,7 +4512,7 @@ Link: intel/ibt-0040-1050.sfi -> ibt-0040-0041.sfi
 Link: intel/ibt-0040-1050.ddc -> ibt-0040-0041.ddc
 Link: intel/ibt-1040-1050.sfi -> ibt-1040-0041.sfi
 Link: intel/ibt-1040-1050.ddc -> ibt-1040-0041.ddc
-Version: BT_Solar_REL82200_23.50.26292.82200
+Version: BT_Solar_REL82251_23.50.26393.82251
 
 File: intel/ibt-0040-1020.sfi
 File: intel/ibt-0040-1020.ddc
@@ -4530,15 +4530,15 @@ File: intel/ibt-0093-4150.sfi
 File: intel/ibt-0093-4150.ddc
 File: intel/ibt-0093-1050.sfi
 File: intel/ibt-0093-1050.ddc
-Version: BT_BlazaruHrpGfp_S_REL405_24.00.26304.405
+Version: BT_BlazaruHrpGfp_S_REL471_24.00.26393.471
 
 File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
-Version: BT_BlazarU_S_REL125585_24.80.26362.125585
+Version: BT_BlazarU_S_REL131287_24.90.26441.131287
 
 File: intel/ibt-0093-0291.sfi
 File: intel/ibt-0093-0291.ddc
-Version: BT_BlazaruFmpArl_S_REL58_24.70.26333.58
+Version: BT_BlazaruFmpArl_S_REL137_24.70.26415.137
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4546,7 +4546,7 @@ File: intel/ibt-0180-4150.sfi
 File: intel/ibt-0180-4150.ddc
 File: intel/ibt-0180-1050.sfi
 File: intel/ibt-0180-1050.ddc
-Version: BT_Magnetar_REL104027_23.50.26292.104027
+Version: BT_Magnetar_REL104078_23.50.26393.104078
 
 File: intel/ibt-0190-0291.sfi
 File: intel/ibt-0190-0291.ddc
@@ -4570,12 +4570,12 @@ File: intel/ibt-0190-0291-usb.ddc
 File: intel/ibt-0190-0291-usb.sfi
 File: intel/ibt-0190-0291-pci.ddc
 File: intel/ibt-0190-0291-pci.sfi
-Version: BT_BlazariFmp_S_REL62_24.70.26333.62
+Version: BT_BlazariFmp_S_REL143_24.70.26415.143
 
 File: intel/ibt-1190-01a1-iml.sfi
 File: intel/ibt-1190-01a1-pci.ddc
 File: intel/ibt-1190-01a1-pci.sfi
-Version: BT_BlazarI_S_REL132931_24.80.26362.132931
+Version: BT_BlazarI_S_REL138496_24.90.26441.138496
 
 File: intel/ibt-00a0-01a1-iml.sfi
 File: intel/ibt-00a0-01a1-pci.ddc
@@ -4583,17 +4583,17 @@ File: intel/ibt-00a0-01a1-pci.sfi
 File: intel/ibt-00a0-0291-iml.sfi
 File: intel/ibt-00a0-0291-pci.ddc
 File: intel/ibt-00a0-0291-pci.sfi
-Version: BT_Scorpius_S_REL102163_24.80.26362.102163
+Version: BT_Scorpius_S_REL108142_24.90.26441.108142
 
 File: intel/ibt-00a0-0041-iml.sfi
 File: intel/ibt-00a0-0041-pci.ddc
 File: intel/ibt-00a0-0041-pci.sfi
-Version: BT_ScorpiusGfp_S_REL384_24.00.26304.384
+Version: BT_ScorpiusGfp_S_REL455_24.00.26393.455
 
 File: intel/ibt-02a2-01a1-iml.sfi
 File: intel/ibt-02a2-01a1.sfi
 File: intel/ibt-02a2-01a1.ddc
-Version: BT_Scorpius2_S_REL86587_24.80.26384.86587
+Version: BT_Scorpius2_S_REL92087_24.90.26441.92087
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 SPDX-License-Identifier: LicenseRef-LICENCE.ibt_firmware
