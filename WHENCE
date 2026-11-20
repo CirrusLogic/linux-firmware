@@ -11758,16 +11758,19 @@ SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 Driver: intel_vpu - Intel NPU driver
 
 File: intel/vpu/vpu_37xx_v1.bin
-Version: 20260820*MTL_CLIENT_SILICON-NVR+NN-deployment*6fc835a192052ac2261c4e1d5da7379ced95ae81*6fc835a192052ac2261c4e1d5da7379ced95ae81*6fc835a1920
+Version: 20261028*MTL_CLIENT_SILICON-NVR+NN-deployment*743046b1a1bd1fb278261547c4b4458172fc3bd0*743046b1a1bd1fb278261547c4b4458172fc3bd0*743046b
 Link: intel/vpu/vpu_37xx_v0.0.bin -> vpu_37xx_v1.bin
 
 File: intel/vpu/vpu_40xx_v1.bin
-Version: Aug 20 2026*NPU40xx*build/ci/npu-fw-ci-ci_branch_UD202638_npu_release_26ww32-20260813_185051-3a5e4dd1cf93522baa79e55a53f2ac7165723cad-1-g6fc835a1920*6fc835a192052ac2261c4e1d5da7379ced95ae81
+Version: Oct 28 2026*NPU40xx**743046b1a1bd1fb278261547c4b4458172fc3bd0
 Link: intel/vpu/vpu_40xx_v0.0.bin -> vpu_40xx_v1.bin
 
 File: intel/vpu/vpu_50xx_v1.bin
-Version: Aug 20 2026*NPU50xx*build/ci/npu-fw-ci-ci_branch_UD202638_npu_release_26ww32-20260813_185051-3a5e4dd1cf93522baa79e55a53f2ac7165723cad-1-g6fc835a1920*6fc835a192052ac2261c4e1d5da7379ced95ae81
+Version: Oct 28 2026*NPU50xx**743046b1a1bd1fb278261547c4b4458172fc3bd0
 Link: intel/vpu/vpu_50xx_v0.0.bin -> vpu_50xx_v1.bin
+
+File: intel/vpu/vpu_60xx_v1.bin
+Version: Oct 28 2026*NPU60xx**743046b1a1bd1fb278261547c4b4458172fc3bd0
 
 License: Redistributable. See LICENSE.intel_vpu for details
 SPDX-License-Identifier: LicenseRef-LICENSE.intel_vpu
