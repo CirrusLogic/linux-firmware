@@ -7608,6 +7608,10 @@ File: qcom/glymur/cdsp.mbn
 File: qcom/glymur/cdsp_dtb.mbn
 Version: CDSP.HT.3.3-00315-GLYMUR-1
 RawFile: qcom/glymur/cdspr.jsn
+File: qcom/glymur/soccp.mbn
+File: qcom/glymur/soccp_dtb.mbn
+Version: SOCCP.FW.2.1-00263-GLYMUR_SOCCP_PACK-1
+RawFile: qcom/glymur/soccpr.jsn
 
 # qcom/hawi
 File: qcom/hawi/adsp.mbn
