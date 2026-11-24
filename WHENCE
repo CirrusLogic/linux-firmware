@@ -7713,11 +7713,11 @@ RawFile: qcom/sm8750/cdspr.jsn
 # qcom/eliza
 File: qcom/eliza/cdsp.mbn
 File: qcom/eliza/cdsp_dtb.mbn
-Version: CDSP.HT.3.1-00889-PAKALA-1
+Version: CDSP.HT.3.1-00893-PAKALA-1
 RawFile: qcom/eliza/cdspr.jsn
 File: qcom/eliza/adsp.mbn
 File: qcom/eliza/adsp_dtb.mbn
-Version: LPAIDSP.HT.1.2.c2-00064-PAKALA-3
+Version: LPAIDSP.HT.1.2.c2-00080-PAKALA-1
 RawFile: qcom/eliza/adspr.jsn
 RawFile: qcom/eliza/adsps.jsn
 RawFile: qcom/eliza/adspua.jsn
